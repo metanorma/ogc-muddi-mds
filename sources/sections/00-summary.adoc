@@ -1,0 +1,26 @@
+
+[abstract]
+== Abstract
+
+This OGC standard provides the MUDDI conceptual model.
+
+
+== Preface
+
+This OGC standard provides the MUDDI conceptual model.
+
+
+== Submitters
+
+All questions regarding this document should be directed to the editor or the
+contributors:
+
+[options="header"]
+|===
+| Name | Organization | Role
+
+| Foo | Bar | Editor
+| Foo | Bar | Editor
+| Foo | Bar | Editor
+
+|===

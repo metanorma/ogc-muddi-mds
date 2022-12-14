@@ -1,0 +1,21 @@
+
+[bibliography]
+== Bibliography
+
+* [[[OGC_08-131,OGC 08-131r3]]], OGC ModSpec
+
+* [[[OGC_17-090r1,OGC 17-090r1]]]
+
+* [[[OGC_17-048,OGC 17-048]]]
+
+* [[[OGC_17-069r3,OGC 17-069r3]]]
+
+* [[[OGC_21-035r1,OGC 21-035r1]]]
+
+* [[[ISO_19101-1,ISO 19101-1]]]
+
+* [[[OMG_UML,OMG UML 2.5]]], OMG UML 2.5, _Unified Modeling Language. Object Management Group (2015). https://www.omg.org/spec/UML/2.5/About-UML/
+
+* [[[OMG_XMI,OMG XMI 2.5]]], OMG XMI 2.5, _XML Metadata Interchange_. Object Management Group (2015). https://www.omg.org/spec/XMI/2.5.1/About-XMI/
+
+// * [[[OGC_UML,OGC Testbed-17 D023 UML Modeling Best Practices]]], OGC Testbed-17 D023 UML Modeling Best Practices, _UML-Modeling-Best-Practices_. Open Geospatial Consortium (2022). https://gitlab.ogc.org/ogc/T17-D023-OGC-UML-Modeling-Best-Practices

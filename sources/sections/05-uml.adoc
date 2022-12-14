@@ -1,0 +1,23 @@
+
+== Model
+
+The figure "Fig: MUDDI Core" is available at
+lutaml_figure::[name="Fig: MUDDI Core", package="MUDDI_Core"].
+
+
+[lutaml_uml_datamodel_description,../xmi-full/full-242.xmi,lutaml_data_dictionary.yml]
+----
+[.diagram_include_block, base_path="../xmi-full/Images"]
+....
+....
+----
+
+// [.package_text, index="1", position="before", package="Common Spatio-temporal Classes"]
+// ....
+// include::clause_7_1_common.adoc[]
+// ....
+
+// [.package_text, index="2", position="before", package="Temporal and Zonal Geometry"]
+// ....
+// include::clause_7_2_temporal.adoc[]
+// ....

@@ -1,0 +1,38 @@
+
+== Terms, definitions and abbreviated terms
+
+=== Terms and definitions
+
+==== conceptual model
+alt:[CM]
+
+model that defines concepts of a universe of discourse
+
+[.source]
+<<ISO_19101-1,clause=4.1.5>>
+
+==== conceptual schema
+
+formal description of a {{conceptual model}}
+
+[.source]
+<<ISO_19101-1,clause=4.1.6>>
+
+
+==== model-driven standard
+alt:[MDS]
+
+standard created using a model-driven architecture
+
+[.source]
+<<OGC_21-035r1,clause=2.1.4>>
+
+
+=== Abbreviated terms
+
+MDA:: Model-Driven Architecture
+MDS:: Model-Driven Standard
+OCL:: Object Constraint Language
+PIM:: Platform Independent Model
+PSM:: Platform Specific Model
+UML:: Unified Modeling Language
