@@ -1,4 +1,0 @@
-
-== Scope
-
-This OGC standard provides the MUDDI conceptual model.

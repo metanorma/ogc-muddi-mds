@@ -2,7 +2,8 @@
 metanorma:
   source:
     files:
-      - sources/document.adoc
+      - sources/muddi-cm/document.adoc
+      - sources/mds-guide/document.adoc
 
   collection:
     organization: "OGC"

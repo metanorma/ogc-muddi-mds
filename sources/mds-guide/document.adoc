@@ -1,0 +1,1147 @@
+= OGC model-driven standard modelling requirements
+:doctype: best-practice
+:docsubtype: general
+:encoding: utf-8
+:language: en
+:status: draft
+:committee: technical
+:docnumber: 23-999
+:received-date: 2023-02-01
+:issued-date: 2023-02-01
+:published-date: 2023-02-01
+:external-id: http://www.opengis.net/doc/XXX/YYYYY
+:keywords: ogcdoc, OGC document, MDA, model-driven
+:mn-document-class: ogc
+:imagesdir: images
+:mn-output-extensions: xml,html,pdf,doc,rxl
+:local-cache-only:
+
+
+[abstract]
+== Abstract
+
+This OGC best practice provides guidelines on how to create a model in
+Enterprise Architect suitable for the OGC model-driven standards process,
+described in <<OGC_21-035r1>>.
+
+
+== Preface
+
+This OGC best practice provides guidelines on how to create a model in
+Enterprise Architect suitable for the OGC model-driven standards process.
+
+
+== Submitters
+
+All questions regarding this document should be directed to the editor or the
+contributors:
+
+[options="header"]
+|===
+| Name | Organization | Role
+
+| Ronald Tse | Ribose | Editor
+| Foo | Bar | Editor
+| Foo | Bar | Editor
+
+|===
+
+
+== Conformance
+
+This OGC best practice ...
+
+
+[bibliography]
+== Normative references
+
+* [[[OGC_21-035r1,OGC 21-035r1]]]
+
+
+== Terms and definitions
+
+=== conceptual model
+alt:[CM]
+
+model that defines concepts of a universe of discourse
+
+[.source]
+<<ISO_19101-1,clause=4.1.5>>
+
+=== conceptual schema
+
+formal description of a {{conceptual model}}
+
+[.source]
+<<ISO_19101-1,clause=4.1.6>>
+
+=== model-driven standard
+alt:[MDS]
+
+standard created using a model-driven architecture
+
+[.source]
+<<OGC_21-035r1,clause=2.1.4>>
+
+=== model-driven architecture
+alt:[MDA]
+
+software design approach for development of software systems centered around
+data models
+
+[.source]
+<<OMG_UML>>
+
+=== model authoring tool
+
+software used for authoring a {{conceptual model}}
+
+[.source]
+<<OGC_21-035r1>>
+
+=== platform-independent model
+alt:[PIM]
+
+{{conceptual model}} that does not contain platform-specific concerns
+
+[.source]
+<<OGC_21-035r1>>
+
+=== platform-specific model
+alt:[PSM]
+
+data model that contains platform-specific concerns
+
+[.source]
+<<OGC_21-035r1>>
+
+=== model transformation
+
+model conversion from one form to another which may not preserve all semantics
+
+[.source]
+<<OGC_21-035r1>>
+
+=== model conversion
+
+process that converts a data model in one format into another format that
+preserves all model semantics
+
+[.source]
+<<OGC_21-035r1>>
+
+=== stereotype
+
+extension of an existing UML metaclass that enables the use of platform or
+domain specific terminology or notation in place of, or in addition to, those
+used for the extended metaclass
+
+[.source]
+<<OMG_UML>>
+
+=== tagged value
+
+attribute on a stereotype  used to extend a UML model element
+
+[.source]
+<<OMG_UML>>
+
+=== UML profile
+
+predefined set of stereotypes, tagged values, constraints, and notation icons
+that collectively specialize and tailor UML for a specific domain or process
+
+[.source]
+<<ISO-IEC_19501>>
+
+
+== Introduction
+
+The MDS process described in <<OGC_21-035r1>> enables standardized documentation
+of conceptual models in UML, which could be platform-independent models (PIMs)
+or platform-specific models (PSMs).
+
+In the past, UML modeling activity and the OGC authoring process used
+disparate tools, causing OGC authors and editors much pain in the
+synchronization of changes originating from either activity.
+
+As studied in OGC Testbed-17, <<OGC_21-035r1>> has investigated several options
+in model-driven authoring, in which the OGC MUDDI SWG has decided to adopt
+and sponsor development of a particular approach that utilizes the following
+combination of tools:
+
+* Enterprise Architect (from Sparx Systems) in the creation and maintenance of
+UML models, and
+
+* Metanorma (from Ribose) in the authoring of OGC deliverables.
+
+This combination of tools can provide a streamlined development environment
+for OGC working groups developing conceptual model standards:
+
+* By maintaining standards content in the model, simplifying and decoupling
+  the model maintenance process is possible.
+
+* Storing annotations and guidance about the model together
+  with the actual model enables a single source of truth that can streamline the
+  standards authoring process.
+
+This document is meant to describe best practices that enable achievement
+of these benefits.
+
+
+== Technology and tools
+
+=== General
+
+Best practices described in this document are meant for OGC working group
+participants fluent in the development of:
+
+* UML conceptual models
+* OGC authoring practices
+
+This document does not delve into details in those areas -- readers may wish to
+attempt further introductory for the full understanding of the practices
+described.
+
+=== UML conceptual models
+
+==== General
+
+<<ISO-IEC_19501>> specifies the UML modelling language, a graphical language for
+visualizing, specifying, constructing, and documenting the artifacts of a
+software-intensive system.
+
+UML specifies a set of methodologies for developing technical artifacts used in
+the design of a software system, ranging from business processes and system
+functions to programming language statements, database schemas, and reusable
+software components.
+UML is often used to develop domain-specific models (e.g., geospatial
+information) used in system development.
+
+The usage of UML in MDS lies with two aspects:
+
+* For model definition, the definition of information models and their
+  relationships, that contain human- and machine-readable components; and
+
+* For class diagrams, the visual arrangement of UML class relationships intended
+  for human consumption only.
+
+
+==== Modeling elements
+
+NOTE: A detailed description on UML modelling capabilities can be found
+in <<OGC_21-035r1,clause=5.1>>.
+
+UML provides 3 basic modeling elements:
+
+Package:: A package is a defined collection of interrelated classes.
+Class:: A class is an abstract representation of a real-world object, which
+contains properties.
+Property:: A property represents an aspect of a class.
+
+UML allows additional modeling extensions in the following 3 ways:
+
+Stereotype:: A defined set of properties that a Class can adopt as a whole,
+commonly representing a platform-specific or domain-specific concern.
+More than one stereotype can be adopted by a single Class.
+
+Tagged Value:: A structured key-value pair defined for a UML element, allowing
+the attachment of additional (custom) information to the UML element.
+
+Constraint:: A string that limits possible value assignments to the property.
+
+The UML "Profile" is another mechanism that allows for the easy application
+of stereotypes.
+
+Profile:: A profile contains multiple UML stereotypes that a UML model
+can adopt.
+
+=== UML profiles for geospatial models
+
+==== General
+
+A number of common UML profiles are used for geospatial UML modeling.
+
+
+==== UML Standard Profile
+
+The UML Standard Profile is provided by the UML standard (<<OMG_UML>>).
+
+It provides the following stereotypes for Classes:
+
+«Auxiliary»:: A class that supports another class.
+«Focus»:: A class that specifies core logic or control with auxiliary classes that provide subordinate mechanisms.
+«ImplementationClass»:: An implementation class of a class.
+«Metaclass»:: A UML element that is meant to be extended.
+«Realization»:: A realization of an abstract UML element.
+«Specification»:: A specialization of a UML element.
+«Type»:: A data type.
+«Utility»:: A class that supports functionality of more than one class.
+
+
+==== GML
+
+In the geospatial domain, stereotypes from the GML profile (<<OGC_20-010>>) are
+often applied to geospatial UML elements.
+
+The GML profile provides the following Stereotypes that apply to Classes:
+
+«CodeList»:: A list of enumerated codes. Practically an enumeration.
+«DataType»:: A basic type of information.
+«FeatureType»:: A type of feature.
+«Type»:: A type of information.
+«Union»:: A union of two classes.
+
+The GML profile provides the following Stereotypes that apply to Properties:
+
+«property»:: A basic property.
+
+
+==== ISO 19100-series profile: Conceptual schema language (ISO 19103:2015)
+
+<<ISO_19103>> provides rules and guidelines for the use of a conceptual schema
+language to model geographic information, and specifies a profile of UML.
+
+It includes 6 stereotypes:
+
+«Interface»:: (formerly `«Type»`) is an abstract classifier with operations,
+attributes and associations, which can only inherit from or be inherited by
+other interfaces (or types).
+
+«DataType»:: is a set of properties that lack identity (independent existence
+and the possibility of side effects). A data type is a classifier with no
+operations, whose primary purpose is to hold information.
+
+«Union»:: is a type consisting of one and only one of several alternative
+datatypes (listed as member attributes); this is similar to a discriminated
+union in many programming languages.
+
+«Enumeration»:: is a fixed list of valid identifiers of named literal values.
+Attributes whose range type is an enumeration may only take values from the
+fixed list.
+
+«CodeList»:: is a flexible enumeration that uses string values for expressing
+a list of potential values. The allowed values are often held and managed using
+an online register.
+
+«Leaf»:: is a package that contains only classes (packages are disallowed).
+
+The <<ISO_19103>> profile of UML also includes one tagged value:
+
+* `codeList`, applies to stereotype `«CodeList»`: Code lists managed by a single
+external authority may carry a tagged value "`codeList`" whose value references
+the actual external code list. If the tagged value is set, only values from the
+referenced code list are valid.
+
+
+The <<ISO_19103>> profile of UML is summarized in <<fig11>>.
+
+[[fig11]]
+.<<ISO_19103>> stereotypes and keywords
+image::iso-19103-stereotypes.png[]
+
+
+==== ISO 19100-series profile: Rules for application schema (ISO 19109:2015)
+
+<<ISO_19109>> defines rules for creating and documenting application schemas
+(conceptual schemas for data required by one or more applications), including
+principles for the definition of features, a fundamental unit of geographic
+information. As part of the general rules for application schemas it specifies
+the "`General Feature Model`" (GFM), the meta-model for application schemas.
+
+The <<ISO_19109>> profile of UML that is used as the conceptual schema language
+for application schemas adds 2 stereotypes and 3 tagged values.
+
+«ApplicationSchema»:: (package) stereotype
+«FeatureType»:: (class) stereotype
+
+The following 3 tagged values apply to both of these stereotypes:
+
+designation::
+Natural language designator for the element to complement the name. Optional,
+with multiple designations allowed in order to support different languages.
+
+definition::
+Concise definition of the element. One definition is mandatory. Additional
+definitions can be provided in multiple languages if required.
+
+description::
+Description of the element, including information beyond that required for
+concise definition but which may assist in understanding its scope and
+application. Optional, with multiple descriptions allowed in order to support
+different languages.
+
+The <<ISO_19109>> profile of UML is summarized in <<fig12>>:
+
+[[fig12]]
+.Summary of <<ISO_19109>> profile of UML
+image::iso-19109-uml-profile.png[]
+
+
+==== ISO 19118:2011 Geographic information -- Encoding
+
+<<ISO_19118>> specifies the requirements for defining encoding rules for use for
+the interchange of data that conform to the geographic information in the set of
+International Standards known as the "ISO 19100 series". It specifies
+requirements for creating encoding rules based on UML schemas, requirements for
+creating encoding services, and requirements for XML-based encoding rules for
+neutral interchange of data. It specifies a profile of UML that includes eight
+stereotypes, two of which are not previously defined similarly by either
+<<ISO_19103>> or <<ISO_19109>>.
+
+The profile provides the following stereotypes for Classes:
+
+«BasicType»:: "`Defines a basic data type that has defined a canonical encoding.`" (<<ISO_19118,clause="C.2.1.2">>)
++
+--
+Additionally stated is that:
+"`This canonical encoding may define how to represent values of the type as bits
+in a memory location or as characters in a textual encoding. Examples of simple
+types are integer, float and string.`"
+
+NOTE: For translation into XML, <<ISO_19118,clause="C.5.2.1.1">> states: "`A
+class stereotyped `«BasicType»` shall be converted to a simpleType declaration
+in XML Schema. Any of the data types defined in XML Schema can be used as
+building blocks to define user-defined basic types. The encoding of the basic
+types shall follow the canonical representation defined in XML Schema Part 2:
+Datatypes (<<W3C_XML2>>).`"
+
+NOTE: The different types are not clearly defined in <<ISO_19103_2005>> and neither is
+the `«BasicType»` stereotype used. The following declarations, therefore, follow
+a subset of the data type definitions in <<W3C_XML2>>. Declared
+are the types: Number, Integer, Decimal, Real, Vector, Character,
+CharacterString, Date, Time, DateTime, Boolean, Logical, Probability, Binary,
+and UnlimitedInteger (where the symbol "`*`" is used to represent the infinite
+value).
+--
+
+«Interface»:: "`Defines a service interface and shall not be encoded.`" (<<ISO_19118,clause="C.2.1.2">>)
++
+--
+This definition is inconsistent with that of the subsequently
+published <<ISO_19103>>. While this inconsistency may be useful in contexts
+where it is clear which definition applies, in general it is undesirable to
+overload the meanings of stereotypes within the OGC community, and in particular
+thereby coming into conflict with a stereotype specified in <<ISO_19103>>.
+
+While the stereotype `«Interface»` as defined in <<ISO_19118>> can be (and is
+here) subsequently ignored, the stereotype `«BasicType»` is used in the
+CityGML 3.0 Conceptual Model where it results in difficulties given its tie to a
+specific encoding technology -- XML Schema -- and thus lack of true platform
+independence. The CityGML 3.0 Conceptual Model redefines the stereotype
+`«BasicType»` to mean "`defines a basic data type`", which is both circular and
+differs from that of <<ISO_19118>>.
+--
+
+
+=== OGC authoring practices
+
+==== Sparx Systems Enterprise Architect (EA)
+
+<<SSEA>> is widely used in OGC and ISO/TC 211 for the authoring and management
+of UML models.
+
+EA Version 16 is a Windows application, it can be run in 32-bit or 64-bit mode
+on Windows, and can be run on other platforms using CrossOver (which is based on
+WINE technology) with 32-bit emulation.
+
+
+==== Metanorma for OGC
+
+<<MN>> is an open-source framework for creating and publishing standardization
+artifacts with the focus on semantic authoring and flexible output support.
+
+"`Metanorma for OGC`" is an OGC-specific implementation that has been
+approved as an official way to publish new OGC Standard documents since
+2021-09-17. Metanorma-based document templates have been approved by the OGC
+Document SubCommittee on 2022-02-25.
+
+Metanorma for OGC documents are created in the Metanorma AsciiDoc format.
+Metanorma AsciiDoc is a textual syntax for preparing a <<ISO_36100>> compliant
+document model tree which can be rendered in a variety of presentation formats.
+
+At its core, Metanorma provides a model-based documentation system and
+prioritizes automation, through the following features:
+
+* a set of standard document metamodels (according to <<ISO_36100>>) that allows
+  different standardization bodies to create their own standardized deliverable
+  model, which in turn relies on the following standardized models:
+
+** <<ISO_36200>> standards metadata specification metamodels;
+** <<ISO_690>> bibliographic and citation item models;
+** <<ISO_10241-1>> and <<ISO_704>> concept organization and terminology models;
+
+* a standard XML serialization (<<ISO_36300>>) for machine-readable
+  standardization documents; and
+
+* an open-source publishing toolchain that enables editors of standard documents
+  to handle their documents from authoring to publishing in an end-to-end,
+  "`author-to-publish`" fashion.
+
+For OGC usage, it provides the following additional features:
+
+* Rendering outputs in PDF, HTML, Microsoft Word, and <<ISO_36100>> XML formats;
+
+* Support for specification of OGC Standards metadata, including document types,
+  stages, identifiers and authorship;
+
+* Support for specification of OGC ModSpec (<<OGC_08-131>>) model instances
+  through a specialized syntax.
+
+* For OGC MDS usage, Metanorma supports navigation for information models in the
+  OMG UML/XMI format (OMG UML within OMG XMI in XML format, <<OMG_UML>>,
+  <<OMG_XMI>>) generated from Enterprise Architect, through the LutaML information
+  model parser.
+
+<<fig151>> shows the range of models used in Metanorma, including the OGC-specific
+use of OGC ModSpec.
+
+[[fig151]]
+.Models used in Metanorma
+image::mn-models.svg[]
+
+
+== Basics of Enterprise Architect
+
+=== Launch screen
+
+Once the EA application is launched with a model file, the screen is shown as in
+<<fig-ea-launch>>.
+
+[[fig-ea-launch]]
+.Launch screen of Enterprise Architect
+image::ea-intro-first-launch.png[]
+
+There are 4 basic panes in this screen:
+
+* Browser: where the UML packages, models and properties are shown and can
+be navigated.
+
+* Main pane: the area in the middle (labelled with the tab "Start Page").
+It is typically used to show and work with diagrams.
+
+* Properties: shows all properties and attributes of the selected UML element,
+whether it is a figure, package, class or property.
+
+* Notes: shows textual annotations made to the selected UML element.
+
+
+Relevant best practices:
+
+* In the Notes pane, enter plain text in the Metanorma AsciiDoc format.
+While the pane supports rich-text entry, the text is encoded in HTML based on
+the antiquated Microsoft RTF format, and makes it difficult to perform any
+post processing upon extraction.
+
+
+=== Using the Browser pane
+
+The top-level package in the Enterprise Architect file can be expanded
+and drilled-down into.
+
+<<fig-first-file>> shows how the hierarchy looks like.
+
+[[fig-first-file]]
+.Example of expanding the UML model hierarchy (source: MUDDI)
+image::ea-intro-first-file.png[]
+
+[[fig-browser-item-types]]
+.Browser item types
+image::ea-browser-item-types.png[]
+
+
+In the Browser, there are 4 (basic) types of elements seen in its hierarchy
+(see <<fig-browser-item-types>>):
+
+* Packages: UML packages.
+
+** The top-level item shown in <<fig-first-file>> is a UML package called "Model".
+
+** The second item is a UML package called "Conceptual Model".
+
+* Diagrams: UML diagrams.
+
+** The 3rd and 4th items named: "fig: MUDDI Conceptual Model" and "MUDDI Core Conceptual Model"
+are figures.
+
+* Classes: UML classes.
+
+** The 5th to 8th items are all UML classes.
+
+* Property: UML element property.
+
+** The 9th to 10th items are UML properties that belong to the class "Annotation".
+
+
+=== Diagrams
+
+When opening a diagram from the Browser pane, a tab will be opened in the middle
+pane showing the UML diagram (see <<fig-ea-figure-open>>).
+
+[[fig-ea-figure-open]]
+.UML diagram in EA
+image::ea-figure-open.png[]
+
+NOTE: The UML diagram can be zoomed in via the "View" action in the ribbon tab.
+
+When a diagram is selected in the Browser, the Properties and Notes panes
+will be changed to reflect information about the selected diagram.
+
+The MDS process uses the following information from an EA UML Diagram:
+
+* Graphics of the diagram: is exported in the vector format and included
+in the OGC deliverable.
+
+* Title of the diagram: as the caption of the Figure in the OGC deliverable.
+
+* Notes of the diagram: contents of the Notes (seen in the Notes pane) is
+used as a "NOTE to Figure" in the OGC deliverable.
+
+The title of the diagram is edited within the Properties pane when
+the diagram is selected. See <<fig-ea-figure-property>>.
+
+Model authors commonly create multiple diagrams but only wish to selectively
+include diagrams in the MDS process.
+
+To indicate to the MDS process that a diagram is to be included, the title
+must be prefixed with `fig: ` ("fig:" with a space).
+
+Diagrams that are not prefixed with `fig: ` will not be included in the MDS
+process.
+
+
+[[fig-ea-figure-property]]
+.EA Diagram Properties pane
+image::ea-figure-property.png[]
+
+
+
+=== Packages
+
+On selection of a UML Package, the Properties and Notes panes will reflect the
+selected item.
+
+The MDS process incorporates information of the UML Package, including:
+
+* Notes of the UML Package: as the definition (description) of the UML Package (as
+in the Notes pane) (see <<fig-ea-package-note>>).
+
+* Name of the UML Package: name of the UML Package is used as the clause heading
+in the OGC deliverable (see <<fig-ea-package-properties>>).
+
+* Package details:
+
+** URI: Identifier in URI format.
+
+** "Visibility": `Public`, `Private`, `Protected` or `Package` visibility.
+
+
+[[fig-ea-package-note]]
+.EA UML package Notes pane
+image::ea-package-note.png[]
+
+[[fig-ea-package-properties]]
+.EA UML package Properties pane
+image::ea-package-properties.png[]
+
+
+
+=== Classes
+
+On selection of a UML Class in the Browser pane, the Properties
+and Notes panes will reflect the selected item.
+
+The MDS process heavily incorporates information of the UML Class, including:
+
+* Notes of the UML class: as the definition (description) of the UML Class (as
+in the Notes pane) (see <<fig-ea-class-note>>).
+
+* Name of the UML class: name of the UML class, used as a clause heading in the
+OGC deliverable (see <<fig-ea-class-property>>).
+
+* Stereotype of the UML class: stereotype of the UML class, wrapped with `«` and
+`»` characters in the OGC deliverable.
+
+* Class properties:
+
+** "Abstract" status: whether it is an Abstract class
+
+** "Visibility": `Public`, `Private`, `Protected` or `Package` visibility
+
+
+[[fig-ea-class-note]]
+.EA UML class Notes pane
+image::ea-class-note.png[]
+
+
+[[fig-ea-class-property]]
+.EA UML class Properties pane
+image::ea-class-property.png[]
+
+To set Stereotypes, click on the "..." to the right of the Stereotypes row
+in the Properties pane. A dialog box will be opened to allow selection of
+Stereotypes.
+
+For geospatial modeling, EA supports setting Stereotypes from the following
+profiles:
+
+* UML Standard Profile (see <<fig-ea-stereotypes-uml>>)
+
+* GML Profile (see <<fig-ea-stereotypes-gml>>)
+
+[[fig-ea-stereotypes-uml]]
+.EA UML Class Stereotypes: UML Standard Profile
+image::ea-stereotypes-uml.png[]
+
+[[fig-ea-stereotypes-gml]]
+.EA UML Class Stereotypes: GML
+image::ea-stereotypes-gml.png[]
+
+
+
+=== Properties
+
+On selection of a UML Property (under a UML Class), the Properties
+and Notes panes will reflect the selected item.
+
+The MDS process heavily incorporates information of the UML Property, including:
+
+* Notes of the UML Property: as the definition (description) of the UML Property (as
+in the Notes pane) (see <<fig-ea-property-note>>).
+
+* Name of the UML Property: name of the UML Property, used as a clause heading in the
+OGC deliverable (see <<fig-ea-property-properties>>).
+
+* Stereotype of the UML Property: stereotype of the UML Property, wrapped with `«` and
+`»` characters in the OGC deliverable.
+
+* Property details:
+
+** Initial value: default value if not specified.
+
+** Multiplicity: `0`, `1`, `0..1`, `0..*`, `1..*`, `*`
+
+
+[[fig-ea-property-note]]
+.EA UML property Notes pane
+image::ea-property-note.png[]
+
+[[fig-ea-property-properties]]
+.EA UML property Properties pane
+image::ea-property-properties.png[]
+
+
+=== Exporting into XMI
+
+Enterprise Architect version 16 onwards uses a proprietary binary format called
+`qea`, which is not readable outside of the application itself.
+
+In order to make its information accessible to the MDA process, the UML models
+and associated information needs to be exported into an interoperable format.
+
+That format is the OMG UML format exported as OMG XMI (XML Model Interchange)
+format, as an XML file with the extension of `xmi`,
+
+To export a UML Package (top-level package or one of the packages), first
+select the UML Package to be exported, then click on "Publish As..." as shown
+in <<fig-ea-publish-as>>.
+
+[[fig-ea-publish-as]]
+.Location of the "Publish As..." button
+image::ea-publish-as.png[]
+
+Clicking on the "Publish As..." button opens a dialog box with the options
+shown in <<fig-ea-export-options>>.
+
+[[fig-ea-export-options]]
+.Generation options for an XMI that works with Metanorma
+image::ea-generate-model.png[]
+
+The user will need to export the file with the following configuration set:
+
+* Filename change the file extension to use `.xmi` in the "..." dialog box
+* XML Type set to "UML 2.4.1 (XMI 2.4.2)"
+* Check the following boxes in "General Options":
+** Export Diagrams
+** Format XML Output
+** Generate Diagram Images, set Format to "Metafile"
+* Click on "Export"
+
+When these steps are followed the exported XMI will be at the path specified,
+ready to serve as input for the MDS process.
+
+
+== Basics of Metanorma
+
+=== General
+
+Metanorma uses a syntax called Metanorma AsciiDoc, which is based on the
+AsciiDoc format with a number of extensions.
+
+=== Document structure and encoding
+
+==== General
+
+An OGC Metanorma document is composed of two parts:
+
+* Metadata
+* Content body
+
+==== Metadata
+
+The metadata portion is composed of the document header and attributes.
+An example of the metadata portion is shown below.
+
+[source,adoc]
+----
+= OGC MUDDI Conceptual Model
+:doctype: standard
+:docsubtype: conceptual-model
+:encoding: utf-8
+:language: en
+:status: draft
+:committee: technical
+:docnumber: 22-999
+:received-date: 2023-01-01
+:issued-date: 2023-01-01
+:published-date: 2023-01-01
+:external-id: http://www.opengis.net/doc/XXX/YYYYY
+:keywords: ogcdoc, OGC document, MDA, model-driven
+:mn-document-class: ogc
+:imagesdir: images
+:mn-output-extensions: xml,html,pdf,doc,rxl
+----
+
+==== Body
+
+===== General
+
+In an OGC document, there are certain fixed and mandatory sections.
+
+For a conceptual model document, it includes:
+
+* Preface sections
+* Clause 1: Scope
+* Clause 2: Conformance
+* Clause 3: Normative references
+* Clause 4: Terms and definitions
+* Clause 5 onwards: content body
+* Annexes (optional)
+* Bibliography
+
+===== Preface
+
+The preface sections are encoded as follows:
+
+[source,adoc]
+----
+[abstract]
+== Abstract
+
+This OGC standard provides the MUDDI conceptual model.
+
+== Preface
+
+This OGC standard provides the MUDDI conceptual model.
+
+== Submitters
+
+All questions regarding this document should be directed to the editor or the
+contributors:
+
+[options="header"]
+|===
+| Name | Organization | Role
+
+| Foo | Bar | Editor
+| Foo | Bar | Editor
+| Foo | Bar | Editor
+
+|===
+----
+
+===== Scope
+
+The scope describes the purpose of the document in succinct terms.
+
+[source,adoc]
+----
+== Scope
+
+This OGC standard provides the MUDDI conceptual model.
+----
+
+===== Conformance
+
+The conformance section describes the requirements stated by the document.
+
+[source,adoc]
+----
+== Conformance
+
+This OGC standard provides the following requirements...
+----
+
+===== Normative references
+
+The normative references section describes information resources necessary for
+the implementation of the document.
+
+[source,adoc]
+----
+== Normative references
+
+* [[[OGC_08-131,OGC 08-131r3]]], OGC ModSpec
+----
+
+===== Terms and definitions
+
+The terms and definitions section defines the terms used in the document,
+which could be defined by the document or imported from other resources.
+
+The terms and definitions section can encode complex concepts and relations,
+for detailed documentation please refer to the <<MN>> website.
+
+[source,adoc]
+----
+== Terms and definitions
+
+=== conceptual model
+alt:[CM]
+
+model that defines concepts of a universe of discourse
+
+[.source]
+<<ISO_19101-1,clause=4.1.5>>
+----
+
+===== Content body
+
+The content body is used to describe the conceptual model.
+
+[source,adoc]
+----
+== Model
+
+The figure "MUDDI Core" is available at
+lutaml_figure::[name="fig: MUDDI Conceptual Model",package="Conceptual Model"].
+
+[lutaml&#x5f;uml_datamodel_description,../../xmi-full/xmi-v2-4-2-default.xmi,lutaml_data_dictionary.yml]
+--
+[.diagram_include_block,base_path="sections/xmi-images/"]
+....
+Diagram text
+....
+--
+----
+
+
+=== Linking the XMI file to Metanorma
+
+The automatic inclusion behavior is implemented by the
+`lutaml_uml_datamodel_description` command with a YAML
+configuration file using the following steps:
+
+. In every UML package of the model file, investigate every UML class
+
+. If the UML package contains diagrams (in the `xmi-19170-only/Images` folder),
+  include them all before content generation.
+
+. If there is a requirements Metanorma AsciiDoc file that uses the current UML
+  package's name, include the file as content before content generation.
+
+. Render the UML class into the default UML representation template
+  (embedded in LutaML).
+
+[[dggs-lutaml-code]]
+.Automated inclusion through the `lutaml_uml_datamodel_description` command
+[source,asciidoc,subs=none]
+----
+[lutaml&#x5f;uml_datamodel_description,../../xmi/uml241-xmi242.xmi]
+---
+[.diagram_include_block, base_path="../../xmi/Images"]
+...
+...
+---
+----
+
+[[dggs-lutaml-yaml]]
+.YAML configuration for the `lutaml_uml_datamodel_description` command
+[source,yaml]
+----
+---
+section_depth: 2
+package_root_level: 2
+----
+
+The `section_depth` value of 2 specifies that the location of the
+`lutaml_uml_datamodel_description` command is at the second level of depth, used
+to maintain the hierarchy of generated AsciiDoc sections.
+
+The `package_root_level` value of 2 specifies that the automatic inclusion
+iterative process with UML packages at depth 2 of the XMI.
+
+
+
+== Model elements used in the MDS process
+
+=== Package
+
+==== Name
+
+The package should have a unique name.
+
+==== Description
+
+The package description should be filled in.
+
+image::ea-package-note.png[]
+
+=== Class
+
+==== Name
+
+The class should have a unique name within the package it belongs to.
+
+==== Description
+
+The class description should be filled in in the Notes pane.
+
+image::ea-class-note.png[]
+
+==== Relationships
+
+A class can be set with multiple relationships.
+
+These relationships are described in the MDS process.
+
+Generalization:: the target class will be described as a "superclass", and the
+source class will be listed as a "subclass" of the target class.
+
+Dependency:: the source class will be listed as a "dependency" of the target.
+
+Realization:: EA creates Realization relationships from every UML class to the
+class itself, and these are not rendered in the MDA process.
+
+
+=== Property
+
+==== Name
+
+The property should have a unique name within the class it belongs to.
+
+==== Description
+
+The property description is entered in the Notes pane.
+
+==== Unspecified value type
+
+If there is no value type specified for an property, create an
+"AbstractValueType" data type and assign it to the property
+(see <<fig-abstract-value-type>>).
+
+[[fig-abstract-value-type]]
+.Assignment of AbstractValueType to represent an unspecified value type (from: MUDDI Conceptual Model)
+image::abstract-value-type.png[]
+
+
+=== Data type
+
+==== Name
+
+The data type should have a unique name within the package it belongs to.
+
+==== Description
+
+The data type description is entered in the Notes pane.
+
+
+=== Enumeration
+
+==== Name
+
+The enumeration should have a unique name within the package it belongs to.
+
+==== Description
+
+The enumeration description is entered in the Notes pane.
+
+=== Enumeration values
+
+==== Name
+
+The enumeration value should have a unique name within the enumeration it belongs to.
+
+==== Description
+
+The enumeration value description is entered in the Notes pane.
+
+
+=== Figure
+
+Figures are automatically included in the package description.
+
+
+== Export model for MDS
+
+TODO: Steps to export a model (package).
+
+
+[appendix]
+== Checklists to complete
+
+TODO: Simple checklist for model/document authors to ensure completeness of annotations on model.
+
+[cols="a,a"]
+|===
+| Description | Done?
+
+| Have you filled in the Notes section for all classes? | ...
+
+|===
+
+
+
+[bibliography]
+== Bibliography
+
+* [[[OGC_08-131,OGC 08-131r3]]], OGC ModSpec
+
+* [[[OGC_17-090r1,OGC 17-090r1]]]
+
+* [[[OGC_17-048,OGC 17-048]]]
+
+* [[[OGC_17-069r3,OGC 17-069r3]]]
+
+* [[[ISO_19101-1,ISO 19101-1]]]
+
+* [[[OMG_UML,OMG UML 2.5]]], OMG UML 2.5, _Unified Modeling Language. Object Management Group (2015). https://www.omg.org/spec/UML/2.5/About-UML/
+
+* [[[OMG_XMI,OMG XMI 2.5]]], OMG XMI 2.5, _XML Metadata Interchange_. Object Management Group (2015). https://www.omg.org/spec/XMI/2.5.1/About-XMI/
+
+* [[[OGC_20-010,OGC 20-010]]], Thomas H. Kolbe, Tatjana Kutzner, Carl Stephen Smyth, Claus Nagel, Carsten Roensdorf, Charles Heazel: OGC 20-101, _OGC CityGML Part 1_. Open Geospatial Consortium (2021). https://docs.ogc.org/is/20-010/20-010.html
+
+* [[[ISO-IEC_19501,ISO/IEC 19501]]]
+* [[[ISO_19103,ISO 19103:2015]]], ISO 19103:2015 Geographic information -- Conceptual schema language
+* [[[ISO_19109,ISO 19109:2015]]]
+* [[[ISO_19118,ISO 19118:2011]]]
+* [[[W3C_XML2,W3C TR xmlschema-2]]], W3C TR xmlschema-2, _XML Schema Part 2: Datatypes_ (Second Edition).  World Wide Web Consortium (2004). https://www.w3.org/TR/xmlschema-2/
+* [[[ISO_19103_2005,ISO/TS 19103:2005]]], ISO/TS 19103:2005
+* [[[SSEA,Sparx Systems Enterprise Architect]]], Sparx Systems, _Enterprise Architect_. https://sparxsystems.com/products/ea/
+* [[[MN,Metanorma]]], Ribose Inc. _Metanorma_. https://www.metanorma.org
+
+* [[[MN_OGC,Metanorma for OGC]]], Ribose Inc. _Metanorma for OGC_. https://www.metanorma.org/author/ogc/
+
+* [[[ISO_36100,ISO/AWI 36100]]]
+
+* [[[ISO_36200,ISO/PWI 36200]]], _Standardization documents -- Metadata_. International Organization for Standardization, Geneva
+
+* [[[ISO_36300,ISO/PWI 36300]]], _Standardization documents -- Representation in XML_. International Organization for Standardization, Geneva
+
+* [[[ISO_690,ISO 690]]]
+
+* [[[ISO_704,ISO 704]]]
+
+* [[[ISO_8601-1,ISO 8601-1]]]
+
+* [[[ISO_10241-1,ISO 10241-1]]]
