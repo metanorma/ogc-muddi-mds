@@ -10,7 +10,7 @@
 :issued-date: 2023-01-01
 :published-date: 2023-01-01
 :external-id: http://www.opengis.net/doc/XXX/YYYYY
-:keywords: ogcdoc, OGC document, MDA, model-driven
+:keywords: ogcdoc, MUDDI, underground data
 :mn-document-class: ogc
 :imagesdir: images
 :mn-output-extensions: xml,html,pdf,doc,rxl
@@ -26,6 +26,12 @@ include::sections/03-normrefs.adoc[]
 
 include::sections/04-terms_and_definitions.adoc[]
 
-include::sections/05-uml.adoc[]
+include::sections/05-conventions.adoc[]
+
+include::sections/06-design.adoc[]
+
+include::sections/07-conceptual.adoc[]
+
+include::sections/08-uml.adoc[]
 
 include::sections/99-bibliography.adoc[]

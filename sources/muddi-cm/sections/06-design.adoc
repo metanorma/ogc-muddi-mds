@@ -1,0 +1,73 @@
+
+== Overview
+
+The goal of MUDDI (Model for Underground Data Definition and Interchange) is to
+serve as the basis for integration of datasets from different models, at the
+levels of detail required to address application use cases such as routine
+street excavations, emergency response, utility maintenance programs, large
+scale construction projects, disaster planning, disaster response, and Smart
+Cities programs. MUDDI intended to serve as the basis for one or more conformant
+and interchangeable logical and physical implementations such as GML (Geographic
+Markup Language) or SFS (Simple Features SQL).
+
+=== Design Requirements
+
+The development of MUDDI has been motivated by a number of specific design
+requirements:
+
+Functionality::
+The model should specifically address three priority application use cases
+(Excavation, Large-scale Construction Design, Disaster Planning)
+
+Compatibility::
+The model should derive from or map to/from existing candidate models such as
+INSPIRE [IUN] (Infrastructure for Spatial Information in the European
+Community), CityGML UN ADE [CUA] (Utility Networks Application Domain
+Extension), GeoSciML [GSML], or IMKL [IMKL] (Informatie Model Kabels en
+Leidingen).
+
+Modularity::
+The model should have a modular structure with a simple mandatory core and
+additional elements in the form of optional extensions or interfaces, in order
+to minimize the quantity and detail of data required for specific use cases.
+
+Traceability::
+The model should provide for UGII to be linked directly with the survey
+measurements, sensor observations, and supporting evidence from which it was
+derived and from which its quality can be determined.
+
+Flexibility::
+The model should support implementations that include the geometric and
+topological representations needed for specific applications, such as 2D
+geometries for excavation planning, 3D geometries for construction design, or
+functional graph topologies for disaster vulnerability assessments.
+
+=== Design Patterns
+
+There are a number of common model design patterns which might satisfy MUDDI
+requirements, particularly modularity and flexibility:
+
+Relational::
+the pattern of fixed tables connected by foreign key relations. Clearly an
+established implementation pattern, but tends to result in duplication of data
+to support specialization and rather brittle relationships between model
+elements.
+
+Graph::
+an extremely flexible pattern of data elements connected by diverse relation
+predicates tends to represent knowledge webs and physical networks very well,
+but is still hard to implement for spatial data.
+
+Object::
+inheritance patterns are particularly well suited to UML modeling, but
+specialization hierarchies themselves can lack flexibility in terms of being
+able to choose different configurations of specialized attributes for specific
+applications.
+
+Interface::
+a variant of the object model in which specializations can also be supported by
+the addition of interface elements (consisting of attributes and/or operations)
+to primary objects. Interfaces can be mixed and matched as well as reused for
+different primary objects, but the variety of ways in which they can be
+implemented may present a risk of non-interoperability between implementations.
+

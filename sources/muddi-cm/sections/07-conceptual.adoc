@@ -1,0 +1,51 @@
+
+== Conceptual model requirements
+
+This clause provides a conceptual model for a register that conforms with
+this document.
+
+
+[requirements_class]
+.Adherence to conceptual model
+====
+[%metadata]
+identifier:: /req/conceptual-model
+subject:: Implementation Specification
+description:: Requirements on system implementation of conceptual model.
+requirement:: /req/conceptual-model/classes-concepts
+requirement:: /req/conceptual-model/classes-associations
+requirement:: /req/conceptual-model/classes-attributes
+====
+
+
+[requirement]
+.Specification of concepts
+====
+[%metadata]
+identifier:: /req/conceptual-model/classes-concepts
+description:: For each UML class defined or referenced in the Core Package, the
+Implementation Specification SHALL contain an element which represents the same
+concept as that defined for the UML class.
+====
+
+[requirement]
+.Specification of associations
+====
+[%metadata]
+identifier:: /req/conceptual-model/classes-associations
+description:: For each UML class defined or referenced in the Core Package, the
+Implementation Specification SHALL represent associations with the same source,
+target, direction, roles, and multiplicities as those of the UML class.
+
+====
+
+[requirement]
+.Specification of attributes
+====
+[%metadata]
+identifier:: /req/conceptual-model/classes-attributes
+description:: For each UML class defined or referenced in the Core Package, the
+Implementation Specification SHALL represent the attributes of the UML class
+including the name, definition, type, and multiplicity.
+====
+
