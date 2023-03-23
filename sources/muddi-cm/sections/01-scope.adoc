@@ -1,4 +1,13 @@
 
 == Scope
 
-This OGC standard provides the MUDDI conceptual model.
+MUDDI (Model for Underground Data Definition and Interchange) is a set of models
+that serve as the basis of integration of datasets that utilize different
+information models in the representation of underground objects.
+
+The MUDDI models are intended to form the basis for conformant and
+interchangeable logical and physical implementations, such as GML (Geographic
+Markup Language) or SFS (Simple Features SQL).
+
+This OGC standard provides the full set of MUDDI conceptual models and their
+requirements.

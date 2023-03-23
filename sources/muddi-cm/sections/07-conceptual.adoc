@@ -1,51 +1,133 @@
 
 == Conceptual model requirements
 
+=== General
+
 This clause provides a conceptual model for a register that conforms with
 this document.
 
+[[model-reqs-core]]
+=== Core conceptual models
+
+The core conceptual models of MUDDI are:
+
+* MUDDIObject
+* MUDDIAsset
+* MUDDIEvent
+* MUDDISpace
+* Network
+* NetworkAsset
+* NetworkConveyance
+* NetworkNode
+* NetworkLink
+* NetworkAccessory
+
 
 [requirements_class]
-.Adherence to conceptual model
+.Logical implementation of core conceptual models
 ====
 [%metadata]
-identifier:: /req/conceptual-model
-subject:: Implementation Specification
-description:: Requirements on system implementation of conceptual model.
-requirement:: /req/conceptual-model/classes-concepts
-requirement:: /req/conceptual-model/classes-associations
-requirement:: /req/conceptual-model/classes-attributes
+identifier:: /req/core
+subject:: Logical model
+description:: A logical model implementation must implement all MUDDI core
+conceptual models.
+requirement:: /req/core/classes-concepts
+requirement:: /req/core/classes-associations
+requirement:: /req/core/classes-attributes
+guidance:: The MUDDI core conceptual models are illustrated in FIGURE X.
 ====
 
 
 [requirement]
-.Specification of concepts
+.Specification of concepts in the core conceptual models
 ====
 [%metadata]
-identifier:: /req/conceptual-model/classes-concepts
+identifier:: /req/core/classes-concepts
 description:: For each UML class defined or referenced in the Core Package, the
-Implementation Specification SHALL contain an element which represents the same
-concept as that defined for the UML class.
+logical model SHALL contain an element which represents the same concept as that
+defined for the UML class.
 ====
 
 [requirement]
-.Specification of associations
+.Specification of associations in the core conceptual models
 ====
 [%metadata]
-identifier:: /req/conceptual-model/classes-associations
+identifier:: /req/core/classes-associations
 description:: For each UML class defined or referenced in the Core Package, the
-Implementation Specification SHALL represent associations with the same source,
-target, direction, roles, and multiplicities as those of the UML class.
-
+logical model SHALL represent associations with the same source, target,
+direction, roles, and multiplicities as those of the UML class.
 ====
 
 [requirement]
-.Specification of attributes
+.Specification of attributes in the core conceptual models
 ====
 [%metadata]
-identifier:: /req/conceptual-model/classes-attributes
+identifier:: /req/core/classes-attributes
 description:: For each UML class defined or referenced in the Core Package, the
-Implementation Specification SHALL represent the attributes of the UML class
+logical model SHALL represent the attributes of the UML class including the
+name, definition, type, and multiplicity.
+====
+
+
+[[model-reqs-extended]]
+=== Extended conceptual models
+
+The logical model may decide on which UML classes in the extended conceptual
+models to implement on an as needed basis.
+
+In the Extended requirements class, there are no mandatory UML classes.
+
+[requirements_class]
+.Logical implementation of extended conceptual models
+====
+[%metadata]
+identifier:: /req/extended
+subject:: Logical model
+description:: A logical model implementation may implement any of the MUDDI
+extended conceptual models.
+requirement:: /req/extended/classes-concepts
+requirement:: /req/extended/classes-associations
+requirement:: /req/extended/classes-attributes
+guidance:: The MUDDI extended conceptual models are illustrated in FIGURE X.
+====
+
+
+[requirement]
+.Specification of concepts in the extended conceptual models
+====
+[%metadata]
+identifier:: /req/extended/classes-concepts
+description:: For each UML class adopted from the Extended Package to be
+implemented in the logical model, the logical model SHALL contain an element
+which represents the same concept as that defined for the UML class.
+====
+
+[requirement]
+.Specification of associations in the extended conceptual models
+====
+[%metadata]
+identifier:: /req/extended/classes-associations
+description:: For each UML class adopted from the Extended Package to be
+implemented in the logical model, the logical model SHALL represent associations
+with the same source, target, direction, roles, and multiplicities as those of
+the UML class.
+====
+
+[requirement]
+.Specification of attributes in the extended conceptual models
+====
+[%metadata]
+identifier:: /req/extended/classes-attributes
+description:: For each UML class adopted from the Extended Package to be
+implemented in the logical model SHALL represent the attributes of the UML class
 including the name, definition, type, and multiplicity.
 ====
+
+
+
+* In the Extended requirements class, there are no mandatory UML classes.
+
+Therefore by default, if the minimum obligation in a relationship to a UML class is zero, then that UML class does not have to be implemented.
+
+Action: Josh to ask the SWG which of the relationships to UML Classes are mandatory and which are optional.
 

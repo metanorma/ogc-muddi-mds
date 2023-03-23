@@ -1,16 +1,7 @@
 
-== Overview
+== Model overview
 
-The goal of MUDDI (Model for Underground Data Definition and Interchange) is to
-serve as the basis for integration of datasets from different models, at the
-levels of detail required to address application use cases such as routine
-street excavations, emergency response, utility maintenance programs, large
-scale construction projects, disaster planning, disaster response, and Smart
-Cities programs. MUDDI intended to serve as the basis for one or more conformant
-and interchangeable logical and physical implementations such as GML (Geographic
-Markup Language) or SFS (Simple Features SQL).
-
-=== Design Requirements
+=== Design requirements
 
 The development of MUDDI has been motivated by a number of specific design
 requirements:
@@ -42,7 +33,7 @@ topological representations needed for specific applications, such as 2D
 geometries for excavation planning, 3D geometries for construction design, or
 functional graph topologies for disaster vulnerability assessments.
 
-=== Design Patterns
+=== Design patterns
 
 There are a number of common model design patterns which might satisfy MUDDI
 requirements, particularly modularity and flexibility:
