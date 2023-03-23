@@ -6,25 +6,10 @@ lutaml_figure::[name="fig: MUDDI Conceptual Model",package="Conceptual Model"].
 
 [lutaml_uml_datamodel_description,../../xmi-full/xmi-v2-4-2-default.xmi,lutaml_data_dictionary.yml]
 ----
-[.diagram_include_block,base_path="sections/xmi-images/",format="emf"]
+[.diagram_include_block,base_path="../images/",format="svg"]
 ....
-Diagram text
-....
-
-[.before]
-....
-This text appears before every described UML class.
 ....
 
-[.after, package="CityGML"]
-....
-text after CityGML package
-....
-
-[.after]
-....
-This text appears after every described UML class.
-....
 ----
 
 // [.package_text, index="1", position="before", package="Common Spatio-temporal Classes"]

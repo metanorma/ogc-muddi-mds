@@ -79,5 +79,5 @@ packages:
 #   # URI: "_uri"
 #   # Volume: "_volume"
 section_depth: 2
-render_style: data_dictionary
+# render_style: data_dictionary
 # include_root: true
