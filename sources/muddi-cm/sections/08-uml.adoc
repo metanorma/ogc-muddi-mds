@@ -6,7 +6,7 @@ lutaml_figure::[name="fig: MUDDI Conceptual Model",package="Conceptual Model"].
 
 [lutaml_uml_datamodel_description,../../xmi-full/xmi-v2-4-2-default.xmi,lutaml_data_dictionary.yml]
 ----
-[.diagram_include_block,base_path="../images/",format="svg"]
+[.diagram_include_block,base_path="../xmi-images/",format="png"]
 ....
 ....
 
