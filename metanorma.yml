@@ -4,6 +4,7 @@ metanorma:
     files:
       - sources/muddi-cm/document.adoc
       - sources/mds-guide/document.adoc
+      - sources/modspec-guide/document.adoc
 
   collection:
     organization: "OGC"
