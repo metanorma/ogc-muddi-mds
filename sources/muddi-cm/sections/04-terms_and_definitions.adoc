@@ -28,6 +28,93 @@ standard created using a model-driven architecture
 <<OGC_21-035r1,clause=2.1.4>>
 
 
+==== conformance test case
+
+test for a particular requirement or a set of related requirements
+
+NOTE: When no ambiguity, the word "case" may be omitted. i.e.
+{{conformance test}} is the same as
+{{conformance test case}}.
+
+[.source]
+<<OGC_08-131>>
+
+==== conformance test module
+
+set of related tests, all within a single {{conformance test class}}
+
+[.source]
+<<OGC_08-131>>
+
+
+==== conformance test class
+alt:[conformance test level]
+
+set of {{conformance test module,conformance test modules}} that must
+be applied to receive a single certificate of conformance
+
+[.source]
+<<OGC_08-131>>
+
+
+==== conformance test
+
+test, abstract or real, of one or more {{requirement,requirements}}
+contained within a standard, or set of standards
+
+[.source]
+<<OGC_08-131>>
+
+==== requirement
+
+expression in the content of a document conveying criteria to be fulfilled if
+compliance with the document is to be claimed and from which no deviation is permitted
+
+[.source]
+<<OGC_08-131>>
+
+==== requirements class
+
+aggregate of all {{requirements module,requirement modules}} that
+must all be satisfied to satisfy a {{conformance test class}}
+
+[.source]
+<<OGC_08-131>>
+
+==== requirements module
+
+aggregate of {{requirement,requirements}} and
+{{recommendation,recommendations}} of a specification against a
+single {{standardization target type}}
+
+[.source]
+<<OGC_08-131>>
+
+
+==== standardization target
+
+entity to which some {{requirement,requirements}} of a
+{{standard}} apply
+
+[.source]
+<<OGC_08-131>>
+
+==== standardization target type
+
+type of entity or set of entities to which the
+{{requirement,requirements}} of a {{standard}} apply
+
+[.source]
+<<OGC_08-131>>
+
+==== statement
+
+expression in a document conveying information
+
+[.source]
+<<OGC_08-131>>
+
+
 === Abbreviated terms
 
 MDA:: Model-Driven Architecture

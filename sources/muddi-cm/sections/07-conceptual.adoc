@@ -3,13 +3,12 @@
 
 === General
 
-This clause provides a conceptual model for a register that conforms with
-this document.
+This clause specifies the requirements for the conceptual model.
 
 [[model-reqs-core]]
-=== Core conceptual models
+=== Requirements of the Core conceptual model
 
-The core conceptual models of MUDDI are:
+The classes of the Core package of the conceptual model are:
 
 * MUDDIObject
 * MUDDIAsset
@@ -24,17 +23,18 @@ The core conceptual models of MUDDI are:
 
 
 [requirements_class]
-.Logical implementation of core conceptual models
+.Logical implementation of the Core conceptual model
 ====
 [%metadata]
 identifier:: /req/core
 subject:: Logical model
-description:: A logical model implementation must implement all MUDDI core
-conceptual models.
+description:: A logical model implementation must implement the MUDDI Core
+conceptual model.
 requirement:: /req/core/classes-concepts
 requirement:: /req/core/classes-associations
 requirement:: /req/core/classes-attributes
-guidance:: The MUDDI core conceptual models are illustrated in FIGURE X.
+guidance:: The MUDDI core conceptual models are illustrated in
+lutaml_figure::[name="MUDDI Conceptual Model",package="Conceptual Model"].
 ====
 
 
@@ -70,12 +70,15 @@ name, definition, type, and multiplicity.
 
 
 [[model-reqs-extended]]
-=== Extended conceptual models
+=== Requirements for the extended conceptual models
 
 The logical model may decide on which UML classes in the extended conceptual
 models to implement on an as needed basis.
 
 In the Extended requirements class, there are no mandatory UML classes.
+
+Therefore by default, if the minimum obligation in a relationship to a UML class
+is zero, then that UML class does not have to be implemented.
 
 [requirements_class]
 .Logical implementation of extended conceptual models
@@ -88,7 +91,8 @@ extended conceptual models.
 requirement:: /req/extended/classes-concepts
 requirement:: /req/extended/classes-associations
 requirement:: /req/extended/classes-attributes
-guidance:: The MUDDI extended conceptual models are illustrated in FIGURE X.
+guidance:: The MUDDI extended conceptual models are illustrated in
+lutaml_figure::[name="MUDDI Core Conceptual Model",package="Conceptual Model"].
 ====
 
 
@@ -123,11 +127,6 @@ implemented in the logical model SHALL represent the attributes of the UML class
 including the name, definition, type, and multiplicity.
 ====
 
-
-
-* In the Extended requirements class, there are no mandatory UML classes.
-
-Therefore by default, if the minimum obligation in a relationship to a UML class is zero, then that UML class does not have to be implemented.
-
-Action: Josh to ask the SWG which of the relationships to UML Classes are mandatory and which are optional.
+// Action: Josh to ask the SWG which of the relationships to UML Classes are
+// mandatory and which are optional.
 

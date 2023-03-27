@@ -2,13 +2,13 @@
 [abstract]
 == Abstract
 
-MUDDI (Model for Underground Data Definition and Interchange) is a set of models
-that serve as the basis of integration of datasets that utilize different
-information models in the representation of underground objects.
+MUDDI (Model for Underground Data Definition and Interchange) is a
+representation of classes that serve as the basis that serve as the basis of
+integration of datasets that utilize different information models in the
+representation of underground objects.
 
-The MUDDI models are meant to be comprehensive and provide sufficient level of
-detail to address application use cases, including but not limited to the
-following:
+MUDDI is meant to be comprehensive and provide sufficient level of detail to
+address application use cases, including but not limited to the following:
 
 * routine street excavations;
 * emergency response;
@@ -22,13 +22,13 @@ MUDDI serves as an excellent basis for conformant and interchangeable logical
 and physical implementations, such as GML (Geographic Markup Language) or SFS
 (Simple Features SQL).
 
-This OGC standard provides the full set of MUDDI conceptual models and their
+This OGC Standard provides the full set of MUDDI conceptual models and their
 requirements.
 
 
 == Preface
 
-This OGC standard provides the MUDDI conceptual models as described in UML.
+This OGC Standard provides the MUDDI conceptual models as described in UML.
 
 
 == Submitters

@@ -1,756 +1,288 @@
-<?xml version="1.0"  encoding="UTF-8" standalone="no"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="914.0000" height="739.0000">
-<g transform="translate(0.0000, 0.00 00)">
-<path d="M 1.0000,1.0000 L 1.0000,539.0000 " stroke="#000000" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 1.0000,539.0000 L 632.0000,539.0000 " stroke="#000000" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 632.0000,539.0000 L 632.0000,1.0000 " stroke="#000000" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 632.0000,1.0000 L 1.0000,1.0000 " stroke="#000000" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 1.0000,21.0000 L 157.0000,21.0000 L 170.0000,7.0000 L 170.0000,1.0000 L 1.0000,1.0000 L 1.0000,21.0000 Z" stroke="#000000" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#FFFFFF" />
-<text font-family="Carlito" fill="#000000" style ="white-space:pre;" font-weight="700" text-anchor="start" x="6.0000" y="13.0000" font-size="10.0000" ><![CDATA[GML MUDDI Core Conceptual Model ]]></text>
-<rect x="269.0000" y="186.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#BCBDC2" stroke-width="1px" stroke="#BCBDC2" />
-<rect x="266.0000" y="183.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#90EE90" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="266.0000" y="183.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="266.0000" y="183.0000" width="109.0000" height="69.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="281.0000" y="199.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="296.0000" y="214.7000" font-size="13.0000" ><![CDATA[Network]]></text>
-<rect x="232.0000" y="318.0000" width="121.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#BEBFC4" stroke-width="1px" stroke="#BEBFC4" />
-<rect x="229.0000" y="315.0000" width="121.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#90EE90" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="229.0000" y="315.0000" width="121.0000" height="69.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="229.0000" y="315.0000" width="121.0000" height="69.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="250.0000" y="331.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="233.0000" y="346.7000" font-size="13.0000" ><![CDATA[NetworkConveyance]]></text>
-<rect x="460.0000" y="318.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#BEBFC4" stroke-width="1px" stroke="#BEBFC4" />
-<rect x="457.0000" y="315.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#E6E6FA" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="457.0000" y="315.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="457.0000" y="315.0000" width="109.0000" height="69.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="472.0000" y="331.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="461.0000" y="346.7000" font-size="13.0000" ><![CDATA[NetworkAccessory]]></text>
-<rect x="378.0000" y="449.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#C0C1C5" stroke-width="1px" stroke="#C0C1C5" />
-<rect x="375.0000" y="446.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#90EE90" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="375.0000" y="446.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="375.0000" y="446.0000" width="109.0000" height="69.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="390.0000" y="462.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="394.0000" y="477.7000" font-size="13.0000" ><![CDATA[NetworkLink]]></text>
-<rect x="175.0000" y="447.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#C0C1C5" stroke-width="1px" stroke="#C0C1C5" />
-<rect x="172.0000" y="444.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#90EE90" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="172.0000" y="444.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="172.0000" y="444.0000" width="109.0000" height="69.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="187.0000" y="460.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="187.0000" y="475.7000" font-size="13.0000" ><![CDATA[NetworkNode]]></text>
-<rect x="28.0000" y="374.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#BFC0C4" stroke-width="1px" stroke="#BFC0C4" />
-<rect x="25.0000" y="371.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#FFF5EE" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="25.0000" y="371.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="25.0000" y="371.0000" width="109.0000" height="69.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="40.0000" y="387.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="47.0000" y="402.7000" font-size="13.0000" ><![CDATA[ServiceArea]]></text>
-<rect x="56.0000" y="260.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#BDBEC3" stroke-width="1px" stroke="#BDBEC3" />
-<rect x="53.0000" y="257.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000"  fill="#FFF5EE" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="53.0000" y="257.0000" width="109.0000" height="69.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="53.0000" y="257.0000" width="109.0000" height="69.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="68.0000" y="273.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="97.0000" y="288.7000" font-size="13.0000" ><![CDATA[Site]]></text>
-<rect x="36.0000" y="44.0000" width="109.0000" height="91.0000" rx="5.0000" ry="5.0000"  fill="#BABBC1" stroke-width="1px" stroke="#BABBC1" />
-<rect x="33.0000" y="41.0000" width="109.0000" height="91.0000" rx="5.0000" ry="5.0000"  fill="#FFE4E1" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="33.0000" y="41.0000" width="109.0000" height="91.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="33.0000" y="41.0000" width="109.0000" height="91.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="48.0000" y="57.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" font-style="italic" style ="white-space:pre;" font-weight="700" text-anchor="start" x="54.0000" y="72.7000" font-size="13.0000" ><![CDATA[MUDDIEvent]]></text>
-<path d="M 33.0000,81.0000 L 142.0000,81.0000 " stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="46.0000" y="100.7000" font-size="13.0000" ><![CDATA[«property»]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="38.0000" y="115.7000" font-size="13.0000" ><![CDATA[+ ]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="59.0000" y="115.7000" font-size="13.0000" ><![CDATA[validTime]]></text>
-<rect x="269.0000" y="39.0000" width="109.0000" height="98.0000" rx="5.0000" ry="5.0000"  fill="#BABBC1" stroke-width="1px" stroke="#BABBC1" />
-<rect x="266.0000" y="36.0000" width="109.0000" height="98.0000" rx="5.0000" ry="5.0000"  fill="#B0E0E6" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="266.0000" y="36.0000" width="109.0000" height="98.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="266.0000" y="36.0000" width="109.0000" height="98.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="281.0000" y="52.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" font-style="italic" style ="white-space:pre;" font-weight="700" text-anchor="start" x="284.0000" y="67.7000" font-size="13.0000" ><![CDATA[MUDDIObject]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="338.0000" y="82.7000" font-size="13.0000" ><![CDATA[{root}]]></text>
-<path d="M 266.0000,91.0000 L 375.0000,91.0000 " stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="279.0000" y="110.7000" font-size="13.0000" ><![CDATA[«property»]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="271.0000" y="125.7000" font-size="13.0000" ><![CDATA[+ ]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="292.0000" y="125.7000" font-size="13.0000" ><![CDATA[objectID {id}]]></text>
-<rect x="501.0000" y="49.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000"  fill="#BABBC1" stroke-width="1px" stroke="#BABBC1" />
-<rect x="498.0000" y="46.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000"  fill="#B0E0E6" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="498.0000" y="46.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="498.0000" y="46.0000" width="109.0000" height="83.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="513.0000" y="62.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" font-style="italic" style ="white-space:pre;" font-weight="700" text-anchor="start" x="519.0000" y="77.7000" font-size="13.0000" ><![CDATA[MUDDIAsset]]></text>
-<path d="M 498.0000,86.0000 L 607.0000,86.0000 " stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="511.0000" y="105.7000" font-size="13.0000" ><![CDATA[«property»]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="503.0000" y="120.7000" font-size="13.0000" ><![CDATA[+ ]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="524.0000" y="120.7000" font-size="13.0000" ><![CDATA[assetOwnerID]]></text>
-<rect x="501.0000" y="193.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000"  fill="#BCBDC3" stroke-width="1px" stroke="#BCBDC3" />
-<rect x="498.0000" y="190.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000"  fill="#B0E0E6" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="498.0000" y="190.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="498.0000" y="190.0000" width="109.0000" height="83.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="513.0000" y="206.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="700" text-anchor="start" x="513.0000" y="221.7000" font-size="13.0000" ><![CDATA[NetworkAsset]]></text>
-<path d="M 498.0000,230.0000 L 607.0000,230.0000 " stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="511.0000" y="249.7000" font-size="13.0000" ><![CDATA[«property»]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="503.0000" y="264.7000" font-size="13.0000" ><![CDATA[+ ]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="524.0000" y="264.7000" font-size="13.0000" ><![CDATA[utilityType]]></text>
-<rect x="36.0000" y="156.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000"  fill="#BCBDC2" stroke-width="1px" stroke="#BCBDC2" />
-<rect x="33.0000" y="153.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000"  fill="#F5DEB3" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<rect x="33.0000" y="153.0000" width="109.0000" height="83.0000" rx="5.0000" ry="5.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="-281.0000" y="-186.3000" font-size="13.0000" ><![CDATA[]]></text>
-<rect x="33.0000" y="153.0000" width="109.0000" height="83.0000" fill="none" stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="48.0000" y="169.7000" font-size="13.0000" ><![CDATA[«FeatureType»]]></text>
-<text font-family="Carlito" fill="#3C3C3C" font-style="italic" style ="white-space:pre;" font-weight="700" text-anchor="start" x="53.0000" y="184.7000" font-size="13.0000" ><![CDATA[MUDDISpace]]></text>
-<path d="M 33.0000,193.0000 L 142.0000,193.0000 " stroke="#5A5A5A" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="46.0000" y="212.7000" font-size="13.0000" ><![CDATA[«property»]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="38.0000" y="227.7000" font-size="13.0000" ><![CDATA[+ ]]></text>
-<text font-family="Carlito" fill="#854A2C" style ="white-space:pre;" font-weight="400" text-anchor="start" x="59.0000" y="227.7000" font-size="13.0000" ><![CDATA[extent]]></text>
-<path d="M 114.0000,252.0000 L 102.0000,252.0000 L 108.0000,236.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 559.0000,145.0000 L 547.0000,145.0000 L 553.0000,129.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 486.0000,267.0000 L 481.0000,256.0000 L 498.0000,255.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 340.0000,392.0000 L 331.0000,400.0000 L 325.0000,384.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 269.0000,400.0000 L 260.0000,392.0000 L 275.0000,384.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 485.0000,140.0000 L 481.0000,128.0000 L 498.0000,129.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 51.0000,252.0000 L 39.0000,252.0000 L 45.0000,236.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 267.0000,252.0000 L 259.0000,266.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 267.0000,252.0000 L 252.0000,258.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 266.0000,235.0000 L 253.0000,244.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 266.0000,235.0000 L 250.0000,235.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 252.0000,142.0000 L 249.0000,131.0000 L 266.0000,133.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 376.0000,45.0000 L 391.0000,40.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 376.0000,45.0000 L 391.0000,50.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 282.0000,500.0000 L 297.0000,495.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 282.0000,500.0000 L 297.0000,505.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 550.0000,289.0000 L 538.0000,289.0000 L 544.0000,273.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 376.0000,192.0000 L 391.0000,187.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 376.0000,192.0000 L 391.0000,197.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 376.0000,230.0000 L 391.0000,225.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 376.0000,230.0000 L 391.0000,235.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 351.0000,349.0000 L 366.0000,344.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 351.0000,349.0000 L 366.0000,354.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 320.0000,252.0000 L 325.0000,267.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 320.0000,252.0000 L 315.0000,267.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 392.0000,78.0000 L 392.0000,90.0000 L 376.0000,84.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 250.0000,95.0000 L 250.0000,83.0000 L 266.0000,89.0000 Z" stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="#F7DDB4" />
-<path d="M 282.0000,467.0000 L 297.0000,462.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 282.0000,467.0000 L 297.0000,472.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 266.0000,59.0000 L 251.0000,64.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<path d="M 266.0000,59.0000 L 251.0000,54.0000 " stroke="#696969" stroke-width="1.0000"  stroke-linecap="round"  stroke-linejoin="round"  fill="none" />
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="384.0000" y="47.0000" font-size="10.0000" ><![CDATA[enclosedBy]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="177.0000" y="60.0000" font-size="10.0000" ><![CDATA[pertainsTo]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="388.0000" y="241.0000" font-size="10.0000" ><![CDATA[SubordinateNetwork]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="318.0000" y="462.0000" font-size="10.0000" ><![CDATA[from]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="307.0000" y="278.0000" font-size="10.0000" ><![CDATA[partOf]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="324.0000" y="495.0000" font-size="10.0000" ><![CDATA[to]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="386.0000" y="203.0000" font-size="10.0000" ><![CDATA[SubNetwork]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="203.0000" y="255.0000" font-size="10.0000" ><![CDATA[partOf]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="198.0000" y="301.0000" font-size="10.0000" ><![CDATA[servicedBy]]></text>
-<text font-family="Carlito" fill="#3C3C3C" style ="white-space:pre;" text-anchor="start" x="387.0000" y="344.0000" font-size="10.0000" ><![CDATA[linkedTo]]></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.29cm" height="14.71cm" viewBox="0 0 767 556">
+<title></title>
+<desc>Created with Enterprise Architect (Build: 1624) 2</desc>
+
+<g style="fill:#FFFFFF;fill-opacity:1.00;">
+	 <rect x="0" y="0" width="767" height="556" shape-rendering="auto"/>
+</g><g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter; fill:#000000;fill-opacity:0.00; stroke:#000000; stroke-opacity:1.00">
+  <path d="M 6 6 L 6 550 L 761 550 L 761 6 L 6 6" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter; fill:#FFFFFF;fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00">
+  <polygon points="6 26 162 26 175 12 175 6 6 6 6 26" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="11.00" y="19.00" textLength="149" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:7pt; fill:#000000;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 11.00 19.00)">GML MUDDI Core Conceptual Model </text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#90EE90;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="276" y="187" width="221" height="84" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="347.00" y="205.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 347.00 205.00)">«FeatureType»</text>
+	<text x="362.00" y="220.00" textLength="49" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 362.00 220.00)">Network</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 276 228 L 496 228" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="289.00" y="248.00" textLength="61" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 289.00 248.00)">«property»</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="281.00" y="263.00" textLength="9" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 281.00 263.00)">+ </text>
+	<text x="302.00" y="263.00" textLength="190" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 302.00 263.00)">commodityType: AbstractValueType</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#90EE90;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="239" y="319" width="122" height="70" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="260.00" y="337.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 260.00 337.00)">«FeatureType»</text>
+	<text x="243.00" y="352.00" textLength="114" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 243.00 352.00)">NetworkConveyance</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#E6E6FA;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="467" y="319" width="110" height="70" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="482.00" y="337.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 482.00 337.00)">«FeatureType»</text>
+	<text x="471.00" y="352.00" textLength="102" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 471.00 352.00)">NetworkAccessory</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#90EE90;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="385" y="450" width="110" height="70" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="400.00" y="468.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 400.00 468.00)">«FeatureType»</text>
+	<text x="404.00" y="483.00" textLength="71" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 404.00 483.00)">NetworkLink</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#90EE90;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="182" y="448" width="110" height="70" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="197.00" y="466.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 197.00 466.00)">«FeatureType»</text>
+	<text x="197.00" y="481.00" textLength="79" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 197.00 481.00)">NetworkNode</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFF5EE;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="35" y="375" width="110" height="70" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="50.00" y="393.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 50.00 393.00)">«FeatureType»</text>
+	<text x="57.00" y="408.00" textLength="65" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 57.00 408.00)">ServiceArea</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFF5EE;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="63" y="261" width="110" height="70" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="78.00" y="279.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 78.00 279.00)">«FeatureType»</text>
+	<text x="107.00" y="294.00" textLength="21" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 107.00 294.00)">Site</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FFE4E1;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="43" y="45" width="186" height="92" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="96.00" y="63.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 96.00 63.00)">«FeatureType»</text>
+	<text x="102.00" y="78.00" textLength="68" style="font-family:Carlito; font-weight:700; font-style:italic; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 102.00 78.00)">MUDDIEvent</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 43 86 L 228 86" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="56.00" y="106.00" textLength="61" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 56.00 106.00)">«property»</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="48.00" y="121.00" textLength="9" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 48.00 121.00)">+ </text>
+	<text x="69.00" y="121.00" textLength="155" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 69.00 121.00)">validTime: AbstractValueType</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#B0E0E6;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="276" y="40" width="110" height="99" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="291.00" y="58.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 291.00 58.00)">«FeatureType»</text>
+	<text x="294.00" y="73.00" textLength="73" style="font-family:Carlito; font-weight:700; font-style:italic; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 294.00 73.00)">MUDDIObject</text>
+	<text x="348.00" y="88.00" textLength="31" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 348.00 88.00)">{root}</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 276 96 L 385 96" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="289.00" y="116.00" textLength="61" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 289.00 116.00)">«property»</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="281.00" y="131.00" textLength="9" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 281.00 131.00)">+ </text>
+	<text x="302.00" y="131.00" textLength="65" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 302.00 131.00)">objectID {id}</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#B0E0E6;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="508" y="50" width="209" height="84" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="573.00" y="68.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 573.00 68.00)">«FeatureType»</text>
+	<text x="579.00" y="83.00" textLength="67" style="font-family:Carlito; font-weight:700; font-style:italic; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 579.00 83.00)">MUDDIAsset</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 508 91 L 716 91" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="521.00" y="111.00" textLength="61" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 521.00 111.00)">«property»</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="513.00" y="126.00" textLength="9" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 513.00 126.00)">+ </text>
+	<text x="534.00" y="126.00" textLength="178" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 534.00 126.00)">assetOwnerID: AbstractValueType</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#B0E0E6;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="508" y="194" width="191" height="84" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="564.00" y="212.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 564.00 212.00)">«FeatureType»</text>
+	<text x="564.00" y="227.00" textLength="79" style="font-family:Carlito; font-weight:700; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 564.00 227.00)">NetworkAsset</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 508 235 L 698 235" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="521.00" y="255.00" textLength="61" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 521.00 255.00)">«property»</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="513.00" y="270.00" textLength="9" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 513.00 270.00)">+ </text>
+	<text x="534.00" y="270.00" textLength="160" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 534.00 270.00)">utilityType: AbstractValueType</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#F5DEB3;fill-opacity:1.00; stroke:#9A8484; stroke-opacity:1.00">
+ <rect x="43" y="157" width="169" height="84" rx="0.00" shape-rendering="auto"  />
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="88.00" y="175.00" textLength="79" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 88.00 175.00)">«FeatureType»</text>
+	<text x="93.00" y="190.00" textLength="69" style="font-family:Carlito; font-weight:700; font-style:italic; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 93.00 190.00)">MUDDISpace</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#9A8484; stroke-opacity:1.00">
+  <path d="M 43 198 L 211 198" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="56.00" y="218.00" textLength="61" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 56.00 218.00)">«property»</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="48.00" y="233.00" textLength="9" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 48.00 233.00)">+ </text>
+	<text x="69.00" y="233.00" textLength="138" style="font-family:Carlito; font-weight:400; font-style:normal; font-size:9pt; fill:#66413F;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 69.00 233.00)">extent: AbstractValueType</text>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 412 187 L 557 134" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="544 145 540 134 557 134" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 527 227 L 497 227 M 527 212 L 527 227 M 497 212 L 527 212 M 497 212" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 512 207 L 497 212 L 512 217" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 527 257 L 497 257 M 527 242 L 527 257 M 497 242 L 527 242 M 497 242" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 512 237 L 497 242 L 512 247" shape-rendering="auto"/>
+  <path d="M 361 330 L 508 272" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="495 283 491 272 508 272" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 360 271 L 330 319 M 360 271" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 356 286 L 360 271 L 348 281" shape-rendering="auto"/>
+  <path d="M 554 319 L 593 278" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="586 294 578 285 593 278" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 361 354 L 467 354 M 361 354" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 376 349 L 361 354 L 376 359" shape-rendering="auto"/>
+  <path d="M 386 450 L 335 389" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="350 397 341 405 335 389" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 292 472 L 385 472 M 292 472" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 307 467 L 292 472 L 307 477" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 292 505 L 385 505 M 292 505" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 307 500 L 292 505 L 307 510" shape-rendering="auto"/>
+  <path d="M 235 448 L 285 389" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="279 405 270 397 285 389" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 55 375 L 82 241" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="85 258 73 255 82 241" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 320 271 L 145 374 M 320 271" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 310 283 L 320 271 L 305 274" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 276 259 L 173 282 M 276 259" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 262 267 L 276 259 L 260 257" shape-rendering="auto"/>
+  <path d="M 134 261 L 144 241" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="142 258 131 253 144 241" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 276 64 L 229 64 M 276 64" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 261 69 L 276 64 L 261 59" shape-rendering="auto"/>
+  <path d="M 229 94 L 276 94" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="260 100 260 88 276 94" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:round; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00" stroke-dasharray="6,3">
+  <path d="M 416 65 L 386 65 M 416 50 L 416 65 M 386 50 L 416 50 M 386 50" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 401 45 L 386 50 L 401 55" shape-rendering="auto"/>
+  <path d="M 508 90 L 386 89" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="402 83 402 95 386 89" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 605 194 L 609 134" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="614 150 602 150 609 134" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#000000;fill-opacity:0.00; stroke:#69738C; stroke-opacity:1.00">
+  <path d="M 212 156 L 276 138" shape-rendering="auto"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#FAF1EC;fill-opacity:1.00; stroke:#69738C; stroke-opacity:1.00">
+  <polygon points="262 148 259 137 276 138" shape-rendering="auto"   style="fill-rule:evenodd;"/>
+</g>
+<g style="stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00">
+	<text x="507.00" y="224.00" textLength="49" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 507.00 224.00)">SubNetwork</text>
+	<text x="211.00" y="66.00" textLength="70" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 211.00 66.00)">featureOfInterest</text>
+	<text x="397.00" y="350.00" textLength="34" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 397.00 350.00)">linkedTo</text>
+	<text x="213.00" y="274.00" textLength="26" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 213.00 274.00)">partOf</text>
+	<text x="334.00" y="501.00" textLength="8" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 334.00 501.00)">to</text>
+	<text x="230.00" y="313.00" textLength="43" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 230.00 313.00)">servicedBy</text>
+	<text x="328.00" y="468.00" textLength="19" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 328.00 468.00)">from</text>
+	<text x="506.00" y="254.00" textLength="82" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 506.00 254.00)">SubordinateNetwork</text>
+	<text x="394.00" y="53.00" textLength="45" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 394.00 53.00)">enclosedBy</text>
+	<text x="332.00" y="291.00" textLength="26" style="font-family:Carlito; font-weight:0; font-style:normal; font-size:7pt; fill:#595959;fill-opacity:1.00; stroke:#000000; stroke-opacity:0.00 stroke-width:0; white-space: pre;" xml:space="preserve" transform="rotate(-0.00 332.00 291.00)">partOf</text>
 </g>
 </svg>

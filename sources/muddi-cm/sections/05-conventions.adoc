@@ -3,7 +3,7 @@
 
 === General
 
-This sections provides details and examples for any conventions used in the
+This section provides details and examples for any conventions used in the
 document. Examples of conventions are symbols, abbreviations, use of XML schema,
 or special notes regarding how to read the document.
 
@@ -11,10 +11,11 @@ or special notes regarding how to read the document.
 
 The normative provisions in this standard are denoted by the URI
 
-[source]
+[source%unnumbered]
 ----
 http://www.opengis.net/spec/{standard}/{m.n}
 ----
 
-All requirements and conformance tests that appear in this document are denoted
-by partial URIs which are relative to this base.
+All requirements classes, requirements, conformance classes, and conformance
+tests that appear in this document are denoted by partial URIs which are
+relative to this base.

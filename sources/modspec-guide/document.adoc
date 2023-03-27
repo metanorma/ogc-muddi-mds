@@ -590,7 +590,7 @@ source, target, direction, roles, and multiplicities as those of the UML class.
 
 renders as:
 
-image::reqt1.png[Rendering]
+image::mn-ogc-reqt1.png[Rendering]
 ======
 
 
@@ -613,7 +613,7 @@ Logical Model UML defined in Section 8.
 
 renders as:
 
-image::reqt2.png[Rendering]
+image::mn-ogc-reqt2.png[Rendering]
 ======
 
 // The entries `test-purpose`, `test-method`, `conditions`, and `part` will
@@ -767,7 +767,7 @@ inherit:: /req/req-class-construction
 
 renders as:
 
-image::reqt3.png[Rendering]
+image::mn-ogc-reqt3.png[Rendering]
 ======
 
 NOTE: In this example, both block attributes and definition list syntax is used;
@@ -1075,7 +1075,7 @@ documented in the Conceptual Model.
 
 renders as:
 
-image::reqt4.png[Rendering]
+image::mn-ogc-reqt4.png[Rendering]
 ======
 
 
