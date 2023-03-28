@@ -2301,7 +2301,7 @@ Metanorma treats them as fully equivalent, and will render them in the same way,
 as a numbered label (_Requirement Class 6_).
 
 NOTE: As a limitation of syntax, URIs cannot be processed correctly within
-`<<..>>`. The `xref:...[]` command needs to be used instead.
+`\<< >>`. The `xref:...[]` command needs to be used instead.
 
 To make the cross-reference render the identifier value of the instance itself,
 while still hyperlinking to the correct identifier, you can specify `style=id%`
