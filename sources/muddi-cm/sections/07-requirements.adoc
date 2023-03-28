@@ -33,6 +33,7 @@ conceptual model.
 requirement:: /req/core/classes-concepts
 requirement:: /req/core/classes-associations
 requirement:: /req/core/classes-attributes
+requirement:: /req/core/concrete-value-types
 guidance:: The MUDDI core conceptual models are illustrated in
 lutaml_figure::[name="MUDDI Conceptual Model",package="Conceptual Model"].
 ====
@@ -103,6 +104,7 @@ extended conceptual models.
 requirement:: /req/extended/classes-concepts
 requirement:: /req/extended/classes-associations
 requirement:: /req/extended/classes-attributes
+requirement:: /req/extended/concrete-value-types
 guidance:: The MUDDI extended conceptual models are illustrated in
 lutaml_figure::[name="MUDDI Core Conceptual Model",package="Conceptual Model"].
 ====

@@ -1,0 +1,178 @@
+
+[appendix,obligation="normative"]
+== Abstract test suite
+
+=== General
+
+This clause specifies the conformance classes and conformance tests for the
+conceptual model.
+
+[[conf-model-core]]
+=== Conformance test suite of the Core conceptual model
+
+[conformance_class]
+.Testing the logical implementation of the Core conceptual model
+====
+[%metadata]
+identifier:: /conf/core
+target:: /req/core
+subject:: Logical model
+description:: Test whether the logical model implementation fully implements the
+MUDDI Core conceptual model.
+conformance-test:: /conf/core/classes-concepts
+conformance-test:: /conf/core/classes-associations
+conformance-test:: /conf/core/classes-attributes
+conformance-test:: /conf/core/concrete-value-types
+====
+
+
+[conformance_test]
+.Testing logical model concepts from core conceptual models
+====
+[%metadata]
+identifier:: /conf/core/classes-concepts
+target:: /req/core/classes-concepts
+test-purpose:: To validate that the logical model correctly implements all UML
+classes defined or referenced in the Core Package.
+test-method-type:: Manual Inspection
+description:: Validate that the logical model contains a data element
+which represents the same concept as that defined for the UML class.
+====
+
+[conformance_test]
+.Testing logical model associations from core conceptual models
+====
+[%metadata]
+identifier:: /conf/core/classes-associations
+target:: /req/core/classes-associations
+test-purpose:: To validate that the logical model correctly implements all UML
+associations defined or referenced in the Core Package.
+test-method-type:: Manual Inspection
+description:: Validate that all UML associations in the Core package UML models
+are represented in the logical model. Validate that those relationships
+have the same source, target, direction, roles, and multiplicities as those
+documented in the Core package.
+====
+
+[conformance_test]
+.Testing logical model attributes from core conceptual models
+====
+[%metadata]
+identifier:: /conf/core/classes-attributes
+target:: /req/core/classes-attributes
+test-purpose:: To validate that the logical model correctly implements all UML
+attributes defined or referenced in the Core Package.
+test-method-type:: Manual Inspection
+description:: Validate that all attributes of UML models from the Core package
+are represented in the logical model. Validate that those attributes have the
+same name, definition, type, and multiplicity as specified by the Core package.
+====
+
+[conformance_test]
+.Testing whether abstract value types in the core conceptual models are replaced with concrete value types
+====
+[%metadata]
+identifier:: /conf/core/concrete-value-types
+target:: /req/core/concrete-value-types
+test-purpose:: To validate that the logical model correctly provides concrete
+value types for all UML attributes that are assigned the AbstractValueType
+value class.
+test-method-type:: Manual Inspection
+description:: Validate that all attributes of UML models from the Core package
+that utilize AbstractValueType are represented in the logical model with a
+concrete value type. Validate that there is no usage of the AbstractValueType
+class in the logical model.
+====
+
+
+
+[[conf-model-extended]]
+=== Conformance test suite for the extended conceptual models
+
+The logical model may decide on which UML classes in the extended conceptual
+models to implement on an as needed basis.
+
+In the Extended requirements class, there are no mandatory UML classes.
+
+Therefore by default, if the minimum obligation in a relationship to a UML class
+is zero, then that UML class does not have to be implemented.
+
+[conformance_class]
+.Testing the logical implementation of extended conceptual models
+====
+[%metadata]
+identifier:: /conf/extended
+target:: /req/extended
+subject:: Logical model
+description:: Test whether the logical model implementation of any of the MUDDI
+extended conceptual models conform to their specifications.
+conformance-test:: /conf/extended/classes-concepts
+conformance-test:: /conf/extended/classes-associations
+conformance-test:: /conf/extended/classes-attributes
+conformance-test:: /conf/extended/concrete-value-types
+====
+
+
+[conformance_test]
+.Testing logical model concepts from the extended conceptual models
+====
+[%metadata]
+identifier:: /conf/extended/classes-concepts
+target:: /req/extended/classes-concepts
+test-purpose:: To validate that the logical model correctly implements the
+UML classes defined or referenced in the Extended Package.
+test-method-type:: Manual Inspection
+description:: Validate that for every UML class adopted from the Extended
+Package in the logical model, the logical model contains an element which
+represents the same concept as that defined for the UML class.
+====
+
+
+[conformance_test]
+.Testing logical model attributes from the extended conceptual models
+====
+[%metadata]
+identifier:: /conf/extended/classes-attributes
+target:: /req/extended/classes-attributes
+test-purpose:: To validate that the logical model correctly implements all
+attributes from the adopted UML classes defined or referenced in the Extended
+Package.
+test-method-type:: Manual Inspection
+description:: Validate that all attributes of UML models adopted from the
+Extended package are implemented in the logical model. Validate that those
+attributes have the same name, definition, type, and multiplicity as specified
+by the Extended package.
+====
+
+
+[conformance_test]
+.Testing logical model associations from the extended conceptual models
+====
+[%metadata]
+identifier:: /conf/extended/classes-associations
+target:: /req/extended/classes-associations
+test-purpose:: To validate that the logical model correctly implements the
+adopted UML associations defined or referenced in the Extended Package.
+test-method-type:: Manual Inspection
+description:: Validate that all adopted UML associations from the Extended package
+are represented in the logical model. Validate that those relationships
+have the same source, target, direction, roles, and multiplicities as those
+documented in the Extended package.
+====
+
+
+[conformance_test]
+.Testing whether abstract value types in the extended conceptual models are replaced with concrete value types
+====
+[%metadata]
+identifier:: /conf/extended/concrete-value-types
+target:: /req/extended/concrete-value-types
+test-purpose:: To validate that the logical model correctly provides concrete
+value types for all UML attributes that are assigned the AbstractValueType
+value class.
+test-method-type:: Manual Inspection
+description:: Validate that all attributes of UML models adopted from the
+Extended package that utilize AbstractValueType are represented in the logical
+model with a concrete value type. Validate that there is no usage of the
+AbstractValueType class in the logical model.
+====
