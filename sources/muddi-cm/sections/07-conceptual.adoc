@@ -68,6 +68,18 @@ logical model SHALL represent the attributes of the UML class including the
 name, definition, type, and multiplicity.
 ====
 
+[requirement]
+.Abstract value types in core conceptual models replaced with concrete value types
+====
+[%metadata]
+identifier:: /req/core/concrete-value-types
+description:: For each attribute specified with the AbstractValueType value type
+in a UML class defined or referenced in the Core Package, the logical model
+SHALL provide a concrete value type for that attribute that replaces the
+AbstractValueType value type.
+====
+
+
 
 [[model-reqs-extended]]
 === Requirements for the extended conceptual models
@@ -126,6 +138,18 @@ description:: For each UML class adopted from the Extended Package to be
 implemented in the logical model SHALL represent the attributes of the UML class
 including the name, definition, type, and multiplicity.
 ====
+
+[requirement]
+.Abstract value types in the extended conceptual models replaced with concrete value types
+====
+[%metadata]
+identifier:: /req/extended/concrete-value-types
+description:: For each attribute specified with the AbstractValueType value type
+in a UML class adopted from the Extended Package, the logical model SHALL
+provide a concrete value type for that attribute that replaces the
+AbstractValueType value type.
+====
+
 
 // Action: Josh to ask the SWG which of the relationships to UML Classes are
 // mandatory and which are optional.
