@@ -65,6 +65,14 @@ contained within a standard, or set of standards
 [.source]
 <<OGC_08-131>>
 
+==== recommendation
+
+expression in the content of a document conveying that among several possibilities
+one is recommended as particularly suitable, without mentioning or excluding others,
+or that a certain course of action is preferred but not necessarily required, or that
+(in the negative form) a certain possibility or course of action is deprecated but
+not prohibited
+
 ==== requirement
 
 expression in the content of a document conveying criteria to be fulfilled if
@@ -90,6 +98,17 @@ single {{standardization target type}}
 [.source]
 <<OGC_08-131>>
 
+==== specification
+
+document containing {{recommendation,recommendations}},
+{{requirement,requirements}} and
+{{conformance test, conformance tests}}
+for those {{requirement,requirements}}
+
+
+==== standard
+
+{{specification}} that has been approved by a legitimate Standards Body
 
 ==== standardization target
 
