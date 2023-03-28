@@ -2917,13 +2917,33 @@ The generation style affects:
 
 There are 3 types of UML rendering styles:
 
-* `default`: the default manner to render UML packages and classes;
-+
-NOTE: The default style is used for <<OGC_20-040r3>>.
+* `default`: the default manner to render UML packages and classes in an OGC
+deliverable;
 
-* `entity_list`: the entity list style which is used in CityGML;
+* `entity_list`: the entity list style provides a high level summary of all
+elements in a package;
 
-* `data_dictionary`: the data dictionary style which is used in CityGML.
+* `data_dictionary`: the data dictionary style provides detailed definitions to
+describe elements in a package.
+
+In practice, the entity list and the data dictionary styles are commonly meant
+to be used together in a single document.
+This combination should only used when there is an unexcusable need to deviate
+from the default style, such as for:
+
+* highly-modularized documents, where models are packaged in multiple modules;
+
+* backwards compatibility for deliverables that have previously adopted
+the entity list + data dictionary structure;
+
+* models with a deep hierarchy, which the default style would lead to very
+deep clause hierarchies.
+
+[example]
+The default style is used for <<OGC_20-040r3>>.
+
+[example]
+The entity list + data dictionary style is used for <<OGC_20-010>>.
 
 
 ===== Default style
