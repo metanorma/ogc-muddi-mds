@@ -2736,7 +2736,7 @@ The resulting output will be placed in the selected directory as seen in
 under a new directory called `Images/` under the selected directory.
 
 [[ea-export-images-dir]]
-.Example of EA-exported XMI with EMF images
+.Example of EA-exported XMI with SVG images
 ====
 ----
 working-directory/
@@ -2782,7 +2782,7 @@ be placed alongside the previously generated SVG images as shown in
 <<ea-export-images-dir-png>>
 
 [[ea-export-images-dir-png]]
-.Example of EA-exported XMI with EMF and PNG images
+.Example of EA-exported XMI with mixed SVG and PNG images
 ====
 ----
 working-directory/
