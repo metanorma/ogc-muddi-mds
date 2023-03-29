@@ -1,0 +1,5 @@
+= MUDDI CM document
+
+WARNING: This document has been moved to the OGC GitLab MUDDI SWG: 
+https://gitlab.ogc.org/ogc/muddi-swg/-/tree/master/conceptual_model
+
