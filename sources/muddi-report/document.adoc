@@ -1,0 +1,139 @@
+= MDS validation report for OGC MUDDI Conceptual Model
+:doctype: engineering-report
+:encoding: utf-8
+:language: en
+:status: draft
+:committee: technical
+:docnumber: 23-998
+:received-date: 2023-03-01
+:issued-date: 2023-03-01
+:published-date: 2023-03-01
+:external-id: http://www.opengis.net/doc/XXX/YYYYY
+:keywords: ogcdoc, OGC document, MDA, model-driven
+:mn-document-class: ogc
+:imagesdir: images
+:mn-output-extensions: xml,html,pdf,doc,rxl
+:local-cache-only:
+
+
+[abstract]
+== Abstract
+
+This OGC Engineering Report provides a validation report on the OGC MUDDI
+Conceptual Model, dated 2023-03-31, according to the OGC Best Practices
+for Model-Driven Standards.
+
+
+== Preface
+
+Attention is drawn to the possibility that some of the elements of this document
+may be the subject of patent rights. The Open Geospatial Consortium shall not be
+held responsible for identifying any or all such patent rights.
+
+Recipients of this document are requested to submit, with their comments,
+notification of any relevant patent claims or other intellectual property rights
+of which they may be aware that might be infringed by any implementation of the
+standard set forth in this document, and to provide supporting documentation.
+
+== Submitters
+
+All questions regarding this document should be directed to the editor or the
+contributors:
+
+[options="header"]
+|===
+| Name | Organization | Role
+
+| Ronald Tse | Ribose Limited | Editor
+| Koon Wa Kwan | Ribose Limited | Editor
+
+|===
+
+
+
+== Scope
+
+Ribose Limited is commissioned to perform a validation on the OGC MUDDI
+Conceptual Model, dated 2023-03-31, authored in the <<SSEA>> version 16.1 format.
+
+This report provides a status table on the ModSpec requirements described
+in the OGC Best Practices for Model-Driven Standards document.
+
+This document also forms the D2 deliverable contracted between Ribose Limited
+and OGC.
+
+
+
+[bibliography]
+== Normative references
+
+* [[[OGC_08-131,OGC 08-131r3]]], OGC ModSpec
+
+* [[[OGC_21-035r1,OGC 21-035r1]]]
+
+== Terms and definitions
+
+
+== Validation report
+
+The OGC MUDDI Conceptual Model is tested against Annex A of the
+OGC Best Practices for Model-Driven Standards document.
+
+Manual inspection has been carried out and the results are stated below.
+
+[cols="a,a,a",options="header"]
+|===
+| ModSpec URI | Description | Pass/Fail
+
+| Conformance class: identifier:[/conf/core] | | Pass
+| identifier:[/conf/core/document] | | Pass
+| identifier:[/conf/core/uml] | | Pass
+| identifier:[/conf/core/metadata] | | Pass
+| Conformance class: identifier:[/conf/document] | | Pass
+| identifier:[/conf/document/metadata] | | Pass
+| identifier:[/conf/document/uml-integration] | | Pass
+| identifier:[/conf/document/uml-render-configuration] | | Pass
+| identifier:[/conf/document/uml-cross-references] | | Pass
+| identifier:[/conf/document/modspec] | | Pass
+| Conformance class: identifier:[/conf/uml] | | Pass
+| identifier:[/conf/uml/package-name] | | Pass
+| identifier:[/conf/uml/package-description] | | Pass
+| identifier:[/conf/uml/package-completeness] | | Pass
+| identifier:[/conf/uml/diagram-name] | | Pass
+| identifier:[/conf/uml/diagram-description] | | Pass
+| identifier:[/conf/uml/diagram-type] | | Pass
+| identifier:[/conf/uml/class-name] | | Pass
+| identifier:[/conf/uml/class-description] | | Pass
+| identifier:[/conf/uml/class-stereotype] | | Pass
+| identifier:[/conf/uml/class-abstract] | | Pass
+| identifier:[/conf/uml/class-constraints] | | Pass
+| identifier:[/conf/uml/property-name] | | Pass
+| identifier:[/conf/uml/property-description] | | Pass
+| identifier:[/conf/uml/property-stereotype] | | Pass
+| identifier:[/conf/uml/property-multiplicity] | | Pass
+| identifier:[/conf/uml/property-type] | | Pass
+| identifier:[/conf/uml/property-constraints] | | Pass
+| identifier:[/conf/uml/datatype-name] | | Pass
+| identifier:[/conf/uml/datatype-description] | | Pass
+| identifier:[/conf/uml/enumeration-name] | | Pass
+| identifier:[/conf/uml/enumeration-description] | | Pass
+| identifier:[/conf/uml/enumeration-value-name] | | Pass
+| identifier:[/conf/uml/enumeration-value-description] | | Pass
+| identifier:[/conf/uml/enumeration-value-type] | | Pass
+| identifier:[/conf/uml/relationship-specification] | | Pass
+| identifier:[/conf/uml/relationship-multiplicity] | | Pass
+
+|===
+
+
+== Summary
+
+This report confirms that the OGC MUDDI Conceptual Model, as tested, conforms to
+all requirements stated in the OGC Best Practices for Model-Driven Standards
+document and is suitable for the OGC model-driven standards process.
+
+
+[bibliography]
+== Bibliography
+
+* [[[SSEA,Sparx Systems Enterprise Architect]]], Sparx Systems, _Enterprise Architect_. https://sparxsystems.com/products/ea/
