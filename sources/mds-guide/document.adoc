@@ -20,16 +20,23 @@
 [abstract]
 == Abstract
 
-This OGC best practice provides guidelines on how to create a model in
-Enterprise Architect suitable for the OGC model-driven standards process,
-described in <<OGC_21-035r1>>.
+This OGC Best Practice provides guidelines on how to create a specification of a
+conceptual model through use of a Unified Modeling Language (UML) editor and an
+AsciiDoc compiler. The Best Practice document references Sparx Systems
+Enterprise Architect and the Metanorma AsciiDoc toolchain in examples that
+implement the OGC model-driven standards process, described in <<OGC_21-035r1>>.
 
 
 == Preface
 
-This OGC best practice provides guidelines on how to create a model in
-Enterprise Architect suitable for the OGC model-driven standards process.
+Attention is drawn to the possibility that some of the elements of this document
+may be the subject of patent rights. The Open Geospatial Consortium shall not be
+held responsible for identifying any or all such patent rights.
 
+Recipients of this document are requested to submit, with their comments,
+notification of any relevant patent claims or other intellectual property rights
+of which they may be aware that might be infringed by any implementation of the
+standard set forth in this document, and to provide supporting documentation.
 
 == Submitters
 
@@ -40,22 +47,34 @@ contributors:
 |===
 | Name | Organization | Role
 
-| Ronald Tse | Ribose | Editor
-| Foo | Bar | Editor
-| Foo | Bar | Editor
+| Ronald Tse | Ribose Limited | Editor
+| Carsten Roensdorf | Ordnance Survey | Editor
+| Allan Jamieson | Ordnance Survey | Editor
+| Gobe Hobona | Open Geospatial Consortium (OGC) | Editor
+| Nick Nicholas | Ribose Limited | Editor
+| Jeffrey Lau | Ribose Limited | Editor
 
 |===
 
 
 == Conformance
 
-This OGC best practice ...
+Conformance with this OGC Best Practice document shall be checked using all the
+checklist specified in <<ats>> of this document.
 
 
 [bibliography]
 == Normative references
 
+* [[[OGC_08-131,OGC 08-131r3]]], OGC ModSpec
+
 * [[[OGC_21-035r1,OGC 21-035r1]]]
+
+* [[[OMG_UML,OMG UML 2.5]]], OMG UML 2.5, _Unified Modeling Language. Object Management Group (2015). https://www.omg.org/spec/UML/2.5/About-UML/
+
+* [[[OMG_XMI,OMG XMI 2.5.1]]], OMG XMI 2.5, _XML Metadata Interchange_. Object Management Group (2015). https://www.omg.org/spec/XMI/2.5.1/About-XMI/
+
+* [[[OMG_OCL,OMG OCL 2.4]]], Object Constraint Language (OCL)
 
 
 == Terms and definitions
@@ -102,7 +121,8 @@ software used for authoring a {{conceptual model}}
 === platform-independent model
 alt:[PIM]
 
-{{conceptual model}} that does not contain platform-specific concerns
+data model that does not contain platform-specific concerns
+
 
 [.source]
 <<OGC_21-035r1>>
@@ -114,6 +134,13 @@ data model that contains platform-specific concerns
 
 [.source]
 <<OGC_21-035r1>>
+
+
+=== logical model
+
+implementation of one or more {{conceptual model,conceptual models}}
+intended for a logical domain
+
 
 === model transformation
 
@@ -155,11 +182,6 @@ that collectively specialize and tailor UML for a specific domain or process
 <<ISO-IEC_19501>>
 
 
-=== logical model
-
-implementation of one or more conceptual models
-
-TODO.
 
 
 == Introduction
@@ -169,9 +191,11 @@ of conceptual models in UML, which could be platform-independent models (PIMs)
 or platform-specific models (PSMs).
 
 In the past, UML modeling activity and the OGC authoring process used
-disparate tools, causing OGC authors and editors much pain in the
+disparate tools, causing OGC authors and editors much difficulty in the
 synchronization of changes originating from either activity, as illustrated
 in <<mn-flow-old>>.
+
+<<OGC_21-041r2>> also discusses a number of challenges involved in UML modeling.
 
 [[mn-flow-old]]
 .Manual process for iterating a model-driven standard
@@ -255,9 +279,51 @@ the models provided in <<mn-models>>.
 image::mn-models.svg[]
 
 
+[requirements_class]
+.Identification of source components of the model-driven standard
+====
+[%metadata]
+identifier:: /req/core
+subject:: Model-driven standard
+description:: The source components of the model-driven standard has to be
+identified and understood.
+requirement:: /req/core/document
+====
+
+[requirement]
+.Readiness of OGC document information used by the model-driven standard
+====
+[%metadata]
+identifier:: /req/core/document
+description:: The OGC document information used in the model-driven standard is
+completed and made available to the model-driven standard in the Metanorma
+AsciiDoc format.
+====
+
+[requirement]
+.Readiness of UML model information used by the model-driven standard
+====
+[%metadata]
+identifier:: /req/core/uml
+description:: The UML model used in the model-driven standard is completed and
+made available to the model-driven standard in the OMG XMI format.
+====
+
+
+[requirement]
+.Readiness of OGC document metadata information used by the model-driven standard
+====
+[%metadata]
+identifier:: /req/core/metadata
+description:: The OGC document metadata used in the model-driven standard is
+completed and made available to the model-driven standard in the Metanorma
+AsciiDoc format.
+====
+
+
 === Principles
 
-<<OGC_21-035r1>> describes generating an MDS involves the following steps:
+<<OGC_21-035r1>> states that generation of an MDS involves the following steps:
 
 * Export: Making the information model available for processing
 
@@ -389,14 +455,14 @@ generating auto-numbering.
 Best practices described in this document are meant for OGC working group
 participants fluent in the development of:
 
-* UML conceptual models
+* Conceptual models described using UML Class Diagrams
 * OGC authoring practices
 
-This document does not delve into details in those areas -- readers may wish to
-attempt further introductory for the full understanding of the practices
-described.
+This document does not delve into details of those areas — readers may wish to
+consult other literature for the full understanding of the practices described.
 
-=== UML conceptual models
+
+=== Conceptual models described using UML Class Diagrams
 
 ==== General
 
@@ -422,7 +488,7 @@ The usage of UML in MDS lies with two aspects:
 
 ==== Modeling elements
 
-NOTE: A detailed description on UML modelling capabilities can be found
+A detailed description of UML modelling capabilities can be found
 in <<OGC_21-035r1,clause=5.1>>.
 
 UML provides 3 basic modeling elements:
@@ -474,10 +540,11 @@ It provides the following stereotypes for Classes:
 
 ==== GML
 
-In the geospatial domain, stereotypes from the GML profile (<<OGC_20-010>>) are
-often applied to geospatial UML elements.
+In the geospatial domain, stereotypes from
+the Geography Markup Language (GML) standard (<<OGC_07-036r1>>)
+are often applied to geospatial UML elements.
 
-The GML profile provides the following Stereotypes that apply to Classes:
+The GML standard provides the following Stereotypes that apply to Classes:
 
 «CodeList»:: A list of enumerated codes. Practically an enumeration.
 «DataType»:: A basic type of information.
@@ -485,7 +552,7 @@ The GML profile provides the following Stereotypes that apply to Classes:
 «Type»:: A type of information.
 «Union»:: A union of two classes.
 
-The GML profile provides the following Stereotypes that apply to Properties:
+The GML standard provides the following Stereotypes that apply to Properties:
 
 «property»:: A basic property.
 
@@ -573,14 +640,14 @@ image::iso-19109-uml-profile.png[]
 
 ==== ISO 19118:2011 Geographic information -- Encoding
 
-<<ISO_19118>> specifies the requirements for defining encoding rules for use for
-the interchange of data that conform to the geographic information in the set of
-International Standards known as the "ISO 19100 series". It specifies
-requirements for creating encoding rules based on UML schemas, requirements for
-creating encoding services, and requirements for XML-based encoding rules for
-neutral interchange of data. It specifies a profile of UML that includes eight
-stereotypes, two of which are not previously defined similarly by either
-<<ISO_19103>> or <<ISO_19109>>.
+<<ISO_19118>> specifies the requirements for defining encoding rules for use in
+the interchange of data that conform to the geographic information
+in the set of International Standards known as the "ISO 19100 series". It
+specifies requirements for creating encoding rules based on UML schemas,
+requirements for creating encoding services, and requirements for XML-based
+encoding rules for neutral interchange of data. It specifies a profile of UML
+that includes eight stereotypes, two of which are not previously defined
+similarly by either <<ISO_19103>> or <<ISO_19109>>.
 
 The profile provides the following stereotypes for Classes:
 
@@ -627,9 +694,9 @@ differs from that of <<ISO_19118>>.
 --
 
 
-=== Sparx Systems Enterprise Architect (EA)
+=== Sparx Systems Enterprise Architect
 
-<<SSEA>> is widely used in OGC and ISO/TC 211 for the authoring and management
+<<SSEA>> (EA) is widely used in OGC and ISO/TC 211 for the authoring and management
 of UML models.
 
 EA Version 16 is a Windows application, it can be run in 32-bit or 64-bit mode
@@ -860,12 +927,12 @@ pane showing the UML diagram (see <<fig-ea-figure-open>>).
 .UML diagram in EA
 image::ea-figure-open.png[]
 
-NOTE: The UML diagram can be zoomed in via the "View" action in the ribbon tab.
+NOTE: The UML diagram can be zoomed into via the "View" action in the ribbon tab.
 
 When a diagram is selected in the Browser, the Properties and Notes panes
 will be changed to reflect information about the selected diagram.
 
-The MDS process uses the following information from an EA UML Diagram:
+The MDS process uses the following information from an EA UML Class Diagram:
 
 * Graphics of the diagram: is exported in the vector format and included
 in the OGC deliverable.
@@ -881,12 +948,9 @@ the diagram is selected. See <<fig-ea-figure-property>>.
 Model authors commonly create multiple diagrams but only wish to selectively
 include diagrams in the MDS process.
 
-To indicate to the MDS process that a diagram is to be included, the title
-must be prefixed with `fig: ` ("fig:" with a space).
-
-Diagrams that are not prefixed with `fig: ` will not be included in the MDS
-process.
-
+By default, all diagrams are included as figures. In order to skip a diagram,
+the prefix "Spare: " or "old: " can be given to the diagram name to exclude
+the diagram from the MDS generation process.
 
 [[fig-ea-figure-property]]
 .EA Diagram Properties pane
@@ -1029,10 +1093,50 @@ An OGC Metanorma document is composed of two parts:
 ===== General
 
 The metadata portion is composed of the document header and attributes.
-An example of the metadata portion is shown below.
+
+In Metanorma AsciiDoc, the metadata portion is made up of two types of
+information, the preamble and document attributes.
+
+The preamble is the section from the first line in the document until the first
+document attribute.
+
+The document title is the first line of the document prefixed with one `=`
+(equal) sign.
+
+.Document title syntax (from OGC MUDDI Conceptual Model)
+[source,adoc]
+----
+= OGC MUDDI Conceptual Model
+----
+
+While typical AsciiDoc supports author information, revision date and a version
+number in the preamble, their usage is discouraged in Metanorma because of
+the limited semantics supported. Metanorma AsciiDoc instead uses document
+attributes to encode such information.
+
+A document attribute represents a piece of metadata in the document
+that is not immediately rendered. They can be thought of variable assignments or
+arguments in the document that are needed for a particular document type.
+
+A document attribute is a variable composed of alphanumeric characters, the `_`
+(underscore) or `-` (hyphen) symbols, wrapped between the `:` (colon) symbol.
+
+The following syntax demonstrates assigning the mandatory attributes called the
+`:doctype:` and `:docsubtype:`, which defines the type and subtype of the OGC
+deliverable. For a full list of supported (mandatory and optional) attributes,
+please refer to the <<MN_OGC>> reference.
+
+.Document attribute syntax (from OGC MUDDI Conceptual Model)
+[source,adoc]
+----
+:doctype: standard
+:docsubtype: conceptual-model
+----
+
+An example of a complete metadata portion is shown below.
 
 [example]
-.Example of Metanorma AsciiDoc metadata
+.Sample Metanorma AsciiDoc metadata (from OGC MUDDI Conceptual Model)
 ====
 [source,adoc]
 ----
@@ -1066,6 +1170,7 @@ site generation functionality.
 The `:imagesdir:` attribute indicates that all images are located under
 that path, when using the `image::{path}[]` directive.
 
+.Metanorma instruction attributes (from OGC MUDDI Conceptual Model)
 [source,adoc]
 ----
 :mn-document-class: ogc
@@ -1082,6 +1187,7 @@ specification of sub-types.
 Please refer to <<MN>> for a full list of these values. If there is no sub-type
 for the document type, do not specify a sub-type.
 
+.Document type attributes (from OGC MUDDI Conceptual Model)
 [source,adoc]
 ----
 :doctype: standard
@@ -1098,6 +1204,7 @@ Please refer to <<MN>> for the list of statuses available for the particular
 document type. Invalid statuses will result in warnings during document
 generation.
 
+.Document status attributes (from OGC MUDDI Conceptual Model)
 [source,adoc]
 ----
 :status: draft
@@ -1107,10 +1214,10 @@ generation.
 
 OGC documents are uniquely identified via two aspects:
 
-* OGC document number. This is a unique number is obtained from the OGC portal through
-a reservation process, in a pattern of "nn-mmm".
+* OGC document number. This unique number is obtained from the OGC portal
+through a reservation process, in a pattern of `nn-mmm`.
 +
-NOTE: "nn" refers to the year when the document number is reserved, and "mmm" is
+NOTE: `nn` refers to the year when the document number is reserved, and `mmm` is
 a sequential number reflecting the number of documents in that year prior to
 reservation.
 
@@ -1118,6 +1225,7 @@ reservation.
 Metanorma. This identifier typically has the pattern like `xxx/yyy`, and is
 required to be unique across OGC.
 
+.Document identification attributes (from OGC MUDDI Conceptual Model)
 [source,adoc]
 ----
 :docnumber: 22-999
@@ -1129,6 +1237,7 @@ required to be unique across OGC.
 An OGC document is typically developed under the scope of the OGC Technical
 Committee.
 
+.Document provenance attributes (from OGC MUDDI Conceptual Model)
 [source,adoc]
 ----
 :committee: technical
@@ -1139,6 +1248,7 @@ Committee.
 The OGC standards development process specifies several approval related
 dates. These dates need to be encoded as they pass through those stages.
 
+.Document date attributes (from OGC MUDDI Conceptual Model)
 [source,adoc]
 ----
 :received-date: 2023-01-01
@@ -1151,6 +1261,7 @@ dates. These dates need to be encoded as they pass through those stages.
 OGC requires all documents to have keywords specified for the purpose of
 enabling user discovery.
 
+.OGC keyword (from OGC MUDDI Conceptual Model)
 [source,adoc]
 ----
 :keywords: ogcdoc, OGC document, MDA, model-driven
@@ -1163,9 +1274,9 @@ enabling user discovery.
 
 An OGC document has certain fixed and mandatory sections.
 
-For a conceptual model document, it includes:
+For a conceptual model document, it includes the following clauses:
 
-* Preface sections
+* Prefatory sections
 * Clause 1: Scope
 * Clause 2: Conformance
 * Clause 3: Normative references
@@ -1174,10 +1285,24 @@ For a conceptual model document, it includes:
 * Annexes (optional)
 * Bibliography
 
-===== Preface sections
 
-The preface sections are encoded as follows.
+===== Prefatory sections
 
+An OGC deliverable mandates the following prefatory sections:
+
+Abstract:: a short summary describing the information provided in the OGC
+deliverable
+
+Preface:: introductory material that provides the reader with sufficient
+background on the OGC deliverable
+
+Submitters:: lists out OGC member organizations and their representatives that
+support the adoption of the OGC deliverable, listed with their respective
+roles in the development of the OGC deliverable.
+
+The prefatory sections are encoded as shown in <<prefatory-sections>>.
+
+[[prefatory-sections]]
 .Preface sections in Metanorma AsciiDoc
 [source,adoc]
 ----
@@ -1221,7 +1346,10 @@ This OGC Standard provides...
 
 ===== Conformance
 
-The conformance section describes the requirements stated by the document.
+The conformance section describes the conformance classes provided by the OGC
+deliverable. This section is used to list out the titles of all conformance
+classes provided by the deliverable, and provides cross-references to the
+individual conformance classes as defined in the content body.
 
 .Conformance in Metanorma AsciiDoc
 [source,adoc]
@@ -1234,7 +1362,8 @@ This OGC Standard provides the following requirements...
 ===== Normative references
 
 The normative references section describes information resources necessary for
-the implementation of the document.
+the implementation of the document. The bibliographic items are encoded in the
+Metanorma AsciiDoc bibliography format (see <<MN_OGC>> for reference syntax).
 
 .Normative references in Metanorma AsciiDoc
 [source,adoc]
@@ -1282,9 +1411,9 @@ model that implements a {{conceptual model}} at a logical level <6>
 The content body is used to describe the conceptual model and is composed of one
 or more clauses.
 
-In an OGC MDS document, it is necessary to utilize one or more section to describe
-the information model. Typically, the Metanorma LutaML plugin is used to
-render the conceptual model in XMI format. Information on how to use this
+In an OGC MDS document, it is necessary to utilize one or more sections to
+describe the information model. Typically, the Metanorma LutaML plugin is used
+to render the conceptual model in XMI format. Information on how to use this
 automated process is described in <<lutaml-basic>>.
 
 .Content body in Metanorma AsciiDoc
@@ -1377,10 +1506,10 @@ the Metanorma format.
 === Background
 
 Metanorma provides a special syntax for the encoding and embedding of
-requirements compliant to OGC ModSpec, for the exporting of machine-readable
+requirements compliant to the OGC ModSpec, for the exporting of machine-readable
 requirements as well as ModSpec-compliant rendering.
 
-Specifically, the following models in ModSpec are supported in Metanorma:
+Specifically, the following models in the ModSpec are supported in Metanorma:
 
 * Conformance class
 * Conformance test
@@ -1425,9 +1554,9 @@ This clause describes ModSpec models in simplified terms (see
 
 ==== Requirements class
 
-A "`Requirement class`" consists of multiple "`Requirements`".
+A "`Requirements class`" consists of multiple "`Requirements`".
 
-All "`Requirements`" within a "`Requirement class`" are about the same
+All "`Requirements`" within a "`Requirements class`" are about the same
 standardization target type.
 
 ==== Requirement
@@ -1455,22 +1584,28 @@ A "`Conformance test`" has a many-to-many relation with "`Requirements`".
 
 A "`Conformance test`" is about a single standardization target.
 
-A "`Conformance test`" can be "`concrete`" or "`abstract`" depending on the
-type of conformance test suite (see <<OGC_08-131,clause=6.4>>). A concrete
-conformance test is typically called as a "`conformance test`", while an
-abstract conformance test is called an "`abstract test`".
-
 ==== Conformance test suite
 
 A "`Test suite`" is "`a collection of identifiable conformance classes`"
 (see <<OGC_08-131,clause=6.4>>)
 
-A "`Conformance test suite`" contains only "`Conformance classes`" of the
-"`concrete`" kind. Such conformance class can only contain "`concrete`"
-conformance tests.
+A "`Conformance test suite`" contains only "`Conformance classes`".
 
 An "`Abstract test suite`" contains only "`Conformance classes`" of the
 "`abstract`" kind. Such conformance class can only contain Abstract tests.
+
+NOTE: ModSpec (<<OGC_08-131,clause=4.7>>) defines a conformance test as a "test,
+abstract or real, of one or more requirements contained within a standard, or
+set of standards".
+
+NOTE: The OGC Compliance Program has used the term "Executable test suite" for a
+realized "Abstract test suite" in an implementation. <<ISO_19105>>
+also uses the term "Executable test suite".
+
+NOTE: A standard document typically does not contain an Executable test suite.
+Typically, executable tests are not specified in standard documents but are
+implemented in compliance testing tools instead. This interpretation is also
+supported by <<ISO_19105>>.
 
 
 === ModSpec instantiation
@@ -1618,8 +1753,8 @@ step::: Step 3
 
 
 When using ModSpec within other documents that, by default, uses another
-requirements model scheme (such as non-OGC flavors), it is necessary specify the
-instance with the `model` attribute.
+requirements model scheme (such as non-OGC flavors), it is necessary to specify
+the instance with the `model` attribute.
 
 [example]
 .Encoding a ModSpec instance within a document that uses another requirements model scheme
@@ -1675,7 +1810,7 @@ NOTE: The `target` is only supported in definition list syntax. [added in Metano
 identifier of the requirement that is being tested.
 
 *** When in a conformance class, specify the corresponding identifier of the
-requirement class that is being tested.
+Requirements class that is being tested.
 
 // * `model` (optional when using Metanorma OGC). Type of model. The value of `ogc`
 // means using OGC ModSpec models.
@@ -1692,7 +1827,7 @@ Metanorma ModSpec supports the following normative statement types:
 * Recommendation (`recommendation`)
 * Permission (`permission`)
 
-The type of normative statement can be specified with using the above
+The type of normative statement can be specified by using the above
 values as block types, or by setting the `type` attribute of a block.
 
 It supports the following attributes in addition to base ModSpec attributes:
@@ -1709,7 +1844,7 @@ Conditions on where this requirement applies. Accepts rich text.
 
 `part`:: (optional) A requirement can contain multiple parts of
 sub-requirements. Accepts rich text. Labelled with a capital alphabetic letter.
-
++
 NOTE: A part is distinct from a step (as appears in <<conftest>>): a part is a
 component of a requirement, which is itself a requirement. A step is a stage in
 a process of testing a requirement: it only makes sense within a test method.
@@ -1724,8 +1859,8 @@ Accepts identifiers of other requirements: multiple values are semicolon-delimit
 Can be repeated in definition list syntax.
 
 `indirect-dependency`:: (optional) A requirement can inherit indirectly
-from one or more requirement classes, which have a different standardization target from that of the
-requirement. That requirement class is used, produced, or associated with the current requirement,
+from one or more Requirements classes, which have a different standardization target from that of the
+requirement. That Requirements class is used, produced, or associated with the current requirement,
 but its requirements are not inherited by this requirement.
 Only supported in definition list syntax. [added in Metanorma OGC version v2.2.1]
 
@@ -1748,7 +1883,8 @@ A requirement, permission, or recommendation of those categories,
 contained within a requirement. The value of the element is its identifier.
 Only supported in definition list syntax. [added in mn-requirements version v0.1.6]
 
-NOTE: `conditions`, `part` supported since [added in Metanorma OGC version v1.4.2].
+NOTE: The `conditions`, `part` parameters were not supported in older versions
+of Metanorma OGC [added in Metanorma OGC version v1.4.2].
 
 NOTE: In the default rendering of ModSpec, the `statement` attribute,
 descriptions are labelled as _Statement_ for requirements, recommendations,
@@ -1867,7 +2003,7 @@ Dependent requirements classes. See <<generalreqt,Requirement, recommendation, p
 Indirect dependent requirements classes. See <<generalreqt,Requirement, recommendation, permission>>.
 
 `guidance`:: (optional)
-Guidance on requirement class. See <<generalreqt,Requirement, recommendation, permission>>.
+Guidance on Requirements class. See <<generalreqt,Requirement, recommendation, permission>>.
 
 Embedded requirements (optional)::
 Requirements contained in a class are marked up as nested requirements.
@@ -1930,7 +2066,7 @@ renders as:
 ____
 [cols="1,3"]
 |===
-2+a|Requirement Class 1 +
+2+a|Requirements class 1 +
 GWML2 core logical model
 
 2+a|http://www.opengis.net/spec/waterml/2.0/req/xsd-xml-rules[*req/core*]
@@ -1979,7 +2115,7 @@ renders as:
 ____
 [cols="1,3"]
 |===
-2+| *Requirement Class 3: GWML2 core logical model* +
+2+| *Requirements class 3: GWML2 core logical model* +
 /req/conceptual
 
 | Requirement 1   | /req/core/encoding
@@ -2068,11 +2204,14 @@ ____
 ==== Conformance test and Abstract test
 
 A "`Conformance test`" can be "`concrete`" or "`abstract`" depending on the type
-of conformance test suite (see <<OGC_08-131>>, 6.4).
+of conformance test suite (see <<OGC_08-131,clause=6.4>>).
+
+NOTE: A implementation of a test in executable form is called an "executable
+test". A standard typically does not include executable tests.
 
 The OGC author should identify whether a standard requires an "`Abstract test
 suite`" or a "`Conformance test suite`" in order to decide the encoding of
-"`Conformance tests`" (concrete tests) versus "`Abstract tests`".
+"`Conformance tests`" versus "`Abstract tests`".
 
 * A conformance test is specified by creating a `conformance_test` block or
 using `type` as `conformance_test`.
@@ -2232,7 +2371,7 @@ by default.
 ====
 In OGC, it is preferred to show the identifier of a ModSpec instance in a
 cross-reference, like `http://www.example.com/req/crs/crs-uri` instead of
-_Requirement Class 6_.
+_Requirements class 6_.
 ====
 
 
@@ -2298,7 +2437,7 @@ _Requirement 10_
 ====
 
 Metanorma treats them as fully equivalent, and will render them in the same way,
-as a numbered label (_Requirement Class 6_).
+as a numbered label (_Requirements class 6_).
 
 NOTE: As a limitation of syntax, URIs cannot be processed correctly within
 `\<< >>`. The `xref:...[]` command needs to be used instead.
@@ -2463,7 +2602,7 @@ h| Description         | Some description.
 2+| Requirement 1
 
 h| Identifier  | `/req/class1/req1`
-h| Included in | Requirement class 1: `/req/class1`
+h| Included in | Requirements class 1: `/req/class1`
 h| Statement   | A requirement.
 |===
 ____
@@ -2550,14 +2689,14 @@ Renders as:
 
 ____
 |===
-2+| Requirement class 1
+2+| Requirements class 1
 
 h| Identifier  | `/class1`
 h| Normative statement | Requirement 1: `/class1/req1`
 |===
 
 |===
-2+| Requirement class 2
+2+| Requirements class 2
 
 h| Identifier  | `/req/class2`
 h| Normative statement | Requirement 2: `/req/class2/req2`
@@ -2670,8 +2809,9 @@ legacy Metanorma components:
 === Render UML models with LutaML
 
 OGC uses the Metanorma toolchain for publishing standards. The steps involved in
-transforming UML models into an MDS can be simplified as the conversion from
-UML models into Metanorma syntax.
+transforming UML models into an MDS can be as simple as the conversion from UML
+models into Metanorma syntax.
+
 This clause describes in detail how this conversion step is performed.
 
 OGC (through Testbed-17) has developed an automated workflow that provides a
@@ -2766,7 +2906,7 @@ image::ea-exported-image-svg.svg[]
 image::ea-exported-image-png.png[]
 ====
 
-In this case, the follow additional steps will also export PNG images in the
+In this case, the following additional steps will also export PNG images in the
 same directory:
 
 * Filename change the file extension to use `.xmi` in the "..." dialog box
@@ -3023,7 +3163,7 @@ for MDS experts to tailor the MDS experience.
 
 An example of the `data_dictionary` style is shown in
 <<render-style-data-dictionary-toc>>,
-<<render-style-data-dictionary-content-1>>,
+<<render-style-data-dictionary-content-1>> and
 <<render-style-data-dictionary-content-2>>.
 
 [[render-style-data-dictionary-toc]]
@@ -3204,7 +3344,7 @@ Text applies after all packages have been inspected.
 
 ==== Include block
 
-The include block allows dynamic insertion of an external file according
+The `[.include_block]` block allows dynamic insertion of an external file according
 to the UML package name being inspected.
 
 The syntax is:
@@ -3296,7 +3436,7 @@ to the automatically generated content.
 ----
 [.package_text, index="1", position="before", package="Common Spatio-temporal Classes"]
 ....
-include::clause_7_1_common.adoc[]
+&#x200c;include::clause_7_1_common.adoc[]
 ....
 ----
 
@@ -3304,20 +3444,20 @@ include::clause_7_1_common.adoc[]
 ----
 [.package_text, index="2", position="before", package="Temporal and Zonal Geometry"]
 ....
-include::clause_7_2_temporal.adoc[]
+&#x200c;include::clause_7_2_temporal.adoc[]
 ....
 
 [.package_text, index="1", position="after", package="Temporal and Zonal Geometry"]
 ....
 === Defining tables
 
-include::../tables/TAB_cc-st-g-t-i.adoc[]
+&#x200c;include::../tables/TAB_cc-st-g-t-i.adoc[]
 
-include::../tables/TAB_cc-st-g-t.adoc[]
+&#x200c;include::../tables/TAB_cc-st-g-t.adoc[]
 
 The following requirement applies:
 
-include::../requirements/REQ_cc-temporal-geometry.adoc[]
+&#x200c;include::../requirements/REQ_cc-temporal-geometry.adoc[]
 ....
 ----
 ====
@@ -3430,10 +3570,248 @@ of the diagram as the image caption.
 // iterative process with UML packages at depth 2 of the XMI.
 
 
+=== Cross-referencing UML document elements
 
-== UML model elements used in the MDS process
+==== General
 
-TODO: This clause is under development.
+Metanorma provides several commands to enable cross-referencing of MDS-generated
+document elements.
+
+These particular commands work out of the box when the `default` style of UML
+rendering is applied.
+
+When using the `entity-list` and `data-dictionary` UML rendering styles,
+these commands only work under manual circumstances.
+
+
+==== UML diagrams
+
+The `[lutaml_figure]` command provides a reference anchor to a figure defined in
+the XMI file, using its XMI ID for reference.
+
+The syntax is as follows:
+
+[source,adoc]
+----
+lutaml_figure::[package="{package-name}",name="{diagram-name}"]
+----
+
+Where:
+
+`package-name`:: (optional) name of the package where the UML diagram resides in.
+`diagram-name`:: name of the UML diagram.
+
+If the diagram name is not globally unique across the OMG XMI export, the
+package name has to be provided for a unique reference.
+
+.Usage of `lutaml_figure` (from OGC MUDDI Conceptual Model)
+====
+[source,adoc]
+----
+The MUDDI core conceptual models are illustrated in
+lutaml_figure::[name="MUDDI Conceptual Model",package="Conceptual Model"].
+----
+====
+
+When using the `entity-list` and `data-dictionary` UML rendering styles, which
+do not include any UML diagrams, the figures have to be manually encoded as
+normal Metanorma figures.
+
+
+==== UML definition tables
+
+The `[lutaml_table]` command provides a reference anchor to the definition
+tables of a particular package, class, enumeration or data type object in the
+XMI.
+
+The definition tables are automatically generated by the
+`[lutaml_uml_datamodel_description]` command in the `default` and `data
+dictionary` rendering styles.
+
+NOTE: The `entity-list` rendering style does not produce any definition tables,
+and therefore does not support the `[lutaml_table]` command.
+
+The syntax is as follows:
+
+[source,adoc]
+----
+lutaml_table::[package="{package-name}"] <1>
+lutaml_table::[package="{package-name}",class="{class-name}"] <2>
+lutaml_table::[package="Wrapper root package",enum="{enum-name}"] <3>
+lutaml_table::[package="Wrapper root package",data_type="{datatype-name}"] <4>
+----
+<1> Referencing the definition table for a package.
+<2> Referencing the definition table for a class of a package.
+<3> Referencing the definition table for an enumeration of a package.
+<4> Referencing the definition table for a data type of a package.
+
+Where:
+
+`package-name`:: name of the referenced package.
+`class-name`:: name of the class.
+`enum-name`:: name of the enumeration.
+`datatype-name`:: name of the data type.
+
+.Usage of `lutaml_table`
+====
+[source,adoc]
+----
+This is lutaml_table::[package="Wrapper root package"] package
+This is lutaml_table::[package="Wrapper root package", class="my name"] class
+This is lutaml_table::[package="Wrapper root package", enum="my name"] enumeration
+This is lutaml_table::[package="Wrapper root package", data_type="my name"] data type
+----
+====
+
+
+
+
+
+== Requirements on document
+
+=== General
+
+The MDS process places certain quality requirements on the document encoding.
+
+
+[requirements_class]
+.Document requirements for the model-driven standard
+====
+[%metadata]
+identifier:: /req/document
+subject:: MDS document
+description:: The Metanorma document used for the model-driven standard meets
+the MDS requirements.
+requirement:: /req/document/metadata
+requirement:: /req/document/uml-integration
+requirement:: /req/document/uml-render-configuration
+requirement:: /req/document/uml-cross-references
+requirement:: /req/document/modspec
+====
+
+
+=== Specification of metadata
+
+The MDS document shall be encoded with correct metadata suitable for the
+OGC model standard.
+
+[requirement]
+.Model-based document: metadata values
+====
+[%metadata]
+identifier:: /req/document/metadata
+description:: The document shall provide suitable metadata for an OGC
+deliverable that describes an information model.
+====
+
+
+=== UML integration
+
+The MDS document shall integrate with the UML model via an OMG XMI interface.
+
+[requirement]
+.Model-based document: UML integration
+====
+[%metadata]
+identifier:: /req/document/uml-integration
+description:: The document shall integrate with the UML model via an OMG XMI
+file.
+====
+
+
+=== UML render configuration
+
+The MDS document shall specify the render conditions and configuration of the
+UML model.
+
+[requirement]
+.Model-based document: UML render configuration
+====
+[%metadata]
+identifier:: /req/document/uml-render-configuration
+description:: The document shall specify the render conditions and configuration
+of the UML model.
+====
+
+
+=== UML cross-references
+
+The MDS document shall utilize methods provided in this document to create
+cross-references for document elements generated by the automated UML rendering
+process.
+
+[requirement]
+.Model-based document: UML cross-references
+====
+[%metadata]
+identifier:: /req/document/uml-cross-references
+description:: The document shall utilize methods provided in this document to
+create cross-references for document elements generated by the automated UML
+rendering process.
+====
+
+
+=== ModSpec instances
+
+The MDS document shall encode its requirements in a manner compliant
+with the ModSpec (<<OGC_08-131>>).
+
+[requirement]
+.Model-based document: ModSpec instances
+====
+[%metadata]
+identifier:: /req/document/modspec
+description:: The document shall encode its requirements in a manner compliant
+with the ModSpec.
+====
+
+
+
+== Requirements on UML model
+
+=== General
+
+The MDS process places certain quality requirements on the involved UML model
+authored in <<SSEA>>. This clause describes those requirements.
+
+
+[requirements_class]
+.Completion of UML model annotations for the model-driven standard
+====
+[%metadata]
+identifier:: /req/uml
+subject:: UML model
+description:: The UML model input for the model-driven standard has been fully
+annotated to the MDS requirements.
+requirement:: /req/uml/package-name
+requirement:: /req/uml/package-description
+requirement:: /req/uml/package-completeness
+requirement:: /req/uml/diagram-name
+requirement:: /req/uml/diagram-description
+requirement:: /req/uml/diagram-type
+requirement:: /req/uml/class-name
+requirement:: /req/uml/class-description
+requirement:: /req/uml/class-stereotype
+requirement:: /req/uml/class-abstract
+requirement:: /req/uml/class-constraints
+requirement:: /req/uml/property-name
+requirement:: /req/uml/property-description
+requirement:: /req/uml/property-stereotype
+requirement:: /req/uml/property-multiplicity
+requirement:: /req/uml/property-type
+requirement:: /req/uml/property-constraints
+requirement:: /req/uml/datatype-name
+requirement:: /req/uml/datatype-description
+requirement:: /req/uml/enumeration-name
+requirement:: /req/uml/enumeration-description
+requirement:: /req/uml/enumeration-value-name
+requirement:: /req/uml/enumeration-value-description
+requirement:: /req/uml/enumeration-value-type
+requirement:: /req/uml/relationship-specification
+requirement:: /req/uml/relationship-multiplicity
+====
+
+
 
 === Package
 
@@ -3441,11 +3819,90 @@ TODO: This clause is under development.
 
 The package should have a unique name.
 
+[requirement]
+.Package: assignment of unique names
+====
+[%metadata]
+identifier:: /req/uml/package-name
+description:: Every UML package that serves as input to the MDS process is assigned a unique package name as in the EA "Name" property.
+====
+
+
 ==== Description
 
 The package description should be filled in.
 
 image::ea-package-note.png[]
+
+
+[requirement]
+.Package: assignment of description
+====
+[%metadata]
+identifier:: /req/uml/package-description
+description:: Every UML package that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
+
+
+==== Uniqueness
+
+A UML package used in the MDS process should be free of external dependencies,
+unless remidies are specifically stated in the configuration file.
+
+[requirement]
+.Package: free of external dependencies
+====
+[%metadata]
+identifier:: /req/uml/package-completeness
+description:: Every UML package that serves as input to the MDS process is fully
+contained in the exported OMG XMI file, and does not depend on any external
+package not available to the MDS process, unless those external dependencies are
+configured in the MDS configuration file.
+====
+
+=== Diagram
+
+==== Name
+
+A diagram used in the MDS process has a unique name to enable cross-referencing.
+
+[requirement]
+.Diagram: assignment of globally unique name
+====
+[%metadata]
+identifier:: /req/uml/diagram-name
+description:: Every UML diagram that serves as input to the MDS process is
+assigned a unique name in the EA "Name" property, global to the scope of the MDS
+model.
+====
+
+==== Description
+
+[requirement]
+.Diagram: assignment of description
+====
+[%metadata]
+identifier:: /req/uml/diagram-description
+description:: Every UML diagram that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
+
+==== Type
+
+<<SSEA>> supports multiple diagram types. In the MDS process, all diagrams
+are of the "Class" type.
+
+[requirement]
+.Diagram: type of Class
+====
+[%metadata]
+identifier:: /req/uml/diagram-type
+description:: Every UML diagram that serves as input to the MDS process is
+encoded according to the "Class" diagram type in EA.
+====
+
+
 
 === Class
 
@@ -3453,25 +3910,81 @@ image::ea-package-note.png[]
 
 The class should have a unique name within the package it belongs to.
 
+[requirement]
+.Class: assignment of unique name
+====
+[%metadata]
+identifier:: /req/uml/class-name
+description:: Every UML class that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
 ==== Description
 
-The class description should be filled in in the Notes pane.
+The class description should be filled in the Notes pane.
 
 image::ea-class-note.png[]
 
-==== Relationships
+[requirement]
+.Class: assignment of description
+====
+[%metadata]
+identifier:: /req/uml/class-description
+description:: Every UML class that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
 
-A class can be set with multiple relationships.
+==== Stereotype
 
-These relationships are described in the MDS process.
+The class stereotype, if any, shall be encoded in the UML class.
 
-Generalization:: the target class will be described as a "superclass", and the
-source class will be listed as a "subclass" of the target class.
+[requirement]
+.Class: assignment of stereotype
+====
+[%metadata]
+identifier:: /req/uml/class-stereotype
+description:: Every UML class that serves as input to the MDS process, that
+belongs to a particular stereotype, shall have its stereotype encoded in the EA
+model.
+====
 
-Dependency:: the source class will be listed as a "dependency" of the target.
 
-Realization:: EA creates Realization relationships from every UML class to the
-class itself, and these are not rendered in the MDA process.
+
+==== Abstract
+
+If a class is an abstract class, the abstract status in the UML model
+should reflect that status.
+
+[requirement]
+.Class: abstract status
+====
+[%metadata]
+identifier:: /req/uml/class-abstract
+description:: Every UML class that serves as input to the MDS process if is
+intended to be abstract shall encode its abstract status in the EA model.
+====
+
+
+==== Constraints
+
+UML class constraints should be encoded in the <<OMG_OCL>> language accompanied
+with an adequate description. This is achieved in <<SSEA>> through the
+"Properties" popup, in the "Responsiblities > Constraints" context item.
+
+The version of OCL syntax used shall be documented in the resulting conceptual
+model and in the OGC deliverable.
+
+[requirement]
+.Class: encoding of class constraints
+====
+[%metadata]
+identifier:: /req/uml/class-constraints
+description:: Every UML class that serves as input to the MDS process that
+contain constraints shall have those constraints encoded in the OCL language
+with a corresponding description in plain text.
+====
+
 
 
 === Property
@@ -3480,11 +3993,67 @@ class itself, and these are not rendered in the MDA process.
 
 The property should have a unique name within the class it belongs to.
 
+[requirement]
+.Property: assignment of unique name
+====
+[%metadata]
+identifier:: /req/uml/property-name
+description:: Every UML property that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
+
 ==== Description
 
 The property description is entered in the Notes pane.
 
-==== Unspecified value type
+
+[requirement]
+.Property: assignment of description
+====
+[%metadata]
+identifier:: /req/uml/property-description
+description:: Every UML property that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
+
+==== Stereotype
+
+The property stereotype, if any, shall be encoded in the UML property.
+
+[requirement]
+.Property: assignment of stereotype
+====
+[%metadata]
+identifier:: /req/uml/property-stereotype
+description:: Every UML property that serves as input to the MDS process, that
+belongs to a particular stereotype, shall have its stereotype encoded in the EA
+model.
+====
+
+
+==== Multiplicity
+
+The multiplicity requirements of the property shall be encoded.
+
+[requirement]
+.Property: assignment of multiplicity
+====
+[%metadata]
+identifier:: /req/uml/property-multiplicity
+description:: Every UML property that serves as input to the MDS process that
+has multiplicity requirements shall have its multiplicity requirements encoded
+in the Multiplicity attribute group, including the lower bound, upper bound,
+whether duplicates are allowed and whether the multiplicity is ordered.
+====
+
+
+
+
+==== Value types
+
+The value type for a property shall be specified in the UML property.
 
 If there is no value type specified for an property, create an
 "AbstractValueType" data type with the GML Stereotype "Type", and assign it to
@@ -3495,15 +4064,69 @@ the property (see <<fig-abstract-value-type>>).
 image::abstract-value-type.png[]
 
 
+[requirement]
+.Property: assignment of value type
+====
+[%metadata]
+identifier:: /req/uml/property-type
+description:: Every UML property that serves as input to the MDS process shall
+be assigned a value type. If the value type of the property is meant to be
+abstract (to be implemented by a realization of the property), the
+UML Class "AbstractValueType" shall be used as its value type.
+====
+
+
+==== Constraints
+
+// Deduplicate with Class constraints
+
+UML property constraints should be encoded in the <<OMG_OCL>> language accompanied
+with an adequate description. This is achieved in <<SSEA>> through the
+"Properties" popup, in the "Responsiblities > Constraints" context item.
+
+The version of OCL syntax used shall be documented in the resulting conceptual
+model and in the OGC deliverable.
+
+[requirement]
+.Property: encoding of property constraints
+====
+[%metadata]
+identifier:: /req/uml/property-constraints
+description:: Every UML property that serves as input to the MDS process that
+contain constraints shall have those constraints encoded in the OCL language
+with a corresponding description in plain text.
+====
+
+
 === Data type
 
 ==== Name
 
 The data type should have a unique name within the package it belongs to.
 
+[requirement]
+.Data type: assignment of unique name
+====
+[%metadata]
+identifier:: /req/uml/datatype-name
+description:: Every UML data type that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
 ==== Description
 
 The data type description is entered in the Notes pane.
+
+
+[requirement]
+.Data type: assignment of description
+====
+[%metadata]
+identifier:: /req/uml/datatype-description
+description:: Every UML data type that serves as input to the MDS process has
+its description encoded in the EA "Notes" pane in plain text.
+====
 
 
 === Enumeration
@@ -3512,42 +4135,650 @@ The data type description is entered in the Notes pane.
 
 The enumeration should have a unique name within the package it belongs to.
 
+[requirement]
+.Enumeration: assignment of unique name
+====
+[%metadata]
+identifier:: /req/uml/enumeration-name
+description:: Every UML enumeration that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
 ==== Description
 
-The enumeration description is entered in the Notes pane.
+The Enumeration description is entered in the Notes pane.
+
+
+[requirement]
+.Enumeration: assignment of description
+====
+[%metadata]
+identifier:: /req/uml/enumeration-description
+description:: Every UML enumeration that serves as input to the MDS process has
+its description encoded in the EA "Notes" pane in plain text.
+====
+
 
 === Enumeration values
 
 ==== Name
 
-The enumeration value should have a unique name within the enumeration it belongs to.
+The enumeration value should have a unique name within the package it belongs to.
+
+[requirement]
+.Enumeration value: assignment of unique name
+====
+[%metadata]
+identifier:: /req/uml/enumeration-value-name
+description:: Every UML enumeration value that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
 
 ==== Description
 
 The enumeration value description is entered in the Notes pane.
 
+[requirement]
+.Enumeration value: assignment of description
+====
+[%metadata]
+identifier:: /req/uml/enumeration-value-description
+description:: Every UML enumeration value that serves as input to the MDS process has
+its description encoded in the EA "Notes" pane in plain text.
+====
 
-=== Figure
 
-Figures are automatically included in the package description.
+==== Type
 
+The enumeration value type, if any, shall be encoded in UML.
+
+[requirement]
+.Enumeration value: assignment of type
+====
+[%metadata]
+identifier:: /req/uml/enumeration-value-type
+description:: Every UML enumeration value that serves as input to the MDS
+process, that has a particular value type, shall have its value type encoded in
+the EA model.
+====
+
+
+=== Relationships
+
+==== General
+
+UML elements can be set with multiple relationships.
+In <<SSEA>> they are created either as Connectors or Associations.
+
+The following UML Class relationships are often described in a model-driven
+standard:
+
+Generalization:: the target class will be described as a "superclass", and the
+source class will be listed as a "subclass" of the target class.
+
+Dependency:: the source class will be listed as a "dependency" of the target.
+
+Realization:: EA creates Realization relationships from every UML class to the
+class itself, and these are not rendered in the MDA process.
+
+
+==== Specification
+
+[requirement]
+.Relationship: complete specification
+====
+[%metadata]
+identifier:: /req/uml/relationship-specification
+description:: Every UML relationship that serves as input to the MDS process
+shall be fully specified in the EA model with directionality, type and name.
+====
+
+
+==== Multiplicity
+
+[requirement]
+.Relationship: complete specification
+====
+[%metadata]
+identifier:: /req/uml/relationship-multiplicity
+description:: Every UML relationship that serves as input to the MDS process
+shall have be fully specified in the EA model: generalizations, dependencies,
+realizations, with their names.
+====
+
+
+
+[appendix,obligation=normative]
+[[ats]]
+== Abstract test suite
+
+=== Core
+
+[conformance_class]
+.Identification of source components of the model-driven standard
+====
+[%metadata]
+identifier:: /conf/core
+target:: /req/core
+subject:: Model-driven standard
+description:: Validate that the source components of the model-driven standard
+are identified and understood.
+conformance-test:: /conf/core/document
+conformance-test:: /conf/core/uml
+conformance-test:: /conf/core/metadata
+====
+
+[abstract_test]
+.Readiness of OGC document information used by the model-driven standard
+====
+[%metadata]
+identifier:: /conf/core/document
+target:: /req/core/document
+test-method:: Manual inspection
+description:: Validate that the OGC document information used in the model-driven standard is
+completed and made available to the model-driven standard in the Metanorma
+AsciiDoc format.
+====
+
+[abstract_test]
+.Readiness of UML model information used by the model-driven standard
+====
+[%metadata]
+identifier:: /conf/core/uml
+target:: /req/core/uml
+test-method:: Manual inspection
+description:: Validate that the UML model used in the model-driven standard is completed and
+made available to the model-driven standard in the OMG XMI format.
+====
+
+
+[abstract_test]
+.Readiness of OGC document metadata information used by the model-driven standard
+====
+[%metadata]
+identifier:: /conf/core/metadata
+target:: /req/core/metadata
+test-method:: Manual inspection
+description:: Validate that the OGC document metadata used in the model-driven standard is
+completed and made available to the model-driven standard in the Metanorma
+AsciiDoc format.
+====
+
+
+=== Document
+
+[conformance_class]
+.Document requirements for the model-driven standard
+====
+[%metadata]
+identifier:: /conf/document
+target:: /req/document
+subject:: MDS document
+description:: Validate that the Metanorma document used for the model-driven
+standard meets the MDS requirements.
+conformance-test:: /conf/document/metadata
+conformance-test:: /conf/document/uml-integration
+conformance-test:: /conf/document/uml-render-configuration
+conformance-test:: /conf/document/uml-cross-references
+conformance-test:: /conf/document/modspec
+====
+
+
+=== Specification of metadata
+
+The MDS document shall be encoded with correct metadata suitable for the
+OGC model standard.
+
+[requirement]
+.Model-based document: metadata values
+====
+[%metadata]
+identifier:: /conf/document/metadata
+target:: /req/document/metadata
+test-method:: Manual inspection
+description:: Check that the document shall provide suitable metadata for an OGC
+deliverable that describes an information model.
+====
+
+
+[requirement]
+.Model-based document: UML integration
+====
+[%metadata]
+identifier:: /conf/document/uml-integration
+target:: /req/document/uml-integration
+test-method:: Manual inspection
+description:: Check that the document shall integrate with the UML model via an OMG XMI
+file.
+====
+
+
+[requirement]
+.Model-based document: UML render configuration
+====
+[%metadata]
+identifier:: /conf/document/uml-render-configuration
+target:: /req/document/uml-render-configuration
+test-method:: Manual inspection
+description:: Check that the document shall specify the render conditions and configuration
+of the UML model.
+====
+
+
+[requirement]
+.Model-based document: UML cross-references
+====
+[%metadata]
+identifier:: /conf/document/uml-cross-references
+target:: /req/document/uml-cross-references
+test-method:: Manual inspection
+description:: Check that the document shall utilize methods provided in this document to
+create cross-references for document elements generated by the automated UML
+rendering process.
+====
+
+[requirement]
+.Model-based document: ModSpec instances
+====
+[%metadata]
+identifier:: /conf/document/modspec
+target:: /req/document/modspec
+test-method:: Manual inspection
+description:: Check that the document shall encode its requirements in a manner compliant
+with the ModSpec.
+====
+
+
+
+=== UML
+
+[conformance_class]
+.Completion of UML model annotations for the model-driven standard
+====
+[%metadata]
+identifier:: /conf/uml
+target:: /req/uml
+description:: The UML model input for the model-driven standard is validated
+to fully provide annotations that suit MDS requirements.
+conformance-test:: /conf/uml/package-name
+conformance-test:: /conf/uml/package-description
+conformance-test:: /conf/uml/package-completeness
+conformance-test:: /conf/uml/diagram-name
+conformance-test:: /conf/uml/diagram-description
+conformance-test:: /conf/uml/diagram-type
+conformance-test:: /conf/uml/class-name
+conformance-test:: /conf/uml/class-description
+conformance-test:: /conf/uml/class-stereotype
+conformance-test:: /conf/uml/class-abstract
+conformance-test:: /conf/uml/class-constraints
+conformance-test:: /conf/uml/property-name
+conformance-test:: /conf/uml/property-description
+conformance-test:: /conf/uml/property-stereotype
+conformance-test:: /conf/uml/property-multiplicity
+conformance-test:: /conf/uml/property-type
+conformance-test:: /conf/uml/property-constraints
+conformance-test:: /conf/uml/datatype-name
+conformance-test:: /conf/uml/datatype-description
+conformance-test:: /conf/uml/enumeration-name
+conformance-test:: /conf/uml/enumeration-description
+conformance-test:: /conf/uml/enumeration-value-name
+conformance-test:: /conf/uml/enumeration-value-description
+conformance-test:: /conf/uml/enumeration-value-type
+conformance-test:: /conf/uml/relationship-specification
+conformance-test:: /conf/uml/relationship-multiplicity
+====
+
+
+[abstract_test]
+.Test Package: assignment of unique names
+====
+[%metadata]
+identifier:: /conf/uml/package-name
+target:: /req/uml/package-name
+test-method:: Manual inspection
+description:: Check that every UML package that serves as input to the MDS process is assigned a unique package name as in the EA "Name" property.
+====
+
+[abstract_test]
+.Test Package: assignment of description
+====
+[%metadata]
+identifier:: /conf/uml/package-description
+target:: /req/uml/package-description
+test-method:: Manual inspection
+description:: Check that every UML package that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
+
+
+[abstract_test]
+.Test Package: free of external dependencies
+====
+[%metadata]
+identifier:: /conf/uml/package-completeness
+target:: /req/uml/package-completeness
+test-method:: Manual inspection
+description:: Check that every UML package that serves as input to the MDS process is fully
+contained in the exported OMG XMI file, and does not depend on any external
+package not available to the MDS process, unless those external dependencies are
+configured in the MDS configuration file.
+====
+
+
+[abstract_test]
+.Test Diagram: assignment of globally unique name
+====
+[%metadata]
+identifier:: /conf/uml/diagram-name
+target:: /req/uml/diagram-name
+test-method:: Manual inspection
+description:: Check that every UML diagram that serves as input to the MDS process is
+assigned a unique name in the EA "Name" property, global to the scope of the MDS
+model.
+====
+
+
+[abstract_test]
+.Test Diagram: assignment of description
+====
+[%metadata]
+identifier:: /conf/uml/diagram-description
+target:: /req/uml/diagram-description
+test-method:: Manual inspection
+description:: Check that every UML diagram that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
+
+
+[abstract_test]
+.Test Diagram: type of Class
+====
+[%metadata]
+identifier:: /conf/uml/diagram-type
+target:: /req/uml/diagram-type
+test-method:: Manual inspection
+description:: Check that every UML diagram that serves as input to the MDS process is
+encoded according to the "Class" diagram type in EA.
+====
+
+
+[abstract_test]
+.Test Class: assignment of unique name
+====
+[%metadata]
+identifier:: /conf/uml/class-name
+target:: /req/uml/class-name
+test-method:: Manual inspection
+description:: Check that every UML class that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
+[abstract_test]
+.Test Class: assignment of description
+====
+[%metadata]
+identifier:: /conf/uml/class-description
+target:: /req/uml/class-description
+test-method:: Manual inspection
+description:: Check that every UML class that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
+
+
+[abstract_test]
+.Test Class: assignment of stereotype
+====
+[%metadata]
+identifier:: /conf/uml/class-stereotype
+target:: /req/uml/class-stereotype
+test-method:: Manual inspection
+description:: Check that every UML class that serves as input to the MDS process, that
+belongs to a particular stereotype, shall have its stereotype encoded in the EA
+model.
+====
+
+
+[abstract_test]
+.Test Class: abstract status
+====
+[%metadata]
+identifier:: /conf/uml/class-abstract
+target:: /req/uml/class-abstract
+test-method:: Manual inspection
+description:: Check that every UML class that serves as input to the MDS process if is
+intended to be abstract shall encode its abstract status in the EA model.
+====
+
+
+
+[abstract_test]
+.Test Class: encoding of class constraints
+====
+[%metadata]
+identifier:: /conf/uml/class-constraints
+target:: /req/uml/class-constraints
+test-method:: Manual inspection
+description:: Check that every UML class that serves as input to the MDS process that
+contain constraints shall have those constraints encoded in the OCL language
+with a corresponding description in plain text.
+====
+
+
+
+[abstract_test]
+.Test Property: assignment of unique name
+====
+[%metadata]
+identifier:: /conf/uml/property-name
+target:: /req/uml/property-name
+test-method:: Manual inspection
+description:: Check that every UML property that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
+[abstract_test]
+.Test Property: assignment of description
+====
+[%metadata]
+identifier:: /conf/uml/property-description
+target:: /req/uml/property-description
+test-method:: Manual inspection
+description:: Check that every UML property that serves as input to the MDS process has its
+description encoded in the EA "Notes" pane in plain text.
+====
+
+
+[abstract_test]
+.Test Property: assignment of stereotype
+====
+[%metadata]
+identifier:: /conf/uml/property-stereotype
+target:: /req/uml/property-stereotype
+test-method:: Manual inspection
+description:: Check that every UML property that serves as input to the MDS process, that
+belongs to a particular stereotype, shall have its stereotype encoded in the EA
+model.
+====
+
+
+[abstract_test]
+.Test Property: assignment of multiplicity
+====
+[%metadata]
+identifier:: /conf/uml/property-multiplicity
+target:: /req/uml/property-multiplicity
+test-method:: Manual inspection
+description:: Check that every UML property that serves as input to the MDS process that
+has multiplicity requirements shall have its multiplicity requirements encoded
+in the Multiplicity attribute group, including the lower bound, upper bound,
+whether duplicates are allowed and whether the multiplicity is ordered.
+====
+
+
+
+[abstract_test]
+.Test Property: assignment of value type
+====
+[%metadata]
+identifier:: /conf/uml/property-type
+target:: /req/uml/property-type
+test-method:: Manual inspection
+description:: Check that every UML property that serves as input to the MDS process shall
+be assigned a value type. If the value type of the property is meant to be
+abstract (to be implemented by a realization of the property), the
+UML Class "AbstractValueType" shall be used as its value type.
+====
+
+
+[abstract_test]
+.Test Property: encoding of property constraints
+====
+[%metadata]
+identifier:: /conf/uml/property-constraints
+target:: /req/uml/property-constraints
+test-method:: Manual inspection
+description:: Check that every UML property that serves as input to the MDS process that
+contain constraints shall have those constraints encoded in the OCL language
+with a corresponding description in plain text.
+====
+
+
+[abstract_test]
+.Test Data type: assignment of unique name
+====
+[%metadata]
+identifier:: /conf/uml/datatype-name
+target:: /req/uml/datatype-name
+test-method:: Manual inspection
+description:: Check that every UML data type that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+[abstract_test]
+.Test Data type: assignment of description
+====
+[%metadata]
+identifier:: /conf/uml/datatype-description
+target:: /req/uml/datatype-description
+test-method:: Manual inspection
+description:: Check that every UML data type that serves as input to the MDS process has
+its description encoded in the EA "Notes" pane in plain text.
+====
+
+
+[abstract_test]
+.Test Enumeration: assignment of unique name
+====
+[%metadata]
+identifier:: /conf/uml/enumeration-name
+target:: /req/uml/enumeration-name
+test-method:: Manual inspection
+description:: Check that every UML enumeration that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
+
+[abstract_test]
+.Test Enumeration: assignment of description
+====
+[%metadata]
+identifier:: /conf/uml/enumeration-description
+target:: /req/uml/enumeration-description
+test-method:: Manual inspection
+description:: Check that every UML enumeration that serves as input to the MDS process has
+its description encoded in the EA "Notes" pane in plain text.
+====
+
+
+[abstract_test]
+.Test Enumeration value: assignment of unique name
+====
+[%metadata]
+identifier:: /conf/uml/enumeration-value-name
+target:: /req/uml/enumeration-value-name
+test-method:: Manual inspection
+description:: Check that every UML enumeration value that serves as input to the MDS process has its
+name encoded in the EA "Name" attribute in plain text.
+====
+
+
+[abstract_test]
+.Test Enumeration value: assignment of description
+====
+[%metadata]
+identifier:: /conf/uml/enumeration-value-description
+target:: /req/uml/enumeration-value-description
+test-method:: Manual inspection
+description:: Check that every UML enumeration value that serves as input to the MDS process has
+its description encoded in the EA "Notes" pane in plain text.
+====
+
+
+
+[abstract_test]
+.Test Enumeration value: assignment of type
+====
+[%metadata]
+identifier:: /conf/uml/enumeration-value-type
+target:: /req/uml/enumeration-value-type
+test-method:: Manual inspection
+description:: Check that every UML enumeration value that serves as input to the MDS
+process, that has a particular value type, shall have its value type encoded in
+the EA model.
+====
+
+
+[abstract_test]
+.Test Relationship: complete specification
+====
+[%metadata]
+identifier:: /conf/uml/relationship-specification
+target:: /req/uml/relationship-specification
+test-method:: Manual inspection
+description:: Check that every UML relationship that serves as input to the MDS process
+shall be fully specified in the EA model with directionality, type and name.
+====
+
+
+[abstract_test]
+.Test Relationship: complete specification
+====
+[%metadata]
+identifier:: /conf/uml/relationship-multiplicity
+target:: /req/uml/relationship-multiplicity
+test-method:: Manual inspection
+description:: Check that every UML relationship that serves as input to the MDS process
+shall have be fully specified in the EA model: generalizations, dependencies,
+realizations, with their names.
+====
 
 
 
 [appendix]
 == Checklists to complete
 
-TODO: This clause is under development.
-
-TODO: Simple checklist for model/document authors to ensure completeness of annotations on model.
+This is a simple checklist for authors and editors of model-driven standards to
+ensure that the source model is suitable for the model-driven standards
+generation process.
 
 [cols="a,a"]
 |===
 | Description | Done?
 
-| Have you filled in the Notes section for all classes? | ...
+| For the UML model, please verify that the conformance class in <<ats>> is satisfied. | ...
 
-| Have you filled in the Notes section for all classes? | ...
+| Follow the OMG XMI export instructions to generate a compliant XMI for the MDS process. | ...
+
+| Decide on the UML rendering style. Does this MDS document need to deal with backwards compatibility? If not, please utilize the `default` option. | ...
+
+| If the MDS document contain requirements, those requirements have to conform to the ModSpec. | ...
+
+| Does the MDS document use OCL? If so, ensure that the MDS document include a specification of the OCL version. | ...
 
 |===
 
@@ -3555,16 +4786,18 @@ TODO: Simple checklist for model/document authors to ensure completeness of anno
 [appendix]
 == Example OGC MDS document
 
-TODO: This clause is under development.
+An example document, derived from the OGC MUDDI Conceptual Model,
+will be provided at the following location:
 
-TODO: Include MUDDI document.
+* http://github.com/opengeospatial/
 
 
 
 [bibliography]
 == Bibliography
 
-* [[[OGC_08-131,OGC 08-131r3]]], OGC ModSpec
+* [[[OGC_07-036r1,OGC 07-036r1]]]
+* [[[OGC_21-041r2,OGC 21-041r2]]]
 
 * [[[OGC_17-090r1,OGC 17-090r1]]]
 
@@ -3573,10 +4806,6 @@ TODO: Include MUDDI document.
 * [[[OGC_17-069r3,OGC 17-069r3]]]
 
 * [[[ISO_19101-1,ISO 19101-1]]]
-
-* [[[OMG_UML,OMG UML 2.5]]], OMG UML 2.5, _Unified Modeling Language. Object Management Group (2015). https://www.omg.org/spec/UML/2.5/About-UML/
-
-* [[[OMG_XMI,OMG XMI 2.5]]], OMG XMI 2.5, _XML Metadata Interchange_. Object Management Group (2015). https://www.omg.org/spec/XMI/2.5.1/About-XMI/
 
 * [[[OGC_20-010,OGC 20-010]]], Thomas H. Kolbe, Tatjana Kutzner, Carl Stephen Smyth, Claus Nagel, Carsten Roensdorf, Charles Heazel: OGC 20-101, _OGC CityGML Part 1_. Open Geospatial Consortium (2021). https://docs.ogc.org/is/20-010/20-010.html
 
@@ -3609,4 +4838,5 @@ TODO: Include MUDDI document.
 
 * [[[ISO_10303-11,ISO 10303-11]]]
 
-* [[[ISO_19105,ISO 19105]]]
+* [[[ISO_19105,ISO 19105:2020]]]
+
