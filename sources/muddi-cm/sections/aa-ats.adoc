@@ -1,5 +1,6 @@
 
 [appendix,obligation="normative"]
+[[ats]]
 == Abstract test suite
 
 === General
