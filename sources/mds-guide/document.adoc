@@ -998,7 +998,7 @@ image::ea-package-properties.png[]
 On selection of a UML Class in the Browser pane, the Properties and Notes panes
 will reflect the selected item.
 
-The MDS process heavily incorporates information of the UML Class, including:
+The MDS process incorporates information of the UML Class, including:
 
 * Notes of the UML class: as the definition (description) of the UML Class (as
 in the Notes pane) (see <<fig-ea-class-note>>).
@@ -1082,7 +1082,7 @@ image::ea-class-constraints.png[]
 On selection of a UML Attribute (under a UML Class), the Properties
 and Notes panes will reflect the selected item.
 
-The MDS process heavily incorporates information of the UML Attribute, including:
+The MDS process incorporates information of the UML Attribute, including:
 
 * Notes of the UML Attribute: as the definition (description) of the UML Attribute (as
 in the Notes pane) (see <<fig-ea-attribute-note>>).
@@ -1135,6 +1135,128 @@ individually saved and listed in the lowest pane.
 [[fig-ea-attribute-constraints]]
 .EA UML attribute constraints
 image::ea-attribute-constraints.png[]
+
+
+=== Data type
+
+A data type is a UML model that define data values and has no operations.
+
+The operations that can be done on a UML Data Type are nearly identical to that
+of the UML Class.
+
+The MDS process incorporates information of the UML Data Type, including:
+
+* Notes of the UML Data Type: as the definition (description) of the UML Data Type (as
+in the Notes pane) (see <<fig-ea-datatype-note>>).
+
+* Name of the UML Data Type: name of the UML Data Type, used as a clause heading in the
+OGC deliverable (see <<fig-ea-datatype-property>>).
+
+* Stereotype of the UML Data Type: stereotype of the UML class, wrapped with `«` and
+`»` characters in the OGC deliverable.
+
+* Data Type properties:
+
+** "Abstract" status: whether it is an Abstract Data Type
+
+** "Visibility": `Public`, `Private`, `Protected` or `Package` visibility
+
+
+[[fig-ea-datatype-note]]
+.EA UML data type Notes pane
+image::ea-datatype-note.png[]
+
+[[fig-ea-datatype-property]]
+.EA UML data type Properties pane
+image::ea-datatype-property.png[]
+
+The method to set the following properties of UML Data Type are identical to
+that of UML Classes:
+
+* stereotypes;
+* multiplicity;
+* constraints.
+
+
+=== Enumeration
+
+An enumeration is a UML model used to define data values.
+
+The operations that can be done on an UML Enumeration are nearly identical to that
+of the UML Data Type.
+
+The MDS process incorporates information of the UML Enumeration, including:
+
+* Notes of the UML Enumeration: as the definition (description) of the UML Enumeration (as
+in the Notes pane) (see <<fig-ea-enumeration-note>>).
+
+* Name of the UML Enumeration: name of the UML Enumeration, used as a clause heading in the
+OGC deliverable (see <<fig-ea-enumeration-property>>).
+
+* Stereotype of the UML Enumeration: stereotype of the UML class, wrapped with `«` and
+`»` characters in the OGC deliverable.
+
+* Enumeration properties:
+
+** "Abstract" status: whether it is an Abstract Enumeration
+
+** "Visibility": `Public`, `Private`, `Protected` or `Package` visibility
+
+[[fig-ea-enumeration-note]]
+.EA UML Enumeration Notes pane
+image::ea-enumeration-note.png[]
+
+[[fig-ea-enumeration-property]]
+.EA UML Enumeration Properties pane
+image::ea-enumeration-property.png[]
+
+The method to set the following properties of UML Enumeration are identical to
+that of UML Classes:
+
+* stereotypes;
+* multiplicity;
+* constraints.
+
+
+=== Enumeration value
+
+Enumerations can contain Enumerated Values.
+
+The operations that can be done on an UML Enumerated Value are nearly identical to that
+of the UML Attribute.
+
+The MDS process incorporates information of the UML Enumerated Value, including:
+
+* Notes of the UML Enumerated Value: as the definition (description) of the UML Enumerated Value (as
+in the Notes pane) (see <<fig-ea-enumvalue-note>>).
+
+* Name of the UML Enumerated Value: name of the UML Enumerated Value, used as a clause heading in the
+OGC deliverable (see <<fig-ea-enumvalue-property>>).
+
+* Stereotype of the UML Enumerated Value: stereotype of the UML class, wrapped with `«` and
+`»` characters in the OGC deliverable.
+
+[[fig-ea-enumvalue-note]]
+.EA UML Enumerated Value Notes pane
+image::ea-enumvalue-note.png[]
+
+[[fig-ea-enumvalue-property]]
+.EA UML Enumerated Value Properties pane
+image::ea-enumvalue-property.png[]
+
+The method to set the following properties of UML Enumerated Value are identical to
+that of UML Attributes:
+
+* stereotypes;
+* multiplicity;
+* constraints.
+
+An Enumerated Value can be assigned a data type in the "Properties" popup,
+under the menu item "Attribute", as shown in <<fig-ea-enumvalue-type>>.
+
+[[fig-ea-enumvalue-type]]
+.EA UML Enumerated Value Properties popup
+image::ea-enumvalue-type.png[]
 
 
 
