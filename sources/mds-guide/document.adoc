@@ -921,16 +921,21 @@ are figures.
 === Diagrams
 
 When opening a diagram from the Browser pane, a tab will be opened in the middle
-pane showing the UML diagram (see <<fig-ea-figure-open>>).
+pane showing the UML diagram (see <<fig-ea-diagram>>).
 
-[[fig-ea-figure-open]]
+[[fig-ea-diagram]]
 .UML diagram in EA
-image::ea-figure-open.png[]
+image::ea-diagram.png[]
 
 NOTE: The UML diagram can be zoomed into via the "View" action in the ribbon tab.
 
 When a diagram is selected in the Browser, the Properties and Notes panes
 will be changed to reflect information about the selected diagram.
+
+[[fig-ea-diagram-open]]
+.UML diagram in EA with Properties pane open
+image::ea-diagram-open.png[]
+
 
 The MDS process uses the following information from an EA UML Class Diagram:
 
@@ -943,7 +948,7 @@ in the OGC deliverable.
 used as a "NOTE to Figure" in the OGC deliverable.
 
 The title of the diagram is edited within the Properties pane when
-the diagram is selected. See <<fig-ea-figure-property>>.
+the diagram is selected. See <<fig-ea-diagram-property>>.
 
 Model authors commonly create multiple diagrams but only wish to selectively
 include diagrams in the MDS process.
@@ -952,9 +957,9 @@ By default, all diagrams are included as figures. In order to skip a diagram,
 the prefix "Spare: " or "old: " can be given to the diagram name to exclude
 the diagram from the MDS generation process.
 
-[[fig-ea-figure-property]]
+[[fig-ea-diagram-property]]
 .EA Diagram Properties pane
-image::ea-figure-property.png[]
+image::ea-diagram-property.png[]
 
 
 
@@ -990,8 +995,8 @@ image::ea-package-properties.png[]
 
 === Classes
 
-On selection of a UML Class in the Browser pane, the Properties
-and Notes panes will reflect the selected item.
+On selection of a UML Class in the Browser pane, the Properties and Notes panes
+will reflect the selected item.
 
 The MDS process heavily incorporates information of the UML Class, including:
 
@@ -1039,38 +1044,97 @@ image::ea-stereotypes-uml.png[]
 .EA UML Class Stereotypes: GML
 image::ea-stereotypes-gml.png[]
 
+Multiplicity requirements at the UML Class level are set using the "Properties"
+popup window, under the "Details" tab on the right side, as seen in
+<<fig-ea-class-multiplicity>>.
+
+[[fig-ea-class-multiplicity]]
+.EA UML Class multiplicity
+image::ea-class-multiplicity.png[]
+
+Constraints on an UML Class are set via the "Properties" popup window, under
+the "Responsibilities > Constraints" menu item.
+
+* The top left "Constraint:" box is the description of the constraint.
+
+* The box below "Constraint:" is for entering constraint conditions in the
+constraint language. While EA supports rich text inside the constraint
+conditions box, it is crucial that the constraints are entered in plain text for
+the MDS process.
+
+* The top right box "Properties" contains a "Type" item that is used for stating
+the type of the constraint language. In OGC, model constraints shall be set
+using OCL, and that "OCL" shall be selected in the "Type" item.
 
 
-=== Properties
+Multiple constraints can be set on an UML class, which they can be individually
+saved and listed in the bottom pane.
 
-On selection of a UML Property (under a UML Class), the Properties
+[[fig-ea-class-constraints]]
+.EA UML Class constraints
+image::ea-class-constraints.png[]
+
+
+
+
+=== Attributes
+
+On selection of a UML Attribute (under a UML Class), the Properties
 and Notes panes will reflect the selected item.
 
-The MDS process heavily incorporates information of the UML Property, including:
+The MDS process heavily incorporates information of the UML Attribute, including:
 
-* Notes of the UML Property: as the definition (description) of the UML Property (as
-in the Notes pane) (see <<fig-ea-property-note>>).
+* Notes of the UML Attribute: as the definition (description) of the UML Attribute (as
+in the Notes pane) (see <<fig-ea-attribute-note>>).
 
-* Name of the UML Property: name of the UML Property, used as a clause heading in the
-OGC deliverable (see <<fig-ea-property-properties>>).
+* Name of the UML Attribute: name of the UML Attribute, used as a clause heading in the
+OGC deliverable (see <<fig-ea-attribute-properties>>).
 
-* Stereotype of the UML Property: stereotype of the UML Property, wrapped with `«` and
+* Stereotype of the UML Attribute: stereotype of the UML Attribute, wrapped with `«` and
 `»` characters in the OGC deliverable.
 
-* Property details:
+* Attribute details:
 
 ** Initial value: default value if not specified.
 
 ** Multiplicity: `0`, `1`, `0..1`, `0..*`, `1..*`, `*`
 
 
-[[fig-ea-property-note]]
-.EA UML property Notes pane
-image::ea-property-note.png[]
+[[fig-ea-attribute-note]]
+.EA UML attribute Notes pane
+image::ea-attribute-note.png[]
 
-[[fig-ea-property-properties]]
-.EA UML property Properties pane
-image::ea-property-properties.png[]
+[[fig-ea-attribute-properties]]
+.EA UML attribute Properties pane
+image::ea-attribute-properties.png[]
+
+Multiplicity requirements at the UML Attribute level are set using the "Properties"
+pane at the "Multiplicity" item. The "..." at that item opens an additional
+popup where detailed multiplicity requirements can be set, as seen in
+<<fig-ea-attribute-multiplicity>>.
+
+[[fig-ea-attribute-multiplicity]]
+.EA UML Attribute multiplicity
+image::ea-attribute-multiplicity.png[]
+
+
+Constraints on an UML Attribute are set via the "Properties" popup window, under
+the "Constraints" menu item.
+
+* The top left "Constraint:" box is the description of the constraint.
+
+* The top right "Type:" box is a selection for the constraint language.
+
+* The second pane from the top is for entering constraint conditions in the
+constraint language. In OGC, model constraints shall be set using OCL, and the
+language selection box shall be set to "OCL".
+
+Multiple constraints can be set on a UML attribute, which they can be
+individually saved and listed in the lowest pane.
+
+[[fig-ea-attribute-constraints]]
+.EA UML attribute constraints
+image::ea-attribute-constraints.png[]
 
 
 
@@ -4331,7 +4395,7 @@ conformance-test:: /conf/document/modspec
 The MDS document shall be encoded with correct metadata suitable for the
 OGC model standard.
 
-[requirement]
+[abstract_test]
 .Model-based document: metadata values
 ====
 [%metadata]
@@ -4343,7 +4407,7 @@ deliverable that describes an information model.
 ====
 
 
-[requirement]
+[abstract_test]
 .Model-based document: UML integration
 ====
 [%metadata]
@@ -4355,7 +4419,7 @@ file.
 ====
 
 
-[requirement]
+[abstract_test]
 .Model-based document: UML render configuration
 ====
 [%metadata]
@@ -4367,7 +4431,7 @@ of the UML model.
 ====
 
 
-[requirement]
+[abstract_test]
 .Model-based document: UML cross-references
 ====
 [%metadata]
@@ -4379,7 +4443,7 @@ create cross-references for document elements generated by the automated UML
 rendering process.
 ====
 
-[requirement]
+[abstract_test]
 .Model-based document: ModSpec instances
 ====
 [%metadata]
