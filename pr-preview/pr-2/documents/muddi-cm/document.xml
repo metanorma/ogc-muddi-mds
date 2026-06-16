@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.9.3" schema-version="v2.1.5" flavor="ogc">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.9.6" schema-version="v2.1.6" flavor="ogc">
 <bibdata type="standard">
 <title language="en" type="main">OGC MUDDI Conceptual Model</title>
 <docidentifier type="ogc-internal" primary="true">22-999</docidentifier><docidentifier type="ogc-external">http://www.opengis.net/doc/XXX/YYYYY</docidentifier><docnumber>22-999</docnumber><date type="published"><on>2023-01-01</on></date><date type="issued"><on>2023-01-01</on></date><date type="received"><on>2023-01-01</on></date><contributor><role type="author"><description>committee</description></role><organization>
@@ -159,7 +159,7 @@
 <definition id="_052e5320-681d-d92b-d7e8-a00b02457aa9"><verbal-definition id="_6eab88a7-01db-8bae-b262-fa21bc0559fa"><p id="_45ba7635-0237-fbf4-b329-bb244cd7d7ce">model that defines concepts of a universe of discourse</p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="ISO_19101-1" type="inline" citeas="ISO 19101-1"><localityStack><locality type="clause"><referenceFrom>4.1.5</referenceFrom></locality></localityStack></origin>
+ <source status="identical" type="authoritative"><origin bibitemid="ISO_19101-1" type="inline" citeas="ISO 19101-1:2014"><localityStack><locality type="clause"><referenceFrom>4.1.5</referenceFrom></locality></localityStack></origin>
 </source></term>
 
 <term id="_35935895-ea98-db56-63c3-fedbeba9d5ec" anchor="term-conceptual-schema"><preferred><expression>
@@ -169,7 +169,7 @@
 <definition id="_b2232b2c-c65c-a64a-c74b-1fed0403752e"><verbal-definition id="_bbefed76-57e4-8cb8-83e7-6025659cb594"><p id="_4d619e9a-cce3-44fa-a1ae-1976f47092e3">formal description of a <concept><refterm>conceptual model</refterm><renderterm>conceptual model</renderterm><xref target="term-conceptual-model"/></concept></p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="ISO_19101-1" type="inline" citeas="ISO 19101-1"><localityStack><locality type="clause"><referenceFrom>4.1.6</referenceFrom></locality></localityStack></origin>
+ <source status="identical" type="authoritative"><origin bibitemid="ISO_19101-1" type="inline" citeas="ISO 19101-1:2014"><localityStack><locality type="clause"><referenceFrom>4.1.6</referenceFrom></locality></localityStack></origin>
 </source></term>
 
 <term id="_d1c1de47-d401-c2fd-16b8-1f4e5b6d1dfe" anchor="term-model-driven-standard"><preferred><expression>
@@ -493,7 +493,7 @@
 </clause>
 </clause>
 
-<clause id="_b337a3ae-14db-c104-6116-af2780ce43e5" obligation="normative">
+<clause id="_3d914164-26f4-c2c3-3469-47b2242d883f" obligation="normative">
 <title id="_02c92596-a0bd-abc1-2278-1325472f0adf">Conceptual Model package</title>
 <clause id="_326cac18-629f-768c-a7ea-e6a215f6a16a" obligation="normative">
 <title id="_68b33c59-f243-6208-275b-6e0374d47b85">Conceptual Model overview</title>
@@ -510,7 +510,7 @@
 <p id="_e63c1985-16ee-9ed2-1de3-82150f8c7c95">The components of the MUDDI Core Conceptual Model are displayed in this diagram.</p>
 </clause>
 
-<clause id="_39f62621-c554-a0ae-6ab0-70cf09578a65" obligation="normative">
+<clause id="_c8ffb4b7-a127-7b46-299a-9f9c7de90773" obligation="normative">
 <title id="_5076bdeb-4890-4f3e-ee5f-a907e9499072">Defining tables</title>
 <table id="_1e365957-1df2-7161-0670-76e160d77422" anchor="section-Class-EAID_B37596DE_D730_44e4_8F5C_5A1A6484E922" width="100%">
 <name id="_f41528cb-1db1-7b4a-10b5-83f38882a4c3">Elements of “Conceptual Model::AbstractValueType” (Type)</name>
@@ -538,7 +538,7 @@
 </tr></tbody>
 </table>
 
-<table id="_e600f227-ea57-9851-968d-98b89a42a882" anchor="section-Class-EAID_7FFFE2D1_6E96_4abb_822E_F59C24C8C6D6" width="100%">
+<table id="_9883d1e4-834e-363b-cae6-4a1f0b40d3da" anchor="section-Class-EAID_7FFFE2D1_6E96_4abb_822E_F59C24C8C6D6" width="100%">
 <name id="_d6b2cadd-ee03-df8b-68d8-9f36999983b8">Elements of “Conceptual Model::Access” (FeatureType)</name>
 <tbody><tr id="_a712c5cd-8524-c573-0758-f3bc31cd5150"><th id="_a510a8bf-a693-4948-34b8-99718fe236de" valign="middle" align="left">Name</th>
 <td id="_62b122bc-8698-ca82-14f3-167cdafee183" colspan="7" valign="middle" align="left"><p id="_25093e3e-a8c8-89db-f099-9cd27acbe678">Access</p>
@@ -549,25 +549,22 @@
 </tr><tr id="_0e934de4-adfd-63df-4522-dd351b0cc961"><th id="_3342ff81-678a-2ab1-5d1c-1cdcb175934c" valign="middle" align="left">Stereotype</th>
 <td id="_cd7ed007-3fcb-167d-1d03-71fc74da2634" colspan="7" valign="middle" align="left"><p id="_be937879-843d-810b-a088-4bb07ab9c632">FeatureType</p>
 </td>
-</tr><tr id="_8fd86464-52f6-7edd-9308-7f579b5beec5"><th id="_69353648-f058-7e8b-b17d-309e3e0ce6e0" valign="middle" align="left">Inherits from</th>
-<td id="_daa1b8b7-74c0-40ea-32ad-42124d29225b" colspan="7" valign="middle" align="left"><p id="_b2afeb68-5123-3ffa-4c55-f1ece163884e">NetworkAccessory</p>
+</tr><tr id="_101c5bff-5fe1-8162-610e-e6dec8f46ac7"><th id="_d158ecae-17f5-4bc5-79cb-11e9e9e57030" valign="middle" align="left">Abstract</th>
+<td id="_6a2d1027-40be-bfd3-be13-ec642c44a900" colspan="7" valign="middle" align="left"><p id="_8042f61a-850d-cef6-e520-ced6788fd48d">True</p>
 </td>
-</tr><tr id="_10d817c8-5d70-1e9b-1663-c0e5b81e18e1"><th id="_7562eb57-5f56-5609-64be-46731aff286a" valign="middle" align="left">Abstract</th>
-<td id="_cce24e9c-00ec-955d-213a-8b56bb952f3a" colspan="7" valign="middle" align="left"><p id="_e54ce410-cbe4-3dd7-ef29-64641b94d374">True</p>
+</tr><tr id="_808d3fa6-e4b5-6783-9efe-0b5ded523a33"><th id="_8a9aea9b-e13f-bebb-6f67-564455c370b3" valign="middle" align="left">Associations</th>
+<td id="_e212a29c-2e86-dca5-e0c0-38d25a8acb53" colspan="7" valign="middle" align="left"><p id="_29da52dc-8e23-b7be-678c-0e8a463aed48">(none)</p>
 </td>
-</tr><tr id="_68e94b8f-b57d-90ef-5329-205409aa6515"><th id="_84d2197e-053c-68ce-2106-c9c8f812c633" valign="middle" align="left">Associations</th>
+</tr><tr id="_35c584b2-9666-827e-1232-97621fe2d1f6"><th id="_9e20aa8b-8d7b-a026-0c4e-7b800d14f7e7" valign="middle" align="left">Attributes</th>
 <td id="_86460b23-12ce-fe13-9c96-42dd801708db" colspan="7" valign="middle" align="left"><p id="_47aa58dc-2538-4950-c304-1705f6c21559">(none)</p>
 </td>
-</tr><tr id="_a58c4d98-7666-96f3-ade6-5bc3646b1f19"><th id="_888b8f56-09a4-695d-d30e-1730b25fc1e5" valign="middle" align="left">Attributes</th>
+</tr><tr id="_07093594-0c9a-604a-3519-95d31dc09b5a"><th id="_d55f1a5d-cd9a-772b-00bc-78c51e4d4767" valign="middle" align="left">Constraints</th>
 <td id="_aa51bfe4-06b3-f145-e680-45d9fac8afef" colspan="7" valign="middle" align="left"><p id="_930ba605-42bc-2e18-e065-c76d71285a1d">(none)</p>
-</td>
-</tr><tr id="_86d70d2f-6ae9-b772-f849-ec985614846f"><th id="_5216a528-826c-4768-b730-fd4e9e42434c" valign="middle" align="left">Constraints</th>
-<td id="_bdc9f8b3-030c-15c6-b014-7b0b1d813efb" colspan="7" valign="middle" align="left"><p id="_b205d914-fed3-4740-319b-d52aad3752ee">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_2c7550e2-5e32-acaa-a924-2ead72d78f09" anchor="section-Class-EAID_1B2FADA8_0565_4cf8_8AE5_6E143FCBB398" width="100%">
+<table id="_ef1afb21-1174-9ed2-3a6c-7cdc52c3cc10" anchor="section-Class-EAID_1B2FADA8_0565_4cf8_8AE5_6E143FCBB398" width="100%">
 <name id="_2037555b-95e8-9fd6-7204-696cb39e003d">Elements of “Conceptual Model::Action” (FeatureType)</name>
 <tbody><tr id="_ad6a571d-4957-298f-c79c-6be0aaad0b9d"><th id="_e4eaac48-27e1-8bfc-136d-727755268615" valign="middle" align="left">Name</th>
 <td id="_82e6dce1-eba7-f528-ed87-03f36cc28e82" colspan="7" valign="middle" align="left"><p id="_376be2f7-9481-1258-15f1-3c784005c4a9">Action</p>
@@ -578,25 +575,22 @@
 </tr><tr id="_16bb0311-3c85-b452-fb06-c5703570c12b"><th id="_0b45d03c-c6d3-3719-4761-9ae451f1cb60" valign="middle" align="left">Stereotype</th>
 <td id="_0f97e500-ba64-cefe-2b10-761651995ef0" colspan="7" valign="middle" align="left"><p id="_5f7c5b39-a371-ace3-d2b6-37d4e8f23d05">FeatureType</p>
 </td>
-</tr><tr id="_08bd7d97-afc5-08ff-72da-e838228d6ac9"><th id="_ee8dcfb6-0942-dad6-fa9b-c77d184f1589" valign="middle" align="left">Inherits from</th>
-<td id="_99fa630c-a2e1-3df4-76e0-f98abe41f7d0" colspan="7" valign="middle" align="left"><p id="_ffd222f9-3505-c0c2-1f74-cc9d96babb82">MUDDIEvent</p>
+</tr><tr id="_828b4486-54db-001f-ee37-27f75c030efe"><th id="_167508ce-4b2e-5089-2c77-7270cac51b6e" valign="middle" align="left">Abstract</th>
+<td id="_d04aba66-e47d-c543-2cff-3b4ebadce8e6" colspan="7" valign="middle" align="left"><p id="_a48e824d-5f03-4f39-a257-bf878ad376a2">False</p>
 </td>
-</tr><tr id="_c11c4b7b-c0fa-fdfa-a7c4-7fde4f2c4e8b"><th id="_c2ece19b-952d-7b98-411b-edb837e2ba1b" valign="middle" align="left">Abstract</th>
-<td id="_623ce60e-a7d4-419a-4400-55f92bed0080" colspan="7" valign="middle" align="left"><p id="_d429d444-8c0a-f370-46c2-412c5cdee86c">False</p>
+</tr><tr id="_d6cf4a2c-dc40-325b-019a-4928f6d57384"><th id="_0c063579-471b-626a-630e-30c41c700c6a" valign="middle" align="left">Associations</th>
+<td id="_96b2405e-8d38-d070-301c-5f18faaec5a7" colspan="7" valign="middle" align="left"><p id="_8d0da600-4404-429f-9368-edb6dfab5a8f">(none)</p>
 </td>
-</tr><tr id="_354ce9ff-33cd-0bdb-7b8d-e0e70d15e02e"><th id="_4ca306a5-ec91-f390-643b-9a8ab7ef3123" valign="middle" align="left">Associations</th>
+</tr><tr id="_1e6ab8c4-3af8-2254-b07e-39a65bc2e891"><th id="_fd768f8f-08ed-0af8-2729-ab55fc21f682" valign="middle" align="left">Attributes</th>
 <td id="_477e476d-9126-8e33-d3c1-b9e01e103439" colspan="7" valign="middle" align="left"><p id="_a1405751-1f5e-48ce-dfe7-60a96baf2a97">(none)</p>
 </td>
-</tr><tr id="_67ca1963-8797-32d8-857e-ab8037ea6341"><th id="_c8454946-66df-f616-00a9-001558f022b4" valign="middle" align="left">Attributes</th>
+</tr><tr id="_0c8b9ca5-a6e2-09f1-3823-0388e205b132"><th id="_eff5e457-664f-9680-732f-671208c408fa" valign="middle" align="left">Constraints</th>
 <td id="_992031e0-8e63-95e0-b0bd-c485f5441f44" colspan="7" valign="middle" align="left"><p id="_3591a130-0fa8-3b7b-63c9-8d9561d2485a">(none)</p>
-</td>
-</tr><tr id="_e94e80a5-71ce-1445-dd14-57ffc1f95dff"><th id="_20b40eb1-d0c3-9f72-461b-8e396bbd1a2b" valign="middle" align="left">Constraints</th>
-<td id="_5f1a2783-3ef7-1224-35b8-ae5a5192ee11" colspan="7" valign="middle" align="left"><p id="_20e8a1a9-ed79-5614-40cc-cb19ba3bd59c">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_88c769e2-a552-511b-a212-50030e405726" anchor="section-Class-EAID_6D4862C2_CE75_4d8a_88DD_600D0AE5AC92" width="100%">
+<table id="_0366b5a1-6ce1-95dc-8d45-e3a00acd96d8" anchor="section-Class-EAID_6D4862C2_CE75_4d8a_88DD_600D0AE5AC92" width="100%">
 <name id="_8e95192c-9222-399c-176b-886d8ed4b300">Elements of “Conceptual Model::ChemicalUnit” (FeatureType)</name>
 <tbody><tr id="_f84c3aae-5fc2-2f0f-976a-e76300234bc6"><th id="_8cbfc895-d1ae-e3fb-c8fd-830ff355ad39" valign="middle" align="left">Name</th>
 <td id="_0210513e-dc0e-5a51-a495-88dcdc548967" colspan="7" valign="middle" align="left"><p id="_b688a851-84eb-9363-1a49-ed29caec831a">ChemicalUnit</p>
@@ -607,25 +601,22 @@
 </tr><tr id="_b16304cb-8ce6-3e22-c491-59ef1333615c"><th id="_432be8ad-7162-393d-4117-632faac6d520" valign="middle" align="left">Stereotype</th>
 <td id="_d1271fb9-bb7a-ce40-67f8-d87637afffe3" colspan="7" valign="middle" align="left"><p id="_f6c420be-729f-6d01-5577-4135668087a3">FeatureType</p>
 </td>
-</tr><tr id="_130e23e5-e63a-63e7-7585-ba5cc9599e9d"><th id="_55dde19a-31d1-38cb-f6bf-469687a02828" valign="middle" align="left">Inherits from</th>
-<td id="_364bc0a5-19be-bf38-6560-cc9d3cb3f089" colspan="7" valign="middle" align="left"><p id="_956a8537-b8a5-1043-446a-9ddd5c299ef0">MUDDIEnvironmentUnit</p>
+</tr><tr id="_47a306f2-4287-472f-4239-8a9a6cd0cc21"><th id="_5815cda3-ad95-9ebc-1f22-c6dbd3268e86" valign="middle" align="left">Abstract</th>
+<td id="_4dcd9716-a721-a44a-32d1-4a9713ff8469" colspan="7" valign="middle" align="left"><p id="_ccda609d-e962-762a-b2a8-7a6adefe7884">False</p>
 </td>
-</tr><tr id="_2069f0c9-be8d-741d-9ad6-cf43d5510eff"><th id="_a759424d-29a0-a2a6-bc87-cde68a605567" valign="middle" align="left">Abstract</th>
-<td id="_7d8163b5-205e-46ee-5619-769e6250e108" colspan="7" valign="middle" align="left"><p id="_d68b0ecc-de31-9401-0bd6-6f16e3e671bf">False</p>
+</tr><tr id="_37b1ab7e-aca3-42a4-632d-3fab3126ac88"><th id="_8993d24b-3613-88c0-6666-b94a34f86667" valign="middle" align="left">Associations</th>
+<td id="_89491af3-ce15-8e68-bd44-06356ac0653a" colspan="7" valign="middle" align="left"><p id="_6ea8891c-a2ca-da77-6054-71ad696832f5">(none)</p>
 </td>
-</tr><tr id="_6dea8e2f-9e09-9151-7fe8-fd104579aec2"><th id="_97a8f9ca-802a-e328-4310-eb4c533db7b1" valign="middle" align="left">Associations</th>
+</tr><tr id="_d988ea94-acd6-6837-75dd-5b376674a2aa"><th id="_0b028f09-af36-bb6b-3eb4-6062a1c91a0e" valign="middle" align="left">Attributes</th>
 <td id="_2a275524-62f1-0f42-4d95-e7506489984f" colspan="7" valign="middle" align="left"><p id="_b678a00a-a52c-ecc1-5293-d95f880efa08">(none)</p>
 </td>
-</tr><tr id="_a269ab41-754a-32f0-d330-7cbe583dc521"><th id="_c8f8df9f-0a79-50f8-52e0-3aef1588c235" valign="middle" align="left">Attributes</th>
+</tr><tr id="_99312290-d1a8-3ef4-b1ee-3dd0017d3eaa"><th id="_71b28d1b-47c0-33df-986d-17aeeff0658a" valign="middle" align="left">Constraints</th>
 <td id="_9212cabe-2b20-94d2-ef49-f307bf233463" colspan="7" valign="middle" align="left"><p id="_c254e73c-d0a1-39a6-600a-51fa9a183b11">(none)</p>
-</td>
-</tr><tr id="_906ee827-c48b-97f0-0547-598a4af3e46f"><th id="_ddbd47f3-f058-1cda-41f9-7c3781d0dbd9" valign="middle" align="left">Constraints</th>
-<td id="_eca24f9c-916d-58ee-6101-870513815621" colspan="7" valign="middle" align="left"><p id="_d2d34020-7636-d394-03a2-6dbe63fcb9da">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_6ec32aa7-761d-a72c-4bc6-79e2858059d7" anchor="section-Class-EAID_9E925B65_6CB7_482e_ACFB_1E62358977E0" width="100%">
+<table id="_ff18b3a7-ea07-1261-57c5-863bde496c4d" anchor="section-Class-EAID_9E925B65_6CB7_482e_ACFB_1E62358977E0" width="100%">
 <name id="_ba38ce33-1561-01de-b844-889368e79fe8">Elements of “Conceptual Model::Container” (FeatureType)</name>
 <tbody><tr id="_2cd8c626-7754-73d9-1bb6-fc3714c72c28"><th id="_4d504030-d83a-4aa9-c985-22750d7c5e68" valign="middle" align="left">Name</th>
 <td id="_4718d42a-7143-4058-d4f0-287dabf3c522" colspan="7" valign="middle" align="left"><p id="_a4893871-e977-4b59-5e54-a3e418668d41">Container</p>
@@ -636,25 +627,22 @@
 </tr><tr id="_04a17a05-9f64-f2cd-76ab-22140c1fc58d"><th id="_b23df83f-d276-e633-be04-5c724346e9c5" valign="middle" align="left">Stereotype</th>
 <td id="_25743c11-683f-fef7-0689-bfe983ab0146" colspan="7" valign="middle" align="left"><p id="_7d08d61f-fc99-825d-24ef-e13a1ac63afe">FeatureType</p>
 </td>
-</tr><tr id="_4b4b7ad0-71b4-8412-22f4-db3e6183e61b"><th id="_82a8ce1e-c00e-447e-5083-d3f38068394e" valign="middle" align="left">Inherits from</th>
-<td id="_f9b38b95-3534-a00f-4696-dc6384608b87" colspan="7" valign="middle" align="left"><p id="_bc8d6d14-628e-2cc8-3787-75f33815deef">NetworkAccessory</p>
+</tr><tr id="_3be2018f-5e4e-e59e-6bf5-14d3f3c167b3"><th id="_5ef44b62-5dce-4dd5-ea85-cc8bb3cecaa8" valign="middle" align="left">Abstract</th>
+<td id="_a1d7f1ab-7c50-668a-d6d6-06b76e9662f4" colspan="7" valign="middle" align="left"><p id="_21e1ea98-9f77-6a0f-e50e-37473ba78bca">True</p>
 </td>
-</tr><tr id="_18a93fd6-b162-b32a-75aa-de776f9b5c01"><th id="_5a76ff16-a162-1a08-1832-4b9d39f7302a" valign="middle" align="left">Abstract</th>
-<td id="_6358aea6-3431-5ba2-102d-e1c07ba89f12" colspan="7" valign="middle" align="left"><p id="_e5cc1994-bc16-e24b-77b9-b2e618e630f9">True</p>
+</tr><tr id="_fbc98837-b253-4bdb-8924-9f4a05c3303b"><th id="_f26da73c-cfa8-bb0f-077d-ef59cca53d0a" valign="middle" align="left">Associations</th>
+<td id="_b8c0981d-e843-5647-fc0e-231cf749fa81" colspan="7" valign="middle" align="left"><p id="_9df1a04d-09f3-17d6-fd67-e98cb904a49e">(none)</p>
 </td>
-</tr><tr id="_7a3cfc96-3ee4-b893-efd0-548aca9bd908"><th id="_4cc229e3-5af5-060d-571a-109d119560eb" valign="middle" align="left">Associations</th>
+</tr><tr id="_e710d273-9b8f-603f-e171-31a63ad34789"><th id="_3d7c92f2-8924-5a68-2a54-10d2e5abcaba" valign="middle" align="left">Attributes</th>
 <td id="_97dcec9c-80fe-a736-a2e1-4e2ed7d4255f" colspan="7" valign="middle" align="left"><p id="_3cc33703-f93e-cd01-deb1-fa23c68cdba8">(none)</p>
 </td>
-</tr><tr id="_4b7f405f-5c12-8a31-15d3-7422669a8887"><th id="_15a33c38-8136-e081-d236-7acbc4e3361a" valign="middle" align="left">Attributes</th>
+</tr><tr id="_c341ab4b-3ca5-1980-2857-f8c7b9b7f8a5"><th id="_5fd507b9-5a28-5ff8-6e06-8d52aec9dd97" valign="middle" align="left">Constraints</th>
 <td id="_de9d05d6-e14e-7ae9-5b19-fb6f6b91218d" colspan="7" valign="middle" align="left"><p id="_cb65b043-7545-926a-d2f8-f9c26013ac3f">(none)</p>
-</td>
-</tr><tr id="_34dce7c2-c491-e664-8254-d759172c8816"><th id="_0bea8918-0119-2560-20cf-fcf73350909b" valign="middle" align="left">Constraints</th>
-<td id="_e35b9f55-dda0-52ee-6e42-0fc7ffbdc3c6" colspan="7" valign="middle" align="left"><p id="_6219fc08-fc0d-5de8-d445-2c05b745f6f0">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_03457a1e-259c-25d0-f206-2822cde4394d" anchor="section-Class-EAID_0F088F5D_A92C_4c1a_AB9D_11C93E2A2F13" width="100%">
+<table id="_2ff30da7-4398-15ba-0273-4fef5a621a85" anchor="section-Class-EAID_0F088F5D_A92C_4c1a_AB9D_11C93E2A2F13" width="100%">
 <name id="_96140146-4d21-0f73-de65-32db2e873a02">Elements of “Conceptual Model::Denotation” (FeatureType)</name>
 <tbody><tr id="_68ee025f-9358-5245-a361-4b055940dca6"><th id="_dba08e66-a43d-5413-0a8c-c1d7945cf9bd" valign="middle" align="left">Name</th>
 <td id="_b338e849-5670-5e81-f659-b0c51264e574" colspan="7" valign="middle" align="left"><p id="_79dfd820-83ba-899c-6974-8ee248e16968">Denotation</p>
@@ -665,25 +653,22 @@
 </tr><tr id="_7ad4a559-618c-d63a-235a-6d0fb34b916b"><th id="_d141815b-6afc-04a9-9a57-55ee33606eac" valign="middle" align="left">Stereotype</th>
 <td id="_56e6e2c6-1e03-4b10-ad22-11e4002fb2cc" colspan="7" valign="middle" align="left"><p id="_fbdf94ac-efed-05bc-47e0-dcf40ef59c44">FeatureType</p>
 </td>
-</tr><tr id="_dcb8ff4f-1616-a502-30b3-20d3cfb3d81d"><th id="_aba94292-7b2a-a188-76d0-a01e78cce42f" valign="middle" align="left">Inherits from</th>
-<td id="_cf1a78bf-cdd8-3f67-7a19-82417ef1217a" colspan="7" valign="middle" align="left"><p id="_b5282d4e-b022-ce48-65c8-19871b881621">MUDDIEvent</p>
+</tr><tr id="_993934fa-a213-599d-95de-c44ae4ab65da"><th id="_14e1f790-6d1a-88f0-50cd-a16f2cc60e79" valign="middle" align="left">Abstract</th>
+<td id="_26874115-78b7-bafe-2c94-4623f190caa9" colspan="7" valign="middle" align="left"><p id="_4fac1919-23d8-20dc-d85c-af57b2515fec">False</p>
 </td>
-</tr><tr id="_be62466e-e7a7-bcba-5050-2e4f8a19d670"><th id="_bcb36ab4-c597-a653-2ad5-32dc00d9a708" valign="middle" align="left">Abstract</th>
-<td id="_8ae479c9-94b7-f5d6-947a-3c271a5daab2" colspan="7" valign="middle" align="left"><p id="_437acabd-9541-e25d-7bc6-af100981181f">False</p>
+</tr><tr id="_226569a7-90b8-3288-3c5e-8efcc65eef9d"><th id="_aa5fa33c-1529-9cd6-e82b-5d49d925a6ee" valign="middle" align="left">Associations</th>
+<td id="_5b822396-41a6-d7dc-b790-b231a111fc45" colspan="7" valign="middle" align="left"><p id="_62fec837-fef7-95ba-2503-eaaaf200a514">(none)</p>
 </td>
-</tr><tr id="_77b6150c-5bfb-0bf5-2b14-603e93cfbf21"><th id="_57eec233-0270-c61f-9757-b0f6529b7fbc" valign="middle" align="left">Associations</th>
+</tr><tr id="_b8105178-dbed-a451-3ea7-5be06f46da5a"><th id="_1da8442c-4175-fb9f-66a3-c38642da208a" valign="middle" align="left">Attributes</th>
 <td id="_e9d4213a-f3f6-f7d2-a6c3-63b0fc1cbf58" colspan="7" valign="middle" align="left"><p id="_f1933781-c13d-215b-0f08-ef9cbc7f3b92">(none)</p>
 </td>
-</tr><tr id="_648b097e-4ec6-350d-ab08-91bd7c415295"><th id="_93847399-0eb5-90eb-8351-0773a4a0a10b" valign="middle" align="left">Attributes</th>
+</tr><tr id="_92fbf3cd-bf01-f4c0-f41a-a8bb93c274f4"><th id="_0d9bfe84-7953-d35d-6bca-6c5c13d7ddc9" valign="middle" align="left">Constraints</th>
 <td id="_5bbf527a-b82b-4e5f-613c-9a352d34922e" colspan="7" valign="middle" align="left"><p id="_7e76fc17-eb2e-ca1c-d738-a4952817df4b">(none)</p>
-</td>
-</tr><tr id="_0d1355f4-b1ce-2624-ef35-2f6b5406e3c7"><th id="_54ba6393-6d11-3da4-6b9c-7311e11da693" valign="middle" align="left">Constraints</th>
-<td id="_07e7c236-4dcc-ad68-2eb3-9e34664e4cd3" colspan="7" valign="middle" align="left"><p id="_7994b29d-3f70-c9a6-8c19-f11e9c8f7876">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_7350a5dc-e7c3-8c18-2691-3b6461f295cc" anchor="section-Class-EAID_BC8CF57A_A15D_4f7f_82C4_8EB10670F7F8" width="100%">
+<table id="_2512ad12-979d-34a0-44b1-9d691992dd43" anchor="section-Class-EAID_BC8CF57A_A15D_4f7f_82C4_8EB10670F7F8" width="100%">
 <name id="_025f5893-88f6-bb1e-6fee-d06888a76307">Elements of “Conceptual Model::GeologicUnit” (FeatureType)</name>
 <tbody><tr id="_d3d20a3d-a8a0-6d35-581c-d4fa14f52862"><th id="_c1dfc742-ae6b-0e99-b7f4-32821135b265" valign="middle" align="left">Name</th>
 <td id="_71473274-79ce-bde8-ca3f-b88ca30e96d7" colspan="7" valign="middle" align="left"><p id="_e7bec18c-795e-561b-852d-a4c32433c56d">GeologicUnit</p>
@@ -694,25 +679,22 @@
 </tr><tr id="_0bac831c-8dd5-b1f0-bad1-13b24a375998"><th id="_d1a0ec14-c9db-a719-e464-a26ad8b0e873" valign="middle" align="left">Stereotype</th>
 <td id="_d0c4c379-9ed7-d892-2f45-48bfdac28f2b" colspan="7" valign="middle" align="left"><p id="_09e4fcba-7310-c4df-e587-9281caa8218b">FeatureType</p>
 </td>
-</tr><tr id="_ae3aab07-142f-c89f-348d-81e1a2c26454"><th id="_0d373022-ce58-eb23-4631-f935f80e9895" valign="middle" align="left">Inherits from</th>
-<td id="_f13756d0-a134-dd8a-bd54-60811659b2a8" colspan="7" valign="middle" align="left"><p id="_32d2a085-6005-8a47-0826-6cdbc415aa6e">MUDDIEnvironmentUnit</p>
+</tr><tr id="_c06fb1f2-88fd-17bb-ca62-7878ac5be0ce"><th id="_ee4755bd-d177-12b3-b2f5-e9611b10d4b1" valign="middle" align="left">Abstract</th>
+<td id="_de5e329c-3a76-2b94-f999-e0ba4c968254" colspan="7" valign="middle" align="left"><p id="_3c119478-8184-48fa-9db7-e5d3bbd96b8d">False</p>
 </td>
-</tr><tr id="_a41d6e8b-ded4-c6b0-94e8-dcaf5de42e95"><th id="_e7d7dd51-ad4d-db48-fd3e-0f581b264b08" valign="middle" align="left">Abstract</th>
-<td id="_a4657805-c665-7b36-d38c-3a70a857f98b" colspan="7" valign="middle" align="left"><p id="_414db87d-62a6-81cb-5b0c-9994a1aade1b">False</p>
+</tr><tr id="_c22236d2-da5b-7e59-d270-6a4824a8e407"><th id="_b5439e0a-8155-ef43-4016-51c6859375f9" valign="middle" align="left">Associations</th>
+<td id="_195cea6e-b0bb-db0c-0922-09a896d69be7" colspan="7" valign="middle" align="left"><p id="_e6f3b2cf-6aa0-73e1-d2f0-045ea5f5a112">(none)</p>
 </td>
-</tr><tr id="_049edc69-4287-02d9-4d8e-cf722c7dbd23"><th id="_0499fe6b-6f25-ae1e-692f-012924fa6e8e" valign="middle" align="left">Associations</th>
+</tr><tr id="_5b4c7bce-0410-41d4-c1dd-d50a0baca8bb"><th id="_1ddd03a0-4321-3f45-9aa6-0286e6f5363c" valign="middle" align="left">Attributes</th>
 <td id="_c4cbb1cb-31b9-3ba4-f90e-b0a4aab12540" colspan="7" valign="middle" align="left"><p id="_835d8a6a-915d-c10d-b210-81955f4ec113">(none)</p>
 </td>
-</tr><tr id="_d93ad882-f127-10da-1b0b-e521d75d2d5d"><th id="_e8e68e65-f60a-a609-0ca1-d993bb1b97c0" valign="middle" align="left">Attributes</th>
+</tr><tr id="_2a916500-7ef8-bfa5-c6d9-1d0a0d59878e"><th id="_b620221f-4b1c-6641-e009-6716a45cc699" valign="middle" align="left">Constraints</th>
 <td id="_10654ba9-efb5-ccb0-0920-d593aff61513" colspan="7" valign="middle" align="left"><p id="_0487d393-3145-3eaf-7094-6e09c3277aac">(none)</p>
-</td>
-</tr><tr id="_0554b809-50e7-12d1-5f28-06b1aee83d7f"><th id="_0c3a582a-ebc3-40ee-1243-68952487ddfa" valign="middle" align="left">Constraints</th>
-<td id="_c9212d54-ca59-d1b2-673d-72b5a37cb80a" colspan="7" valign="middle" align="left"><p id="_0d5802bd-edd5-ff0c-1c25-7d0040e8afc9">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_946f4405-d75e-ae3a-4817-447451f4446a" anchor="section-Class-EAID_7F3694C2_F7E5_4385_8CE3_285F8FCA083E" width="100%">
+<table id="_42908c6f-1bbb-524a-249f-cd93743b12c0" anchor="section-Class-EAID_7F3694C2_F7E5_4385_8CE3_285F8FCA083E" width="100%">
 <name id="_5555742d-4d6a-a19d-7f6e-48a9e3e8a013">Elements of “Conceptual Model::GeotechUnit” (FeatureType)</name>
 <tbody><tr id="_53d9a1fc-ae00-011e-b806-ba3ad43daa72"><th id="_419b02c7-9c92-b53e-9965-7d091b1d50d7" valign="middle" align="left">Name</th>
 <td id="_e78696d5-39f6-e195-e49b-b36a86136005" colspan="7" valign="middle" align="left"><p id="_b1848687-964a-c34c-7bb5-c1924c3f2471">GeotechUnit</p>
@@ -723,25 +705,22 @@
 </tr><tr id="_490a8708-5552-e859-d6b1-a7d7d355b228"><th id="_27691aac-990d-b076-d511-0eaaf2e3b4bd" valign="middle" align="left">Stereotype</th>
 <td id="_8849dbd7-54da-b5e8-3219-c280d96e5861" colspan="7" valign="middle" align="left"><p id="_ae46f13f-91db-c694-5cd0-0b8dc04e737e">FeatureType</p>
 </td>
-</tr><tr id="_f44fa62a-4e8d-6439-3d49-a289e311d322"><th id="_ca309f71-b8fb-3f40-86a0-4e029a9bcc82" valign="middle" align="left">Inherits from</th>
-<td id="_c80fe0c6-8113-85ac-b651-8e3fce98c4c2" colspan="7" valign="middle" align="left"><p id="_c2ce80df-faaf-a139-0fcc-ed3db69957bb">MUDDIEnvironmentUnit</p>
+</tr><tr id="_fa1a799c-adc5-881e-7b3d-0d75b33c234e"><th id="_ffd40980-9571-bf78-1a92-c34f86199338" valign="middle" align="left">Abstract</th>
+<td id="_19dce8a1-14f5-2f2b-553b-aba68486d62c" colspan="7" valign="middle" align="left"><p id="_5b17cb73-65a8-6dd9-7b29-68bd8f5f507b">False</p>
 </td>
-</tr><tr id="_7bf13ce6-e6c5-457d-d4c8-56e4f9069dd1"><th id="_68168d6a-b3d9-4fbc-2f6c-2ae66b394dfc" valign="middle" align="left">Abstract</th>
-<td id="_0eeeac13-6250-ccdc-9e75-a102215fc838" colspan="7" valign="middle" align="left"><p id="_e0174f7b-2218-4a4c-9107-601024fe011f">False</p>
+</tr><tr id="_efd5d659-0a2c-6123-eb40-8e50a791265d"><th id="_ee5d9dd0-9cac-7695-ed84-020e2ef8b1e6" valign="middle" align="left">Associations</th>
+<td id="_fd75e30a-de78-29a4-1f10-9734b3a82f2a" colspan="7" valign="middle" align="left"><p id="_3947e5d8-0bc5-cc08-d991-8befea3aa068">(none)</p>
 </td>
-</tr><tr id="_fc70ee56-0ef1-3fd3-707f-12066e0e8b56"><th id="_c948abcc-9607-6fd3-c174-e831bd82fe58" valign="middle" align="left">Associations</th>
+</tr><tr id="_ce6a0a65-291a-b9a0-b383-d77bde61d56e"><th id="_e325659e-a959-abd6-48d1-02a715a7ea7a" valign="middle" align="left">Attributes</th>
 <td id="_ad3921c2-a0cd-b8b4-9734-bdf4d54644ce" colspan="7" valign="middle" align="left"><p id="_817aff05-80fa-dedf-e401-7d2bc0603fdc">(none)</p>
 </td>
-</tr><tr id="_ca07c43b-6480-c74c-2c68-e603a60d1e20"><th id="_29ae8933-a78f-7895-cbb1-8006c426512b" valign="middle" align="left">Attributes</th>
+</tr><tr id="_7340f472-ad68-a1db-fc4f-0f62f8949290"><th id="_590e8210-4836-30f4-91cf-233551db402b" valign="middle" align="left">Constraints</th>
 <td id="_eec79aa5-81d2-7bdf-abd3-f4f56df84152" colspan="7" valign="middle" align="left"><p id="_ac8b40ea-a34a-5c97-8cf8-7e708f65620f">(none)</p>
-</td>
-</tr><tr id="_4227e529-3336-7257-44e3-01171104d803"><th id="_caffd3eb-2d5a-99c6-46a7-ad128ad8749a" valign="middle" align="left">Constraints</th>
-<td id="_627bf79d-fff0-3cad-a273-9ade835435c1" colspan="7" valign="middle" align="left"><p id="_c398265c-dcfc-fa4a-d31f-c67ed6cbaa5d">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_257e4b9a-5960-9bfb-cbb4-16c1a94b808a" anchor="section-Class-EAID_A6333A30_558E_4fb9_AC97_7D311CDE3241" width="100%">
+<table id="_ab7e6954-5673-f251-0ffb-d31122968ba2" anchor="section-Class-EAID_A6333A30_558E_4fb9_AC97_7D311CDE3241" width="100%">
 <name id="_4565c965-09aa-6ff0-a1e0-464cc43e31c3">Elements of “Conceptual Model::HydroUnit” (FeatureType)</name>
 <tbody><tr id="_fff20d7a-59b3-c99d-c3f3-a7dd4002352f"><th id="_b44a6de1-c1c1-1bd8-671a-aedd23c4e478" valign="middle" align="left">Name</th>
 <td id="_870ef5a9-0eac-6f2c-8dab-8fe2d90e379f" colspan="7" valign="middle" align="left"><p id="_1a2e57f4-72cd-8e30-171c-f5b128e49ebe">HydroUnit</p>
@@ -752,25 +731,22 @@
 </tr><tr id="_ae8e6307-3388-a42c-6aed-3e29491177fb"><th id="_9a6f34ec-95e5-8247-65bc-63cd515cf77f" valign="middle" align="left">Stereotype</th>
 <td id="_1ca0a842-b361-85a2-9543-c65315b09bc8" colspan="7" valign="middle" align="left"><p id="_256aaa8b-6c34-6410-6a87-f4f5c38b0b72">FeatureType</p>
 </td>
-</tr><tr id="_e5a05b43-59bf-847b-0f7a-1832a7f6a007"><th id="_ca7ba672-448a-f8f7-89e8-c4c58a2584b3" valign="middle" align="left">Inherits from</th>
-<td id="_adba2855-256a-8433-361a-f414f663cbbd" colspan="7" valign="middle" align="left"><p id="_86198176-4955-e39a-0f25-10faf2b52c4c">MUDDIEnvironmentUnit</p>
+</tr><tr id="_7c0a6239-1205-e05c-c3d7-1952cf30434d"><th id="_3d47a2e5-7e31-32fc-11c8-939d1f0f9022" valign="middle" align="left">Abstract</th>
+<td id="_e0f066fc-9bad-2f2b-0a03-e1b5af033943" colspan="7" valign="middle" align="left"><p id="_1989a998-6e49-59da-18b7-eab2ae05340e">False</p>
 </td>
-</tr><tr id="_8a4f762d-8543-0103-7b37-4b23c33b4a51"><th id="_1856009b-222d-e1c2-3c8d-6075ac1253fb" valign="middle" align="left">Abstract</th>
-<td id="_2d5112c7-a577-ac02-ee2c-5937298bd23b" colspan="7" valign="middle" align="left"><p id="_a4f1c670-977f-b939-33a5-f268eb6a7b17">False</p>
+</tr><tr id="_c6a80de9-4ba9-3cdd-8d25-5c48759bf010"><th id="_621f916b-cd73-6180-9ab1-971b7b43d04e" valign="middle" align="left">Associations</th>
+<td id="_1229bc87-bb23-a915-c919-aae19a680119" colspan="7" valign="middle" align="left"><p id="_5af97011-fb8e-eecb-e267-9da9a01f12a9">(none)</p>
 </td>
-</tr><tr id="_9451b312-02de-2263-2132-38caf53bfa12"><th id="_d654bda1-a27f-186a-2efa-6db94db05b82" valign="middle" align="left">Associations</th>
+</tr><tr id="_8df02dd6-d4e1-1033-875f-3cdd3bf73437"><th id="_827fddeb-e8be-e8c0-eb3a-eb644058c2bd" valign="middle" align="left">Attributes</th>
 <td id="_d0ee7e3d-27ca-d861-b3de-a5e88125f328" colspan="7" valign="middle" align="left"><p id="_c544c9f9-8a96-1e19-ab58-a65a72c2f873">(none)</p>
 </td>
-</tr><tr id="_3c23e598-9ad3-fb4c-8de4-b77c40b86845"><th id="_977f8e78-33f3-1561-6dc4-638ad7bde20b" valign="middle" align="left">Attributes</th>
+</tr><tr id="_8a2759bd-45fa-000e-23bc-57ec91afcfbb"><th id="_efb1875e-68bc-67ed-40dd-ee9b9678723d" valign="middle" align="left">Constraints</th>
 <td id="_07f54050-b622-e4b5-ff23-a497422cad63" colspan="7" valign="middle" align="left"><p id="_69dd1253-8f19-5fd8-0596-32a80009cdc4">(none)</p>
-</td>
-</tr><tr id="_e7b860e8-40ff-a13e-3220-1ac496015986"><th id="_dccbf4b7-a13b-278c-2ce6-d390785d9956" valign="middle" align="left">Constraints</th>
-<td id="_b8b5aa5a-5fb5-bf2f-42d1-a90e730b5e6c" colspan="7" valign="middle" align="left"><p id="_1a0b948b-cec7-cba8-b2e3-f49fd797f35a">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_f888d9f8-6a11-04ae-6013-b382044d6899" anchor="section-Class-EAID_7C14031F_D27E_4f3f_8010_A9E64D6E50F7" width="100%">
+<table id="_b7df7b71-b74c-0d29-beb7-222e9ea752a2" anchor="section-Class-EAID_7C14031F_D27E_4f3f_8010_A9E64D6E50F7" width="100%">
 <name id="_fe9161fd-3976-086c-bc1c-bf0035187f30">Elements of “Conceptual Model::MUDDIAsset” (FeatureType)</name>
 <tbody><tr id="_38169bd4-de40-3488-c967-a528a79eb600"><th id="_807a7cd5-dc2c-0b88-97fe-cd764d9d79d7" valign="middle" align="left">Name</th>
 <td id="_36f1b664-1fe3-74df-5ffd-866609246183" colspan="7" valign="middle" align="left"><p id="_c7fa2ebc-09ae-bc98-7abe-7281e5e3341d">MUDDIAsset</p>
@@ -781,35 +757,29 @@
 </tr><tr id="_1c16d10e-5837-4c3c-4ab7-939125e8245a"><th id="_9e02a636-05ae-85a2-cba3-b60982e3e9d3" valign="middle" align="left">Stereotype</th>
 <td id="_2a392053-6d0e-44bb-630f-4f71797261b7" colspan="7" valign="middle" align="left"><p id="_7fcc1227-494a-ad85-dddb-c0ad6776e6dd">FeatureType</p>
 </td>
-</tr><tr id="_e86050b0-702c-b88f-757e-ca4601a340f7"><th id="_fb6204d8-37ef-c58e-6a7e-906dda5278a5" valign="middle" align="left">Inherits from</th>
-<td id="_cadca770-11cc-926d-3251-f3fc6c28aa57" colspan="7" valign="middle" align="left"><p id="_efd58964-8bfc-adde-50a1-5a5cac6654b5">MUDDIObject</p>
+</tr><tr id="_1ff8bbad-5e55-77b6-82b6-2b5716531dd6"><th id="_50bee493-bb4d-6220-a6b0-77de4ebf35df" valign="middle" align="left">Abstract</th>
+<td id="_2ad675eb-c706-e44d-000c-2515ac67f2ae" colspan="7" valign="middle" align="left"><p id="_59835974-b114-f6de-a69f-2853574250af">True</p>
 </td>
-</tr><tr id="_c60ee69a-a833-4f4c-aeb9-2bf4434b6029"><th id="_17aae8a6-d686-797f-8b23-e12f0a8e9092" valign="middle" align="left">Generalization of</th>
-<td id="_6d114cb8-dbd6-4b46-628c-76694880c3f4" colspan="7" valign="middle" align="left"><p id="_29c1652b-cb46-7e79-a3e0-e9038349c252">NetworkAsset, Network, Structure</p>
+</tr><tr id="_95b2b408-2338-9d4e-ec9f-e7e648a43f07"><th id="_80937e6d-b352-6e6e-2888-120ec4c3b6b1" valign="middle" align="left">Associations</th>
+<td id="_328e15e8-9150-00a0-3ef6-2b2d13f15110" colspan="7" valign="middle" align="left"><p id="_d7a5d8e1-f603-688a-8668-7fecd51ad82f">(none)</p>
 </td>
-</tr><tr id="_0cdb4e59-0f4a-8ef2-177e-b6f255a6ed1d"><th id="_a2a0d8e8-d51c-8b50-befa-635b4760b60e" valign="middle" align="left">Abstract</th>
-<td id="_5e8985a5-fb70-dc51-bf3f-cbb2c06fdcc1" colspan="7" valign="middle" align="left"><p id="_89d17a64-b35b-ffb7-c410-3738aa19fc1e">True</p>
+</tr><tr id="_a7c7221f-f209-3ad1-65fe-e269fe2d35df"><th id="_16621845-6eb9-3203-8da6-ffc26f8f0585" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_64ba2e8c-8f98-6b1b-c732-e432c2c88bc9" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_5447b8e6-4859-9769-70be-d85bc4490516" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_2c6f3300-ccc9-9f3f-ab9a-7e7ba7fb14aa" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_9c10a1f7-25f2-1e8d-b544-a849301898fb"><td id="_18633f38-747e-1dab-29b6-b6e27b696766" colspan="2" valign="middle" align="left"><p id="_6dd48a10-0fdf-e686-b95b-91751bb87c1f">assetOwnerID [1]</p>
 </td>
-</tr><tr id="_51dc6721-1095-2c2d-3ae5-aefc3d40e039"><th id="_e38653f3-5500-d2c6-6b16-7588c767c421" valign="middle" align="left">Associations</th>
-<td id="_28a80f1d-1bf6-3d1f-0d53-f93ea9fd9a18" colspan="7" valign="middle" align="left"><p id="_62a25656-3031-2be8-39a4-cf348183cb99">(none)</p>
+<td id="_38492d7a-c65d-84cc-b84d-1f60e8520014" colspan="2" valign="middle" align="left"><p id="_9b738beb-a837-6e83-6021-cc5a79eed797">AbstractValueType</p>
 </td>
-</tr><tr id="_a8061e6d-6a39-6919-e801-d7b991b767f5"><th id="_74396a07-598a-d437-7e6c-72108d19d61c" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_797c3a2b-5ec4-3047-0172-b3053caf01d0" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_2dbf23af-28af-019c-9ec6-93cbe4b8ecdf" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_5a3caf96-464f-0651-2081-2c1cc24c4fb8" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_b0c23558-6c30-94bd-89e0-d0ca2cb85296"><td id="_3d896ad8-7d87-406e-48da-593b4b6c4fd2" colspan="2" valign="middle" align="left"><p id="_a5ec0fd4-1593-ff03-33ac-0ac443843032">assetOwnerID [1]</p>
+<td id="_474448ae-dfaa-cbf1-3375-81210fd8ccde" colspan="3" valign="middle" align="left"><p id="_439470e4-b10f-a3b6-58e6-b4a91e113de4">Characteristic attribute of MUDDIAsset that identifies the present legal asset owner. Identifier maintenance and dereference mechanisms are implementation dependent.</p>
 </td>
-<td id="_6f92e435-0a8f-7db8-d931-b82efe80adb4" colspan="2" valign="middle" align="left"><p id="_980f22e7-27d4-5f6f-12f4-b9d2c657fad8">AbstractValueType</p>
-</td>
-<td id="_2033b25e-44e6-964a-e600-2aea412ea142" colspan="3" valign="middle" align="left"><p id="_c46eb00f-3c83-118d-3c88-bc36f2f25f1a">Characteristic attribute of MUDDIAsset that identifies the present legal asset owner. Identifier maintenance and dereference mechanisms are implementation dependent.</p>
-</td>
-</tr><tr id="_1def6836-0ec4-3811-10b8-2ee8c7b5f175"><th id="_2274079c-e4cf-72f7-5ba5-bda9f3bc2882" valign="middle" align="left">Constraints</th>
-<td id="_b580191a-a237-0370-fa43-1b3ebdf3a627" colspan="7" valign="middle" align="left"><p id="_cf7fea62-b7ca-5ce6-0f4f-9791764ca008">(none)</p>
+</tr><tr id="_1e32e0cb-107c-2cf6-0a44-6a52a7eb0b42"><th id="_a33e712b-bf83-c058-f9cc-8d812e194d01" valign="middle" align="left">Constraints</th>
+<td id="_794112af-cd6b-7bfb-553d-071934136fa0" colspan="7" valign="middle" align="left"><p id="_d4483e0f-21ac-535c-6e45-ca5cbe9f6585">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_5d3ccbd2-ce94-68a6-ba5d-d284e1c0d481" anchor="section-Class-EAID_A9E35E41_660F_4e16_A49F_FB007AAAA948" width="100%">
+<table id="_002d6522-c041-b826-1cf1-209a0a6972c8" anchor="section-Class-EAID_A9E35E41_660F_4e16_A49F_FB007AAAA948" width="100%">
 <name id="_a784e322-6d79-207c-fbed-d60c9ba44ce2">Elements of “Conceptual Model::MUDDIEnvironmentUnit” (FeatureType)</name>
 <tbody><tr id="_70d9410c-6418-aa81-478d-f463bb269653"><th id="_8506ad20-f103-b950-3a62-953c6225e570" valign="middle" align="left">Name</th>
 <td id="_64a96f32-c52b-e834-0ede-e0217de7ef87" colspan="7" valign="middle" align="left"><p id="_3082f643-1f95-00ad-fa2d-cdd8c41e251b">MUDDIEnvironmentUnit</p>
@@ -820,35 +790,29 @@
 </tr><tr id="_16ad8267-033e-0587-7559-a0f1c8eb064c"><th id="_80e7e5b5-3a31-3a07-bc3f-107b21117070" valign="middle" align="left">Stereotype</th>
 <td id="_940abef4-1597-a9bc-ead7-368bbffddd48" colspan="7" valign="middle" align="left"><p id="_e5e432a6-b9f8-092d-9acd-d12292fdb0e1">FeatureType</p>
 </td>
-</tr><tr id="_5e3edf00-51fb-2db1-5a08-519927718342"><th id="_cd2dab8d-1201-2263-1e8a-7c6c9b2149d5" valign="middle" align="left">Inherits from</th>
-<td id="_039c8d49-cd73-b931-f0ff-3ad678b99845" colspan="7" valign="middle" align="left"><p id="_049b606f-04a2-9241-41d7-0f441979e302">MUDDIObject</p>
+</tr><tr id="_67bc8388-5e58-9890-b5b6-585ea08923b5"><th id="_2ae868e6-9095-0a37-9d79-1efad1fd12c4" valign="middle" align="left">Abstract</th>
+<td id="_98c1c5b6-f882-1dc4-96da-82896b94df3e" colspan="7" valign="middle" align="left"><p id="_6f32a812-e402-e7c1-28fa-77b5828e6181">True</p>
 </td>
-</tr><tr id="_135797e7-f2ad-5565-f0cb-90d67fcda0c3"><th id="_5441f4b7-18cd-804e-70ce-8b01fbe0f2b7" valign="middle" align="left">Generalization of</th>
-<td id="_7cc218ef-15ad-d191-50e2-8585a97a06d2" colspan="7" valign="middle" align="left"><p id="_d25c134b-c7b1-c5ef-ca42-ecf291524292">GeotechUnit, ChemicalUnit, HydroUnit, GeologicUnit</p>
+</tr><tr id="_2356683a-6ef5-6b14-616d-be66feb98e7d"><th id="_a762c6cf-97fc-f360-1b6e-e0d320d73042" valign="middle" align="left">Associations</th>
+<td id="_63745dd1-fc4e-f0c4-ec8f-9d1b32b99e33" colspan="7" valign="middle" align="left"><p id="_0ed44261-9436-39fd-1ec0-2b8cbf32dca4">(none)</p>
 </td>
-</tr><tr id="_f4aacb4c-0f7e-1683-318d-54e7c82b8f3c"><th id="_80988204-3c88-ac6b-79ff-bd4fa603e59f" valign="middle" align="left">Abstract</th>
-<td id="_f0a892b7-4389-a037-4dd4-fb6b29b8817b" colspan="7" valign="middle" align="left"><p id="_4a16706c-0395-a378-73b7-52ec357205c5">True</p>
+</tr><tr id="_4df0247d-ab09-a880-3108-e1828c99f71f"><th id="_5b123b68-28a4-6520-a4ac-07a69a4fe6a8" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_ce98ca47-d549-363e-10d7-894c58ba1315" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_347e6972-b5a9-8f66-286e-826d0574b642" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_4341e896-ca1c-6dc5-3fab-e64eba9e5b5b" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_7f152509-284a-55c6-de17-c90c19bc80e5"><td id="_152c172b-b768-2231-3290-0a91b47bdd93" colspan="2" valign="middle" align="left"><p id="_a3bce159-0352-a861-5b2c-29378aa69a0b">boundary [1]</p>
 </td>
-</tr><tr id="_44c8d37e-1fe0-7d07-3bac-1ba338ee179f"><th id="_b8297ea2-1240-e12e-56b3-2e3f7da867c1" valign="middle" align="left">Associations</th>
-<td id="_d364693c-f892-f1d9-3628-69e002444b8a" colspan="7" valign="middle" align="left"><p id="_974b252c-51c4-67d8-a283-9c0eb44a1ab0">(none)</p>
+<td id="_3758acee-381a-73d8-eb81-be793d2c36b0" colspan="2" valign="middle" align="left"><p id="_227eaff3-a27b-32dc-79b9-c524489083dc">AbstractValueType</p>
 </td>
-</tr><tr id="_82b697e6-7518-4921-b995-8c23588be7f9"><th id="_b35ae89b-74ff-3d59-0183-073ae1ce6cf6" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_c5969e56-11c9-80ff-d020-cfba4c830ffd" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_2b028632-258d-2b31-8043-b8873ebd1b99" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_2cdc4a42-6b40-a6c4-b5f7-ccd3ef6282bd" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_84ace84d-4fba-145d-1a39-89befb944b62"><td id="_93a66591-709d-f1c8-e9c8-d3e6fee87c7d" colspan="2" valign="middle" align="left"><p id="_dcd47f55-7b61-0156-5a0a-60d98025c807">boundary [1]</p>
+<td id="_0db8275e-5060-6292-7f33-b83f22023805" colspan="3" valign="middle" align="left"><p id="_a1eebb62-dcf2-5ee2-1488-de24449722bb">Characteristic attribute of MUDDIEnvironmentalUnit that represents the boundary in 2 or 3 dimensions delimiting each unit instance.</p>
 </td>
-<td id="_80c23163-c269-d4fe-fbc6-4be661d0946b" colspan="2" valign="middle" align="left"><p id="_68fb6266-13bb-0a6d-c8ac-e26575ddec5e">AbstractValueType</p>
-</td>
-<td id="_e8421c43-3646-d6e0-d51a-ccc6fcdcb98d" colspan="3" valign="middle" align="left"><p id="_37aa26f3-fa8f-27d4-41bf-9d85652a485f">Characteristic attribute of MUDDIEnvironmentalUnit that represents the boundary in 2 or 3 dimensions delimiting each unit instance.</p>
-</td>
-</tr><tr id="_2026bb8c-2a43-21c4-9df8-fb00408e211e"><th id="_8b25984d-084d-c420-7d81-f7fed200a2d4" valign="middle" align="left">Constraints</th>
-<td id="_162d29f2-edae-a112-d870-113acdceeff3" colspan="7" valign="middle" align="left"><p id="_d4795817-3da9-9dc6-2c33-6bac15bbecf5">(none)</p>
+</tr><tr id="_ddc2c202-8908-0b5a-f684-28bb6e5c82ee"><th id="_a599cd5d-c9cd-23e5-2ec9-bc40ed3cb96d" valign="middle" align="left">Constraints</th>
+<td id="_8f49d3ea-8e98-df6b-1ee1-15b4c74c8ab2" colspan="7" valign="middle" align="left"><p id="_523e1454-0324-5ac2-e748-6d6446359237">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_800e3780-3388-f178-ac06-d37a19a10052" anchor="section-Class-EAID_C3B144C8_82C3_4d32_9886_EB8ABBC3E760" width="100%">
+<table id="_b5bfe528-6a7a-72bc-b070-6ad9b7129042" anchor="section-Class-EAID_C3B144C8_82C3_4d32_9886_EB8ABBC3E760" width="100%">
 <name id="_5560cc01-da36-38f3-6ad8-fbf31af3cc10">Elements of “Conceptual Model::MUDDIEvent” (FeatureType)</name>
 <tbody><tr id="_b081cd5b-32b0-1642-c918-cec54aeaf9d7"><th id="_43287310-0175-91e4-352b-e651861e412b" valign="middle" align="left">Name</th>
 <td id="_a0cd467a-4d4b-41cb-30c4-4169eedff566" colspan="7" valign="middle" align="left"><p id="_894dc53d-96ca-fc5a-f1e1-f6e973b7cd35">MUDDIEvent</p>
@@ -859,35 +823,29 @@
 </tr><tr id="_fa40ce5c-c8d4-e4e0-dd3a-33363ffd8c35"><th id="_5f890b81-aef3-1e33-d54d-ba8cc165f659" valign="middle" align="left">Stereotype</th>
 <td id="_81611715-20bc-453c-be6d-f27675499ccf" colspan="7" valign="middle" align="left"><p id="_1b67453d-44dd-b065-5c14-9e357f2ab7bb">FeatureType</p>
 </td>
-</tr><tr id="_717c3aac-b2c2-0854-b3dc-15fc99231db2"><th id="_79f4e301-08fe-5b4a-7d45-93fb32ef927e" valign="middle" align="left">Inherits from</th>
-<td id="_b4395829-63b1-27e0-9478-3b47b9cd3374" colspan="7" valign="middle" align="left"><p id="_92665881-8c3a-2c8a-cde9-a70ae873678e">MUDDIObject</p>
+</tr><tr id="_5c100a90-baae-b7da-9912-a6fed9cf517b"><th id="_df5dd490-35fd-e136-7a60-96c74e4e3f82" valign="middle" align="left">Abstract</th>
+<td id="_3a36f728-d48b-f7fc-9456-b39345d74c37" colspan="7" valign="middle" align="left"><p id="_954a72f8-6ba0-e63a-9689-ea7d92e4debb">True</p>
 </td>
-</tr><tr id="_c08d85f3-d7de-f718-d2df-766575c1eba7"><th id="_989b6a04-6a6e-2570-d27a-d4ad856fa90a" valign="middle" align="left">Generalization of</th>
-<td id="_f1b2793b-8ed9-22a5-74fe-d28ff1bf3125" colspan="7" valign="middle" align="left"><p id="_bc3cc2a8-aad9-cb39-9a44-d3b569156f78">Observation, Action, Denotation</p>
+</tr><tr id="_b5d705b4-c726-5958-17ee-155487728be4"><th id="_597c9f18-229c-8829-fbc0-98e9b228f656" valign="middle" align="left">Associations</th>
+<td id="_db629449-460d-6ec0-e0c2-e1fc3c7dc5c7" colspan="7" valign="middle" align="left"><p id="_dce0ce12-5ff9-6009-5130-fea203e011e8">(none)</p>
 </td>
-</tr><tr id="_895f4762-06fd-6f23-40fc-498476ebabd2"><th id="_5d3a5736-252b-4b91-8537-2a6e7e4533a7" valign="middle" align="left">Abstract</th>
-<td id="_1b6e4ccc-6c7b-fad6-12a2-8939bf409009" colspan="7" valign="middle" align="left"><p id="_2960902d-da31-c8c4-f9cd-ff075e3e34ad">True</p>
+</tr><tr id="_94012b8b-fd27-7b5b-b8cc-996a22766285"><th id="_e82116f6-4a7f-a9d5-25d9-805454c1505e" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_2828fd45-5863-784c-1800-d6c8015f7e47" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_81bbd758-e6d4-ebbf-cb76-b24ae9168ff6" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_0bae28c9-6091-d965-068b-8f6c8eaab9f1" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_85cc7131-598b-3692-c6b1-6cc90d4220e3"><td id="_89874241-d141-a773-8fec-f798de5bc97b" colspan="2" valign="middle" align="left"><p id="_5f943aa9-8017-efef-8daf-d3058dd38a20">validTime [1]</p>
 </td>
-</tr><tr id="_0bc751e7-973a-e683-acbe-4a4375bdcf90"><th id="_0c162308-27ca-6cce-8dc9-c66e40e9568f" valign="middle" align="left">Associations</th>
-<td id="_62af7eda-f472-9f79-8e0a-5188a35a0c04" colspan="7" valign="middle" align="left"><p id="_dadafcbf-2be7-58a9-e2fd-e05628cc6cdd">(none)</p>
+<td id="_bb9aee84-af4b-d8c7-5659-fa3ccf872706" colspan="2" valign="middle" align="left"><p id="_64c3a3c2-a8f1-ac86-5215-5f90aeab15cb">AbstractValueType</p>
 </td>
-</tr><tr id="_0f008a79-11c7-142d-1df2-a6fcb68ff348"><th id="_754a83c4-df63-44ae-ad8b-c151819e06e7" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_34e74751-d1eb-6473-5127-8fc028edd5e3" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_aa42949d-3972-76ec-8997-4c10b1b4cdbb" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_be740a72-0ae0-71ff-8e76-0b9aa99e539c" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_e747b81b-f685-7ea9-9941-96a2538f353f"><td id="_65dbbf54-c0fe-31a2-5017-66ae3a328fe0" colspan="2" valign="middle" align="left"><p id="_c95e2cfd-be5d-d7c4-4dfd-6a2d98bbf467">validTime [1]</p>
+<td id="_9dcbfb6a-0f3f-3680-7973-432453e09434" colspan="3" valign="middle" align="left"><p id="_c413dcf0-6a36-ae4b-27e1-fed3bb6db0de">Characteristic attribute of MUDDIEvent that represents the time interval during or instance at which the result of the event is valid. Usually but not always this is the same as or begins with the event occurrence.</p>
 </td>
-<td id="_a8565f93-7946-7953-682a-13845374a8e0" colspan="2" valign="middle" align="left"><p id="_d49b1468-75e7-03ad-c4da-897483db4cb9">AbstractValueType</p>
-</td>
-<td id="_26e5e137-8483-6dda-d37e-9496fd5dc814" colspan="3" valign="middle" align="left"><p id="_1917e289-1eb0-ab82-82a4-f648d7366fc2">Characteristic attribute of MUDDIEvent that represents the time interval during or instance at which the result of the event is valid. Usually but not always this is the same as or begins with the event occurrence.</p>
-</td>
-</tr><tr id="_0f8049a8-6866-e578-2046-d0672e71911e"><th id="_1c2701c7-0027-7e3b-727f-ad2f5b42ce19" valign="middle" align="left">Constraints</th>
-<td id="_f17de729-dd14-1e01-8561-44d947bd956d" colspan="7" valign="middle" align="left"><p id="_cef055e3-8997-62a4-9cdc-5049c362b63e">(none)</p>
+</tr><tr id="_8a6cb02b-c69f-d0dc-7750-824b933c60c7"><th id="_0f6121d6-72ae-39fa-209b-ca27009c1b00" valign="middle" align="left">Constraints</th>
+<td id="_9543faf3-f461-ffd1-0378-861c532cd559" colspan="7" valign="middle" align="left"><p id="_482c44d6-ace4-8ce8-1ca6-09b547094e9d">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_e9789a6f-6dc1-b8b7-94c8-2e4dc1ce26b6" anchor="section-Class-EAID_A8A8C184_8AE9_4629_B187_919D71D2A169" width="100%">
+<table id="_82ca287c-b8bb-fc2b-35fe-b8e8c5627bd6" anchor="section-Class-EAID_A8A8C184_8AE9_4629_B187_919D71D2A169" width="100%">
 <name id="_1c5ec25c-368b-6b89-aa47-bf30bf38830f">Elements of “Conceptual Model::MUDDIObject” (FeatureType)</name>
 <tbody><tr id="_7a81fbec-f05e-7535-4707-58ef27384788"><th id="_efa0bafb-21c2-ba40-9f80-dc5f2cb90ef2" valign="middle" align="left">Name</th>
 <td id="_66e179a5-64e7-6123-6248-0c494c58e778" colspan="7" valign="middle" align="left"><p id="_e6b6be81-d245-8c29-4f27-c826ee5c5057">MUDDIObject</p>
@@ -898,30 +856,27 @@
 </tr><tr id="_1d9e997a-68a7-66d5-f887-847c30ab9adb"><th id="_920fd96f-e954-163e-b92f-9bf8ea05de4d" valign="middle" align="left">Stereotype</th>
 <td id="_4ea9ec12-c661-926d-b537-809516e29bf5" colspan="7" valign="middle" align="left"><p id="_d23c857f-8c9a-8fb9-9836-1c84a20c60d7">FeatureType</p>
 </td>
-</tr><tr id="_4dcee6f7-997b-c0ac-0753-444290db61ad"><th id="_42985da5-701b-4d0f-621d-0712144c8d24" valign="middle" align="left">Generalization of</th>
-<td id="_76aa7e8b-b9e7-7cbf-b09c-f0b889ecc6d3" colspan="7" valign="middle" align="left"><p id="_ca30c211-ae6b-b101-065c-de0371ec9e36">MUDDIEvent, MUDDIEnvironmentUnit, MUDDISpace, MUDDIAsset</p>
+</tr><tr id="_6157588a-f4ef-71d1-b689-7e8a49bae654"><th id="_7d94908a-08c6-2cb3-67ef-11fff7bfbd10" valign="middle" align="left">Abstract</th>
+<td id="_6b8ad0e1-43ab-0907-322a-a1a7a406a6f0" colspan="7" valign="middle" align="left"><p id="_874a93eb-6c17-dd59-9b4a-4e06a6898047">True</p>
 </td>
-</tr><tr id="_a8b970ec-8603-c249-36d2-ebeb240f8815"><th id="_529a762f-6bf0-1df3-9887-6aff165ffd97" valign="middle" align="left">Abstract</th>
-<td id="_ecc26c16-5bed-a8b1-404a-2f149783a3ef" colspan="7" valign="middle" align="left"><p id="_cbf4f7ce-85dc-fc6c-c74b-70d853e9d18b">True</p>
+</tr><tr id="_85714c05-b61d-b369-9cb8-06bcd6b859b6"><th id="_8c665032-9867-fb04-4344-15f3bdf847c8" valign="middle" align="left">Associations</th>
+<td id="_55590060-9af8-f06d-6e06-4d1a4b0ae318" colspan="7" valign="middle" align="left"><p id="_9f273c31-dc05-bfac-5e7c-a29edef3f1ec">(none)</p>
 </td>
-</tr><tr id="_cdb01988-bbf9-b7e4-d36d-bbb639e00734"><th id="_46b5256d-3d4b-9b67-e6a6-8cf1260940f2" valign="middle" align="left">Associations</th>
-<td id="_2b723c59-8de8-d4bf-87f7-4c39e89a27bc" colspan="7" valign="middle" align="left"><p id="_1cda2f6c-2695-af82-6149-963ffc54bf6e">(none)</p>
+</tr><tr id="_741b4d2e-4689-e88b-70a7-3c95354e8fec"><th id="_f9314646-d274-d628-830c-edde2563997f" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_c4aea07b-3da1-1b43-271a-cd1b134dbee0" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_5ac692a9-06b2-2053-b498-47458aa8beb9" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_033f5707-ddec-39bf-ed85-5a542f2aa38e" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_15ac240f-9cca-c8f9-5465-8b55340de7a9"><td id="_88bf0f16-b06c-5c58-bed9-495b79a481d3" colspan="2" valign="middle" align="left"><p id="_c7fe0035-2444-7dfb-af91-31a6831bd7f2">objectID [1]</p>
 </td>
-</tr><tr id="_d9f23ebd-ac3d-ea92-fe3b-52f6cd86cc3c"><th id="_2d1c0b25-bce9-574e-fb8d-7c9fe0dbdc73" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_2ea0d3bd-b907-c323-2f80-4fd9718a708c" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_7fcc9240-b6d5-87fa-101a-ca204af29d1e" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_070b3c16-ca3e-4953-3747-f3d8eb0173b9" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_c4558b07-553d-5132-f1c9-1e9592cf53b9"><td id="_52f3d35f-0302-b152-c17a-49de8deda9bc" colspan="2" valign="middle" align="left"><p id="_1611e41b-5044-1653-8210-745e218a7f13">objectID [1]</p>
+<td id="_ff46901f-5120-60a3-e421-3571c56e40eb" colspan="2" valign="middle" align="left"/><td id="_c59c6a16-dd7e-3e55-e558-2b45e9067892" colspan="3" valign="middle" align="left"><p id="_20c6b7e7-43c6-6fda-d05c-e8822d7a56bb">Characteristic attribute of MUDDIObject that a persistent, unique identifier of the real world object represented by a MUDDIObject instance. Identifier maintenance and dereference mechanisms are implementation dependent but preference will be for global uniqueness.</p>
 </td>
-<td id="_bc099da3-92a3-f63a-fd60-863ca4904756" colspan="2" valign="middle" align="left"/><td id="_0a7d21dd-663c-0842-414b-fcb8d6a0e9ff" colspan="3" valign="middle" align="left"><p id="_5fd2b0ea-0c4e-a3a0-c3be-6b0801777354">Characteristic attribute of MUDDIObject that a persistent, unique identifier of the real world object represented by a MUDDIObject instance. Identifier maintenance and dereference mechanisms are implementation dependent but preference will be for global uniqueness.</p>
-</td>
-</tr><tr id="_060cb64a-1d5a-e52f-45ac-3c7607809420"><th id="_06acdf23-0f3d-1d79-a7dd-decb913f7cc6" valign="middle" align="left">Constraints</th>
-<td id="_acf9cd90-7fcf-4c78-5583-cffb942728b2" colspan="7" valign="middle" align="left"><p id="_09338ec1-ddaa-712d-1eeb-e958cc24c14f">(none)</p>
+</tr><tr id="_ca0d6be9-b081-6592-e127-aa05e0db2742"><th id="_1fc15c94-0c21-c60e-0e61-81629b24cfc0" valign="middle" align="left">Constraints</th>
+<td id="_5130a88f-e77b-f2ae-962e-81e1abd36422" colspan="7" valign="middle" align="left"><p id="_c2547620-7f23-e975-13b8-07d298c0a138">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_f327c1a8-e530-ed12-71e9-695f5a48ebe2" anchor="section-Class-EAID_63D8BBDE_331B_424d_A31A_65E517AEA171" width="100%">
+<table id="_6cd94d15-2162-82af-7939-e3a8b1d042b4" anchor="section-Class-EAID_63D8BBDE_331B_424d_A31A_65E517AEA171" width="100%">
 <name id="_0f00a5d8-346a-b8a4-bb7f-bf41428df0e1">Elements of “Conceptual Model::MUDDISpace” (FeatureType)</name>
 <tbody><tr id="_fe00581b-b9c0-7a2a-4288-0008dff48252"><th id="_0226c8a9-38a7-8197-31a1-189893c4d010" valign="middle" align="left">Name</th>
 <td id="_1cc759c6-d94d-c2ae-3247-1c86178586f8" colspan="7" valign="middle" align="left"><p id="_e1d722ce-2e37-2b30-acaa-2f3a3251f6b0">MUDDISpace</p>
@@ -932,35 +887,29 @@
 </tr><tr id="_2d894450-330b-792a-0193-47a1dc3ba607"><th id="_942d38e3-2757-b8e1-9028-0a37419294c2" valign="middle" align="left">Stereotype</th>
 <td id="_ff71ead1-feef-f1aa-3235-26783ca305f4" colspan="7" valign="middle" align="left"><p id="_662a95e7-0049-ec13-a997-e70e24336cae">FeatureType</p>
 </td>
-</tr><tr id="_032e6675-fea0-9320-ab86-4a5b9e51f3fb"><th id="_83fd213c-3351-bfba-bc78-6767b5f5c829" valign="middle" align="left">Inherits from</th>
-<td id="_578e1b42-cb87-6620-a71b-126084dac038" colspan="7" valign="middle" align="left"><p id="_4287d32f-44f4-44b3-1a32-601bf83ad111">MUDDIObject</p>
+</tr><tr id="_dd233af2-e7d2-fc44-49b5-90ca5ef7fd23"><th id="_5b63622b-7e73-8da4-b0cb-62f909c53404" valign="middle" align="left">Abstract</th>
+<td id="_8edb5dfc-52e5-4dde-c464-4672e7c7a26b" colspan="7" valign="middle" align="left"><p id="_e856493e-8b9b-54ce-b19e-6f487df157a2">True</p>
 </td>
-</tr><tr id="_161aad51-e3db-711c-0467-be1b9a084b0e"><th id="_c217bfb9-3948-f793-7011-8a68c5fa9674" valign="middle" align="left">Generalization of</th>
-<td id="_f1368f84-c746-1e4f-e501-9a81875d0636" colspan="7" valign="middle" align="left"><p id="_e5a6191c-0fde-e7e9-c9db-beea840988ee">PlanningArea, Site, ServiceArea</p>
+</tr><tr id="_4d312309-11db-8141-a29d-fb814ac5a4ec"><th id="_6678d2ae-459e-93d9-f9f2-283dd1ff5e34" valign="middle" align="left">Associations</th>
+<td id="_a89bc7a4-fcf7-bf75-85e1-b8b169117c43" colspan="7" valign="middle" align="left"><p id="_f970c438-3792-d2e3-21f9-09c3f32b6331">(none)</p>
 </td>
-</tr><tr id="_8b634c5b-c8fe-5f11-611f-aa73c8592fbc"><th id="_4817de7d-f53d-f17f-5a1b-ff5fc05bc55e" valign="middle" align="left">Abstract</th>
-<td id="_c4b8094f-5d53-635e-fdbe-03e505b1125b" colspan="7" valign="middle" align="left"><p id="_e9588d2c-bcac-5c83-9f85-a8d66e65ccb0">True</p>
+</tr><tr id="_953303e8-ae4c-fe2e-e91a-cda5dbbb10b9"><th id="_c4eeba39-d1d4-d146-2505-d04243d4f282" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_ae59e276-fa73-510f-512c-a470e80e1885" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_535331ac-93de-15af-04b1-649892bfe18b" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_d94b55e3-4aa2-dfa3-56d4-430ae8d61999" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_c3ecb639-33a8-3629-ff01-6fdce0d43bf5"><td id="_6f7fe908-9d80-b35d-11db-15aef6015bbc" colspan="2" valign="middle" align="left"><p id="_b5b424fb-b897-a313-fd6f-4663658e5ae7">extent [1]</p>
 </td>
-</tr><tr id="_f25787b1-9638-c110-4269-2091041cf6bd"><th id="_87793d1b-f38a-f881-c0b2-a9fd6270953e" valign="middle" align="left">Associations</th>
-<td id="_72755267-0dae-ad75-777d-2d53aae9480a" colspan="7" valign="middle" align="left"><p id="_02b64f95-200b-73b6-7aae-8ebd080def25">(none)</p>
+<td id="_7c23976c-4245-7fc0-e2d0-a4ad539e3721" colspan="2" valign="middle" align="left"><p id="_9dfae8c1-f031-64f8-4469-8a4c3d27c162">AbstractValueType</p>
 </td>
-</tr><tr id="_a017a243-07a0-32b6-9acd-97db94b47824"><th id="_17d781b6-7813-6d0e-d60a-69508d7ecead" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_a0b7cc95-c827-9b18-82d2-8229c8526bd0" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_2e132147-c24a-aaf0-d9ac-ae3e66f9a621" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_765d6731-5f7d-9496-4ef0-e0baeab70233" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_f4d1193a-a9ac-d783-fe69-cb0447118f55"><td id="_e398e59f-93f5-0932-44ea-172f32013ca0" colspan="2" valign="middle" align="left"><p id="_156460b2-82e7-4c4f-22ec-5f25b632d28f">extent [1]</p>
+<td id="_18e3607a-f634-1bf0-bb02-912add71c03d" colspan="3" valign="middle" align="left"><p id="_7cdb08c9-2975-96a9-02cb-09a6236f5dc4">Characteristic attribute of MUDDISpace representing the typically 2D extent of each instance.</p>
 </td>
-<td id="_d0d79e58-9b49-ca15-6c48-e9e2b42ed6a3" colspan="2" valign="middle" align="left"><p id="_3c8e8f33-aa4d-fc7b-1558-8a185851fdfd">AbstractValueType</p>
-</td>
-<td id="_a6f61f71-e6b8-9c4a-e3cb-ac8408cf23f9" colspan="3" valign="middle" align="left"><p id="_92000afe-5b49-3e32-4a9c-01b466f91fc1">Characteristic attribute of MUDDISpace representing the typically 2D extent of each instance.</p>
-</td>
-</tr><tr id="_411e7717-7171-83be-2a40-5c2865cacb55"><th id="_20d8f0dc-8d1e-4822-664e-a5af1c0e14b3" valign="middle" align="left">Constraints</th>
-<td id="_5630e5b0-2048-8509-c397-a134995ef7af" colspan="7" valign="middle" align="left"><p id="_2b3dcfd1-09bb-46a9-02c4-4e092d88e761">(none)</p>
+</tr><tr id="_09b4b7c3-0d8e-4e14-856a-2719273441bd"><th id="_6f3aded7-dfc5-2965-4872-8fd1fe05e21d" valign="middle" align="left">Constraints</th>
+<td id="_5d724c34-d44d-7c3d-6db5-79b310ab08c5" colspan="7" valign="middle" align="left"><p id="_6e9d56c7-22ae-b523-865b-5324415cc422">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_3b3ed419-a538-9630-ba26-47f14e574c91" anchor="section-Class-EAID_0A4A8C3C_EAE1_46fc_901A_E37325CB4BA9" width="100%">
+<table id="_076b8313-b973-4e68-b3ee-02b69b165ba8" anchor="section-Class-EAID_0A4A8C3C_EAE1_46fc_901A_E37325CB4BA9" width="100%">
 <name id="_33838893-ef33-26e2-dbd4-59adb9cd6086">Elements of “Conceptual Model::Network” (FeatureType)</name>
 <tbody><tr id="_b4880981-a4be-8e73-2700-843a07210466"><th id="_2f3f0346-2022-a258-b9af-8182828531bb" valign="middle" align="left">Name</th>
 <td id="_03fae131-dc8a-24d5-2ee2-1d24c535ee17" colspan="7" valign="middle" align="left"><p id="_a6892a2b-6ef2-1551-a688-5203ba428047">Network</p>
@@ -971,32 +920,29 @@
 </tr><tr id="_d281d4ec-6568-9efb-1e6e-2dc100ebf385"><th id="_f0a4c8c8-4267-e925-9ccf-dc12cf4d84b7" valign="middle" align="left">Stereotype</th>
 <td id="_18f51e5c-ae18-5e92-04a0-e7157b16398e" colspan="7" valign="middle" align="left"><p id="_92e94444-6efb-1159-e2cf-07398af7e0ce">FeatureType</p>
 </td>
-</tr><tr id="_40432ce3-ac58-5428-d119-3e2cd2c0af71"><th id="_2372f118-7a40-b01c-5b96-180fc590c438" valign="middle" align="left">Inherits from</th>
-<td id="_41906e79-2bae-8f6a-90ee-895ca9728107" colspan="7" valign="middle" align="left"><p id="_c860583f-ee6c-b94c-296b-2a665c8b7454">MUDDIAsset</p>
+</tr><tr id="_79940f58-4e87-dd28-480e-0f588e5e9a61"><th id="_3fcfd7b7-2008-06db-2071-41ef16b4a41d" valign="middle" align="left">Abstract</th>
+<td id="_a983fb2b-6e07-2394-a5ce-7b2614380328" colspan="7" valign="middle" align="left"><p id="_b64e6c95-7c9f-a3fa-ddba-b3de4084ed6d">False</p>
 </td>
-</tr><tr id="_830cc0cb-a368-e2d9-d9c4-bcfbc9d94e93"><th id="_7f005481-e42e-ff1e-4ac3-25c63e483aba" valign="middle" align="left">Abstract</th>
-<td id="_4738af77-1678-edbf-d5de-8734dfff071d" colspan="7" valign="middle" align="left"><p id="_97a922b9-e7b1-d8d0-787a-c4f29ec9ee6c">False</p>
+</tr><tr id="_7b09b6a6-4085-4d8a-90f0-7c48c74a27b7"><th id="_749f3e90-a085-f251-e2c1-d01bc7286950" valign="middle" align="left">Associations</th>
+<td id="_0f2034ae-c9ca-6e39-af0e-e33e7da3a00b" colspan="7" valign="middle" align="left"><p id="_70335ad7-ed92-7177-7681-ba9730dcbefa">(none)</p>
 </td>
-</tr><tr id="_ece132f3-42f3-da40-f5ee-1b987ab25e20"><th id="_f0df3d8c-9290-b642-8c6c-83b15d666230" valign="middle" align="left">Associations</th>
-<td id="_32606899-250c-2b1b-3f4a-a9b474ca5802" colspan="7" valign="middle" align="left"><p id="_09de681f-bf9b-90c0-42a0-1e1274918575">(none)</p>
+</tr><tr id="_d6125da0-0f89-58b0-4035-ac96ca9ffa73"><th id="_e87da7e9-4144-b905-8912-aa80ea9b7512" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_c2a1ec43-2595-110c-4ab0-702dcf52b89a" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_0e28de0d-cfc0-aab3-562f-9533ed70f622" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_0e46b46c-c173-b073-85a9-983a9b792294" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_e078d48d-3827-de11-425f-e0744afa69ea"><td id="_10ab6072-a407-7b30-3604-553f20eb4e59" colspan="2" valign="middle" align="left"><p id="_8b5c4f0a-eda9-bc2d-a00e-a1cdef55462c">commodityType [1]</p>
 </td>
-</tr><tr id="_6c0c55e5-d5a2-7d73-b4b8-463bb4a28302"><th id="_da5360b3-30cd-683c-86df-bc71a5d74c2a" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_639abf60-192e-a9db-94fc-f0da050d7877" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_43f5e699-59eb-a709-689f-6abe18c093a7" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_3b314436-f36c-b1ba-92bb-a843df52ef28" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_7cf0b855-9cc3-77ef-73eb-82d1f05fbd43"><td id="_77f51292-a667-0615-9884-b1d7f6d7b69b" colspan="2" valign="middle" align="left"><p id="_f4785ab4-63fe-b8cf-57a3-e358f3d35a70">commodityType [1]</p>
+<td id="_54caf54a-7960-b585-a207-89d32f7c4cf5" colspan="2" valign="middle" align="left"><p id="_8a9cdd27-ee34-8c34-bf7e-820cc7502edc">AbstractValueType</p>
 </td>
-<td id="_877124bf-aba2-b2de-7242-18abaf76896f" colspan="2" valign="middle" align="left"><p id="_e3a6a0a8-a277-bae6-eb46-14d1892157ff">AbstractValueType</p>
+<td id="_ac5e87e3-5ae5-3b4c-5def-64a8beb8f8e1" colspan="3" valign="middle" align="left"><p id="_d26179aa-706e-3c7c-2199-b9e83e23b32d">Characteristic attribute of Network that indicates the commodity being distributed by that Network instance.</p>
 </td>
-<td id="_9d7ed8f3-c7bb-64b5-f464-b33e043d557b" colspan="3" valign="middle" align="left"><p id="_c34dffdb-1f29-a671-bf02-cecae627be26">Characteristic attribute of Network that indicates the commodity being distributed by that Network instance.</p>
-</td>
-</tr><tr id="_69ba7d4a-baae-a77c-e122-68f41eec8d7b"><th id="_9f3af9fd-b5a1-a0c6-c9dd-bfb8f12cdaa4" valign="middle" align="left">Constraints</th>
-<td id="_4d697fa2-a9bf-fb5c-3dd3-a0ca660ee91a" colspan="7" valign="middle" align="left"><p id="_12cbce9e-e35f-5651-7dad-fd81dc65c158">(none)</p>
+</tr><tr id="_b04dc0d9-8683-0d37-c205-d2df7c6b068d"><th id="_8a399937-3e0f-3965-9490-b964c666d726" valign="middle" align="left">Constraints</th>
+<td id="_ee098ced-71fa-d982-171f-0a3a9764e652" colspan="7" valign="middle" align="left"><p id="_46346ed4-88ee-51ce-f7df-f3acd5224ace">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_ad3753ef-7f41-f1ed-e48b-23daeff8b4ac" anchor="section-Class-EAID_26834763_428A_4781_870A_E6D06D12C713" width="100%">
+<table id="_b5f0f62f-6c7d-47b0-a82f-0f1866fe2414" anchor="section-Class-EAID_26834763_428A_4781_870A_E6D06D12C713" width="100%">
 <name id="_35cbc5a6-516a-0143-0081-b1f8d1d5fdfd">Elements of “Conceptual Model::NetworkAccessory” (FeatureType)</name>
 <tbody><tr id="_776c1f89-2042-2358-4316-f8aa5fd5b573"><th id="_4fb72c2b-0a79-bb94-c112-fc62eac8954d" valign="middle" align="left">Name</th>
 <td id="_05194f0a-6612-309c-1c26-135136ead620" colspan="7" valign="middle" align="left"><p id="_bde64b35-4e17-7c87-d838-e6e65488635f">NetworkAccessory</p>
@@ -1007,28 +953,22 @@
 </tr><tr id="_1d30faf3-8916-b207-631d-a12ebdeaa70a"><th id="_88d320d6-6b82-dc74-9eb2-2127f1bda7df" valign="middle" align="left">Stereotype</th>
 <td id="_2c58e72b-8600-5a13-fefd-596a8bfea3f5" colspan="7" valign="middle" align="left"><p id="_25be7c30-b3a5-5b86-95df-80f777bdcbe0">FeatureType</p>
 </td>
-</tr><tr id="_bdab740e-159e-123c-db9b-0d6ccc70ebce"><th id="_cd96c317-80c1-e0c8-06cb-f73aa47c05ad" valign="middle" align="left">Inherits from</th>
-<td id="_ca8eea07-f601-08c6-2c21-cdcd2d1614bb" colspan="7" valign="middle" align="left"><p id="_256fff3e-3ad6-2ce0-5614-5173a88e34ca">NetworkAsset</p>
+</tr><tr id="_e5d50198-741b-1387-e958-c6d144fa49a0"><th id="_65b12bf1-98b4-073c-0080-f7eccaf46aaf" valign="middle" align="left">Abstract</th>
+<td id="_aee216b9-6c30-b9a5-0a48-f055e037ca6d" colspan="7" valign="middle" align="left"><p id="_73267d4f-f121-cddd-e50d-31f53c463044">False</p>
 </td>
-</tr><tr id="_e48f16f4-c22c-3c65-4902-6132f0b1d517"><th id="_67f7fec8-0d8c-56d7-1020-7547adf4b954" valign="middle" align="left">Generalization of</th>
-<td id="_42e8535c-a4c7-9574-112b-8ed66d50d67b" colspan="7" valign="middle" align="left"><p id="_3cf82db3-08c2-955b-476a-18fb853369cc">Support, Container, Protection, Sensor, Access</p>
+</tr><tr id="_fe2467b9-52b3-4824-1ad2-5bfd660aa347"><th id="_51fc53c1-eba6-3ef3-ff83-9f5ebe417a1e" valign="middle" align="left">Associations</th>
+<td id="_64fc07fb-ea1d-ea59-283a-ce1688d9b681" colspan="7" valign="middle" align="left"><p id="_0ac36a34-76fc-1448-6981-c8e9eebafe0d">(none)</p>
 </td>
-</tr><tr id="_4038ac10-fb9c-b5e0-e236-3bc55304f4b6"><th id="_9405c03c-4c68-001b-d716-990ee220267c" valign="middle" align="left">Abstract</th>
-<td id="_35a857a4-14d0-14f8-82bc-bfd2ea519b1a" colspan="7" valign="middle" align="left"><p id="_7b02ac4d-4002-8610-e679-1d2509b3d8a9">False</p>
+</tr><tr id="_91cb6b91-4875-9b69-16b8-5b6f1f20ae55"><th id="_9384e08a-8cb5-41e2-0b97-c785612c51dd" valign="middle" align="left">Attributes</th>
+<td id="_fce4bc4b-a364-239f-a56c-7d3a1b3714b9" colspan="7" valign="middle" align="left"><p id="_ad73a0c9-e1de-4933-fcfe-85bcb12895a6">(none)</p>
 </td>
-</tr><tr id="_e65b8e1e-7324-43fa-3b57-31a2c31dd864"><th id="_455feb2e-4bb5-803b-0ce3-1ee7bb1b185a" valign="middle" align="left">Associations</th>
+</tr><tr id="_10e57d30-a7f9-c773-1486-addc0ab31a9f"><th id="_d9b842bb-df91-2453-cabe-2f56071c3c6b" valign="middle" align="left">Constraints</th>
 <td id="_716378dd-61f2-2664-6582-a92aa4f33f87" colspan="7" valign="middle" align="left"><p id="_7ef0e416-9574-88b0-5bfc-1946992d4384">(none)</p>
-</td>
-</tr><tr id="_1bcca541-4fcd-d00e-952e-8831fdfde72d"><th id="_b1f22512-71bf-e32a-ddfb-c7198239a1cf" valign="middle" align="left">Attributes</th>
-<td id="_84fbe33f-97fa-d43b-2497-1f7791fe9baa" colspan="7" valign="middle" align="left"><p id="_c112435c-61df-dca8-2f4a-ca18b9b644e2">(none)</p>
-</td>
-</tr><tr id="_3e38d5c4-99ae-8e3c-f142-934d1334aa81"><th id="_d3f5b469-9dc1-e745-5ad3-5c3220a88766" valign="middle" align="left">Constraints</th>
-<td id="_32359a11-b11e-df54-4236-31ec9d848987" colspan="7" valign="middle" align="left"><p id="_808da8d9-648b-68e8-fbcb-f39a39270a73">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_b83e594c-7f1e-14fd-900f-2cb37c7c7821" anchor="section-Class-EAID_459C1DFA_CB8B_4c79_8B4C_BEE107546395" width="100%">
+<table id="_84a08499-334d-3be0-20b3-dab209b0bdb2" anchor="section-Class-EAID_459C1DFA_CB8B_4c79_8B4C_BEE107546395" width="100%">
 <name id="_90e500cd-c472-6569-947b-8ce067d6fac8">Elements of “Conceptual Model::NetworkAsset” (FeatureType)</name>
 <tbody><tr id="_6dfe8248-fe5c-45b6-8a8a-2cfd6c7ca5f0"><th id="_3c0e2b8f-2e0d-1808-e993-1b0d77f9d748" valign="middle" align="left">Name</th>
 <td id="_e84363b0-9197-3f4d-5603-93688d8f562a" colspan="7" valign="middle" align="left"><p id="_0ab6cb3b-6dd4-0612-ad3f-1ebb67a6fff7">NetworkAsset</p>
@@ -1039,35 +979,29 @@
 </tr><tr id="_9dc6dd63-bfcf-22dd-807c-f1e01928f5aa"><th id="_1725ecad-62b1-8c70-a0eb-e8d3fc033f00" valign="middle" align="left">Stereotype</th>
 <td id="_d7471177-f266-aa17-b726-d0157fc050d2" colspan="7" valign="middle" align="left"><p id="_67c6216a-5a41-a529-c53b-40509352dbb9">FeatureType</p>
 </td>
-</tr><tr id="_92510865-4880-8a1e-b54b-f59853a283d8"><th id="_63ece840-c139-2a68-bcea-1573e718b134" valign="middle" align="left">Inherits from</th>
-<td id="_732f89e3-4db1-c0a4-36ed-289706d664c3" colspan="7" valign="middle" align="left"><p id="_1b548a50-eb43-14be-28da-d098bbae7893">MUDDIAsset</p>
+</tr><tr id="_5dceb0c6-dbf1-e441-7ea6-6750ccc5fc0e"><th id="_053b899c-7520-b75e-f0bc-87a5c83461c0" valign="middle" align="left">Abstract</th>
+<td id="_27168fae-3cc6-0464-a395-ba08fc52f50f" colspan="7" valign="middle" align="left"><p id="_04c4e9b0-422b-1909-9d18-fe8e5547e1ce">False</p>
 </td>
-</tr><tr id="_45576b09-777d-c507-fe0b-c9a7f551341c"><th id="_9c52c28d-a17d-e823-94b6-9ce76a193131" valign="middle" align="left">Generalization of</th>
-<td id="_57a0ebb5-518c-ce2a-06f8-abec5e9d53c5" colspan="7" valign="middle" align="left"><p id="_e2516545-8f90-d9cd-1000-e17d53a5c8fb">NetworkAccessory, NetworkConveyance</p>
+</tr><tr id="_d69c77c1-490d-c737-89d8-023490fb8cf6"><th id="_3f9f459f-c829-4a86-59ee-c3547c4376ed" valign="middle" align="left">Associations</th>
+<td id="_144773f6-4b0e-0479-1270-c2d115f0ea46" colspan="7" valign="middle" align="left"><p id="_b51ed000-ab5a-15ff-12e8-60774c64a85a">(none)</p>
 </td>
-</tr><tr id="_8f36b59f-a63e-8f9d-6c1d-33fc45f81ea0"><th id="_2150a636-76cf-4ee0-3990-1389449ef541" valign="middle" align="left">Abstract</th>
-<td id="_ab510a75-c5d2-279d-60c7-b566badb7d91" colspan="7" valign="middle" align="left"><p id="_28c69554-34f4-5330-33da-5c696013279b">False</p>
+</tr><tr id="_d7a6ddf7-df5e-4549-d992-6177613c9c8d"><th id="_c7d60654-4952-9c90-c309-3fdd3e30d4d3" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_f676d7e8-8552-e2b6-550b-75c09146f4ed" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_b1f480db-b340-3b0c-5bab-706b8a2c7a04" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_4701deb8-f525-6cc9-2d5c-66bf892d1ad3" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_f6dcbacc-fcc8-af1e-0f16-6b7d0e9ea631"><td id="_7b0b9af1-40ef-2c72-7892-beb07e8b0579" colspan="2" valign="middle" align="left"><p id="_65ac516e-1458-2e0b-fc51-f36c0f588370">utilityType [1]</p>
 </td>
-</tr><tr id="_820047d1-3f1d-f44a-5d06-1fa1dfcfd76d"><th id="_4861c5f2-102d-fd3f-05e8-b81711270518" valign="middle" align="left">Associations</th>
-<td id="_70ed44af-6245-855a-4027-305bcda4d2ed" colspan="7" valign="middle" align="left"><p id="_7c5ada05-5683-2469-0944-99eb3149e7a7">(none)</p>
+<td id="_b02c38ac-e1f8-cb58-e121-b5907ecb1cbd" colspan="2" valign="middle" align="left"><p id="_6b997015-ab40-454d-787d-96f9626dfcef">AbstractValueType</p>
 </td>
-</tr><tr id="_8d3f29f7-c992-c9c8-180a-56815bc7e64b"><th id="_b5c41eff-34b8-23db-3e64-b813638f100e" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_5c7d31ad-4dd5-e837-c944-85d236f0c4cf" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_2fe88163-82c6-65f7-2816-a35a1453fc59" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_55a54098-0e65-b8f2-1da2-b899706db2c3" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_0fd67346-251d-08bb-9d0a-17f93eb8bf1c"><td id="_45524e98-fea9-4b68-a40e-ffc1a4bb077d" colspan="2" valign="middle" align="left"><p id="_55529dcc-af8f-f73f-6dde-2e4718dc9c96">utilityType [1]</p>
+<td id="_2d06dd6f-8981-7f00-b1d7-475bcfa9e9fc" colspan="3" valign="middle" align="left"><p id="_5390d637-c9bc-403c-5447-889e3778dc29">Characteristic attribute of NetworkAsset that indicates the type of utility it forms a part of or commodity that it distributes.</p>
 </td>
-<td id="_19f025e4-8dc7-5352-2ccd-c61627a64641" colspan="2" valign="middle" align="left"><p id="_17d578cc-ecfb-bf28-557f-5a07bfc1dd64">AbstractValueType</p>
-</td>
-<td id="_326ac144-95a3-37a2-61d9-c2742327c7cd" colspan="3" valign="middle" align="left"><p id="_699885e5-0515-bf77-0ae1-f442d4eaf2ce">Characteristic attribute of NetworkAsset that indicates the type of utility it forms a part of or commodity that it distributes.</p>
-</td>
-</tr><tr id="_848d898d-4cc6-efe7-9cf2-261f6936d9d6"><th id="_b5af601e-0a76-1f01-2614-529866b36e9b" valign="middle" align="left">Constraints</th>
-<td id="_e29c47f0-39cc-d749-5b57-71715d856ab5" colspan="7" valign="middle" align="left"><p id="_758d8aa6-d980-deeb-c70a-c28567878a46">(none)</p>
+</tr><tr id="_12818176-a518-cf1a-125b-c672cc8650bd"><th id="_dfb9b1f2-528b-b708-7374-fdef9c668fb5" valign="middle" align="left">Constraints</th>
+<td id="_13ae6295-ac8d-de5a-0d68-18056b033134" colspan="7" valign="middle" align="left"><p id="_6c80d908-8aa7-36f6-5cb9-f8fc84f70402">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_e3e0e8f7-1122-df7f-0903-91cf60bcf4f4" anchor="section-Class-EAID_F06D39FC_D504_4ddf_82B2_C973DE0785E4" width="100%">
+<table id="_3599a068-4583-581e-5ffa-bd6697c0bf6b" anchor="section-Class-EAID_F06D39FC_D504_4ddf_82B2_C973DE0785E4" width="100%">
 <name id="_c2e41194-d608-8673-40eb-0a8a2680209f">Elements of “Conceptual Model::NetworkConveyance” (FeatureType)</name>
 <tbody><tr id="_0d70afd4-69d9-f04c-7943-2130506e4bd1"><th id="_93e6bb75-0d0b-c88f-3430-c073c7ced310" valign="middle" align="left">Name</th>
 <td id="_15f51ed1-83a7-e60a-168d-a4093d02c89a" colspan="7" valign="middle" align="left"><p id="_f43c918a-4766-e032-bc8e-08b58faf9907">NetworkConveyance</p>
@@ -1078,28 +1012,22 @@
 </tr><tr id="_cdd6029e-749b-2490-a96a-71dee026bedf"><th id="_3ff9d24c-1b5c-9936-a7ff-4c93f522246d" valign="middle" align="left">Stereotype</th>
 <td id="_b12a1286-ece5-d52c-ba75-1db2d2ae364e" colspan="7" valign="middle" align="left"><p id="_528b7eef-c70f-81c6-9340-b1c11a54743c">FeatureType</p>
 </td>
-</tr><tr id="_f5795e4b-c91f-0dfe-2c6f-82e0f5d1d84d"><th id="_bb531277-ca15-a9b8-dff1-dd1b2bb03e4b" valign="middle" align="left">Inherits from</th>
-<td id="_d4abbe6e-1a95-a2b0-7173-475238c29a34" colspan="7" valign="middle" align="left"><p id="_e09b694b-d4f8-8108-cfa1-7b513fcc4f41">NetworkAsset</p>
+</tr><tr id="_c157c08b-a4f1-3a76-bbc8-f6e7ab81b89c"><th id="_5c28d70c-b7ac-2568-b370-0786b7430a8e" valign="middle" align="left">Abstract</th>
+<td id="_64f0cc7a-5da0-88db-49bb-d6295a27b68f" colspan="7" valign="middle" align="left"><p id="_5a58f67e-6e1f-1d7e-1bb7-fdb3838800e4">False</p>
 </td>
-</tr><tr id="_07fc04ee-9d45-b7e3-e460-a226a6de6d8b"><th id="_a7d8dc07-df5e-cb95-93b1-8c61360b4074" valign="middle" align="left">Generalization of</th>
-<td id="_6f63eb76-1b3d-80c8-5229-09b39b2f59c5" colspan="7" valign="middle" align="left"><p id="_a8eb20fe-02cb-e1b6-d88e-23021521751b">NetworkLink, NetworkNode</p>
+</tr><tr id="_929c437c-52d8-83d2-d70d-17d4dcfbde99"><th id="_788d96c4-1798-6229-ce39-57948f25b28d" valign="middle" align="left">Associations</th>
+<td id="_e9f9e6e3-72c5-9e4b-0f78-bf62b7d3b7d5" colspan="7" valign="middle" align="left"><p id="_02e888e0-7c3b-c8d6-5e91-248ce8c80416">(none)</p>
 </td>
-</tr><tr id="_046b4e8d-bb46-a6af-13b0-d20abd94b58f"><th id="_9c365001-f6f5-602c-b9c3-7cf2cfa7bf4c" valign="middle" align="left">Abstract</th>
-<td id="_f172ebd9-ce31-9204-02db-d5bde06822b3" colspan="7" valign="middle" align="left"><p id="_03fb4068-d0b3-25cb-003a-ae6a6133e75f">False</p>
+</tr><tr id="_a67bff4b-567f-57b9-a0a6-f88b7ff75cb7"><th id="_dc726771-278f-aa15-6a39-9f917821be35" valign="middle" align="left">Attributes</th>
+<td id="_1f732ea8-1e50-8148-e2c4-76d6b10ca9c9" colspan="7" valign="middle" align="left"><p id="_903ebdaa-b448-f7ae-fe17-28bd79535f47">(none)</p>
 </td>
-</tr><tr id="_a0bba95b-70ea-a3dd-126a-6032b0475ac7"><th id="_b46f7ee0-b29d-e3e1-9295-0f1faa489e75" valign="middle" align="left">Associations</th>
+</tr><tr id="_72b18cf7-70b2-0cb7-5506-51118b9bdfbe"><th id="_973ab62d-c35a-539a-3028-a31f7c1dc92e" valign="middle" align="left">Constraints</th>
 <td id="_7f974f16-55d6-c122-04fe-1582c3f72ea2" colspan="7" valign="middle" align="left"><p id="_db7f0d07-0ec0-8ef4-15c4-77c83e9470a6">(none)</p>
-</td>
-</tr><tr id="_267d4010-09e4-d015-e367-56b67c21a167"><th id="_ed878e59-5472-4035-9913-ae5a81241748" valign="middle" align="left">Attributes</th>
-<td id="_27fee630-206b-41af-9491-42f9e1c1d0a2" colspan="7" valign="middle" align="left"><p id="_47449a09-9e1f-3be2-63a6-5b274a5bdcf0">(none)</p>
-</td>
-</tr><tr id="_d6589507-db89-9eb4-e743-2d912cf53abf"><th id="_9bd1048d-2c31-7a5c-ae28-72f17d64342e" valign="middle" align="left">Constraints</th>
-<td id="_b124b1ad-78de-1967-83c3-015603d4ce45" colspan="7" valign="middle" align="left"><p id="_d00e78dc-ab7f-2f70-3472-4c404877fd8d">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_2f34da78-1ed8-0586-40f5-ef3b594e6486" anchor="section-Class-EAID_B3D99D2B_17BD_42f7_9386_F42024BC85B6" width="100%">
+<table id="_68c2d6e8-55be-dd5d-8b23-c4687ff5da30" anchor="section-Class-EAID_B3D99D2B_17BD_42f7_9386_F42024BC85B6" width="100%">
 <name id="_71307090-abcf-52a2-db82-a5c24f713fd5">Elements of “Conceptual Model::NetworkLink” (FeatureType)</name>
 <tbody><tr id="_e2cd4ebb-cd6b-7e3e-9fc2-1c07e535e081"><th id="_e2b03b7b-3e89-5203-a081-7584dacb433e" valign="middle" align="left">Name</th>
 <td id="_ec757bb7-47a3-f785-3e8c-1cec0b098e60" colspan="7" valign="middle" align="left"><p id="_842b272d-710b-4fe7-0921-0408936e16e1">NetworkLink</p>
@@ -1110,25 +1038,22 @@
 </tr><tr id="_32b30bf9-3cc5-aee4-f913-38b598d922de"><th id="_a94ccf9c-50c5-69c2-2453-26f447768e99" valign="middle" align="left">Stereotype</th>
 <td id="_17cb5733-4aa4-c95d-9d8a-85ebfd814850" colspan="7" valign="middle" align="left"><p id="_a8a31373-b4d8-2d17-f8ab-b13ce6e484c0">FeatureType</p>
 </td>
-</tr><tr id="_ff65757a-90eb-5799-4474-aed21225139b"><th id="_56584527-60ee-fa87-2188-062a4b067678" valign="middle" align="left">Inherits from</th>
-<td id="_f9d90c05-c0ba-8992-8890-07644452af5c" colspan="7" valign="middle" align="left"><p id="_754733ee-0948-b1f4-d406-7764afb4ca80">NetworkConveyance</p>
+</tr><tr id="_760fba21-7abe-a407-5ba3-f5d85f57b0e3"><th id="_b3dd2489-2501-7362-64ba-056794a11fed" valign="middle" align="left">Abstract</th>
+<td id="_d1ae927d-a379-c4cd-5eaa-e7a124f488dd" colspan="7" valign="middle" align="left"><p id="_0203ae85-1ad9-5de9-2f78-f442a0357490">False</p>
 </td>
-</tr><tr id="_fc11d25f-5ceb-4586-3927-1957d0bfd5ad"><th id="_2f22040d-978f-d16a-7d24-fe8f8f850c1a" valign="middle" align="left">Abstract</th>
-<td id="_50d4e1a0-57dd-09d6-6d41-931f6900c54a" colspan="7" valign="middle" align="left"><p id="_ed3041c6-21e0-1519-5b3e-5dfd485de72b">False</p>
+</tr><tr id="_1095e043-d34e-0d05-8e19-c722ac500f85"><th id="_0e6fec5e-46e8-46fa-aa52-411ec5e60952" valign="middle" align="left">Associations</th>
+<td id="_914b3a9f-e2f1-9729-062d-1eaecafa957e" colspan="7" valign="middle" align="left"><p id="_68b45cdc-e4b8-55d3-bbd8-a4bb3aa3ae81">(none)</p>
 </td>
-</tr><tr id="_a561bb80-12f4-e690-bbb5-ca0e6f01c3e6"><th id="_20429443-3d15-7a44-7d9e-3c481f87bccd" valign="middle" align="left">Associations</th>
+</tr><tr id="_ae651510-15df-25a7-48d8-b4ff9ac4f4b6"><th id="_3d4d1094-b942-3a60-2d1f-3384fd8bf0b6" valign="middle" align="left">Attributes</th>
 <td id="_bcc30993-3924-4220-669b-cfb2f567845d" colspan="7" valign="middle" align="left"><p id="_f19c8a31-5f81-396c-b6fd-8a2d876c6622">(none)</p>
 </td>
-</tr><tr id="_c92501de-67d5-80c9-8145-a747a25818c8"><th id="_24aed820-18f3-bd5d-7f20-80a2a19db35d" valign="middle" align="left">Attributes</th>
+</tr><tr id="_fc18a72c-c952-ae6c-f739-9ccb8751ec7c"><th id="_5de5f56e-3f42-a6d7-2a03-4d03449b8e72" valign="middle" align="left">Constraints</th>
 <td id="_30a218d3-9c87-48e5-50a4-48fafb1ae69d" colspan="7" valign="middle" align="left"><p id="_632a39e7-d75e-9e3a-f2e5-a07348b8c811">(none)</p>
-</td>
-</tr><tr id="_579fa5d0-6701-d17a-d4fd-3fc8be325b52"><th id="_300cffb6-5cfc-09eb-a4fe-5048181f333c" valign="middle" align="left">Constraints</th>
-<td id="_4655f3c2-54fa-55ce-3af1-06f991eeaa81" colspan="7" valign="middle" align="left"><p id="_edb7d2e3-b8e4-e75e-dcac-57e13bbd5fb6">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_c40be58f-1cbf-001b-25c3-2b22a285ea98" anchor="section-Class-EAID_B3AE72D7_CA53_46a6_84DF_C488DB37236C" width="100%">
+<table id="_dcf95144-5d84-1626-2618-6af4b05f4265" anchor="section-Class-EAID_B3AE72D7_CA53_46a6_84DF_C488DB37236C" width="100%">
 <name id="_e6e995d4-969b-1154-15e3-6ed9492c3f5a">Elements of “Conceptual Model::NetworkNode” (FeatureType)</name>
 <tbody><tr id="_b99874c6-f79c-76dd-33db-a5c48aab1d0a"><th id="_5f9b46d1-4995-5b63-98a0-4df1d2f58a39" valign="middle" align="left">Name</th>
 <td id="_18a4fc5d-135e-f195-5280-f48acda08e9d" colspan="7" valign="middle" align="left"><p id="_0dac3322-0854-473d-ae4c-8fe06a3355d3">NetworkNode</p>
@@ -1139,25 +1064,22 @@
 </tr><tr id="_f2d9f4cd-bf61-a0ff-ec56-3abd255babd6"><th id="_1402bbb3-62a4-32f2-9734-1beadfa65c5d" valign="middle" align="left">Stereotype</th>
 <td id="_1f48db76-8560-6c42-f0f6-7d00fdd406f3" colspan="7" valign="middle" align="left"><p id="_e8902dfe-acf4-287f-1ce1-e079ef0c07fc">FeatureType</p>
 </td>
-</tr><tr id="_059738a0-1d01-8753-9931-8234a0ffa292"><th id="_1e97d3df-d687-2398-ecc3-14e982f85538" valign="middle" align="left">Inherits from</th>
-<td id="_87e1c4f2-c08f-f7d0-c642-3cb6d8fe3591" colspan="7" valign="middle" align="left"><p id="_7e3ba2f3-4710-bcee-2561-2787bbadfeda">NetworkConveyance</p>
+</tr><tr id="_0187fbc8-5a57-c6a8-32ad-3972c444b466"><th id="_d89664f6-2674-72fb-a2fb-9725c85fa6ee" valign="middle" align="left">Abstract</th>
+<td id="_1093d673-7afe-fc14-6324-bead91e58675" colspan="7" valign="middle" align="left"><p id="_3e001558-9f2f-d3a7-8b4d-d965f871e737">False</p>
 </td>
-</tr><tr id="_07d15e97-ff37-b762-5cb1-16586500f315"><th id="_fd92be80-2a26-ceae-bebe-c8955f148a3b" valign="middle" align="left">Abstract</th>
-<td id="_7952e002-eb07-1f32-47d2-3197350d380e" colspan="7" valign="middle" align="left"><p id="_343cb335-579c-0107-461b-3a08a23739de">False</p>
+</tr><tr id="_5876a693-361b-2156-0be5-83cecb563fca"><th id="_e0298994-0d04-4750-1218-710864092ac0" valign="middle" align="left">Associations</th>
+<td id="_e6a36935-d59d-3502-49af-1474d91c734b" colspan="7" valign="middle" align="left"><p id="_87057d2b-e6f2-7d5c-d995-8de899fb9c91">(none)</p>
 </td>
-</tr><tr id="_c0535c53-b5c0-b575-d4eb-87f08004cfb5"><th id="_8e06bedf-12c2-8f61-3572-cdc6dff105b5" valign="middle" align="left">Associations</th>
+</tr><tr id="_f291a07a-8a30-b5aa-c816-ff193a0bb814"><th id="_6e37ec80-9ce1-8a55-e512-5ca2e2c9046e" valign="middle" align="left">Attributes</th>
 <td id="_32c49237-b097-b2b9-065a-abaeefcf85f7" colspan="7" valign="middle" align="left"><p id="_e602ee8c-c758-188e-51b2-597f3f28335c">(none)</p>
 </td>
-</tr><tr id="_0d0cbcca-62be-14b5-7caa-1aad085e4439"><th id="_9282140a-d58e-5806-a57a-e1b103af7509" valign="middle" align="left">Attributes</th>
+</tr><tr id="_7043a746-660a-f715-afdf-5f4db1980718"><th id="_0b4f61ba-1523-15da-9441-4a880b8acafb" valign="middle" align="left">Constraints</th>
 <td id="_783d033c-a100-ec95-6359-fb34b1a7e884" colspan="7" valign="middle" align="left"><p id="_5d90d25b-ef55-8f28-9a58-80d2dd465cf1">(none)</p>
-</td>
-</tr><tr id="_95b82b3b-bf63-f29f-8f80-16faf96a8e6c"><th id="_79388e14-8e82-c14e-180d-e577d87cc15f" valign="middle" align="left">Constraints</th>
-<td id="_8a53f54c-c53a-67c9-d792-2172800862e3" colspan="7" valign="middle" align="left"><p id="_455bc7b3-13ce-dee9-82c5-a92340b3f7f3">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_53a15858-4446-a967-9735-2e2a61df2997" anchor="section-Class-EAID_0FFE0957_71C4_4186_BE3F_99701FA79ED3" width="100%">
+<table id="_d0ebdd9c-2d3e-d01a-adc1-41534ed6e83c" anchor="section-Class-EAID_0FFE0957_71C4_4186_BE3F_99701FA79ED3" width="100%">
 <name id="_366749c5-cd86-670a-8941-e21a119f0d74">Elements of “Conceptual Model::Observation” (FeatureType)</name>
 <tbody><tr id="_12ee1770-baef-1c05-098a-8ec7ee3916e6"><th id="_110c55b2-2ec2-96e9-0a45-cb14fbce9471" valign="middle" align="left">Name</th>
 <td id="_99d60f8b-af63-8cc9-b191-4b231f134af2" colspan="7" valign="middle" align="left"><p id="_0f1b4664-a044-2c23-a52e-d82b3caaa12b">Observation</p>
@@ -1168,25 +1090,22 @@
 </tr><tr id="_ba082eda-f8de-95cc-2596-e83fde44f7e8"><th id="_295f393a-c40a-979c-6178-59d2f375e025" valign="middle" align="left">Stereotype</th>
 <td id="_1537dff7-ff9f-1428-8043-0b66b7d3d1d5" colspan="7" valign="middle" align="left"><p id="_6d1595c4-578f-15ca-bf73-ff1e296cec66">FeatureType</p>
 </td>
-</tr><tr id="_d4d48c59-b36d-313f-0ec9-12c2a6b52bc5"><th id="_a7067bd0-4473-83fa-8755-7ea95ef2556d" valign="middle" align="left">Inherits from</th>
-<td id="_1e25b42f-bffe-75cb-e744-588c5802a040" colspan="7" valign="middle" align="left"><p id="_6dca98b6-6c65-1597-6795-38437468c4e7">MUDDIEvent</p>
+</tr><tr id="_33c5575e-8652-54fd-8be6-89d2330129cb"><th id="_4a69723e-3340-9856-a2f0-959975d72f44" valign="middle" align="left">Abstract</th>
+<td id="_639bcfa8-fdb7-0ccb-41bc-e28b301bc702" colspan="7" valign="middle" align="left"><p id="_049e52fd-5596-ca1e-e2cf-df3309fa36fa">False</p>
 </td>
-</tr><tr id="_1f86f7e3-0a65-3f01-58ef-bbb981289db6"><th id="_758e27d7-3a44-278f-558e-fd2e1527d100" valign="middle" align="left">Abstract</th>
-<td id="_7d4b6293-a506-b8e2-f966-ab8fc31dd1bf" colspan="7" valign="middle" align="left"><p id="_3c039fed-be87-9fbd-9bbc-06f4b7b03538">False</p>
+</tr><tr id="_885b02ba-be21-8372-2102-b9d946eb73db"><th id="_e56dc7a8-5b55-f4f5-fc8c-4de89100a0d8" valign="middle" align="left">Associations</th>
+<td id="_620b6453-5b91-4617-67c8-75acef6511f1" colspan="7" valign="middle" align="left"><p id="_706c54f5-0bc3-e5b6-9697-448b01beba45">(none)</p>
 </td>
-</tr><tr id="_c4a697ff-5bd1-cc8a-1d24-b981d368bf3c"><th id="_2d1b9cf9-53be-67b2-e7f0-187762a79db4" valign="middle" align="left">Associations</th>
+</tr><tr id="_db47f197-d5f2-d7de-271a-b591b0e15029"><th id="_920181ad-7a05-46f5-ccd3-f834d1c9f5e7" valign="middle" align="left">Attributes</th>
 <td id="_73e6f809-19f5-c2d7-3647-52dc7b6ccdb6" colspan="7" valign="middle" align="left"><p id="_77db10ff-8344-a801-d79e-8196e2cf9f4b">(none)</p>
 </td>
-</tr><tr id="_38ff097a-a7e2-be02-068d-d76490738a0d"><th id="_ec19ba6d-252d-6074-9268-45b9374ba6bc" valign="middle" align="left">Attributes</th>
+</tr><tr id="_0bbb989f-fd92-ff6f-febb-95876b6a9499"><th id="_e15493c2-30d7-739a-4d82-9d054edad362" valign="middle" align="left">Constraints</th>
 <td id="_9e0b61bc-edcd-5a0e-baf5-86a1e5cafc8f" colspan="7" valign="middle" align="left"><p id="_785af468-400d-3d49-33bb-fab07dcdaf38">(none)</p>
-</td>
-</tr><tr id="_1c8b4e09-35fb-4014-c028-1e52d3c10029"><th id="_4b4e78c0-b519-f6ff-1cfe-e86d2fae1017" valign="middle" align="left">Constraints</th>
-<td id="_b572e9cd-c728-680a-f810-5a28ea5d4555" colspan="7" valign="middle" align="left"><p id="_40139e1f-19d9-f557-1439-8698ffd9e08b">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_e8535af3-854d-e3ed-7107-9fd2af85ed9d" anchor="section-Class-EAID_3C5D9163_7AA2_45c1_BC7B_A44C353A8EC9" width="100%">
+<table id="_78424033-a335-5970-0290-716c13a34a60" anchor="section-Class-EAID_3C5D9163_7AA2_45c1_BC7B_A44C353A8EC9" width="100%">
 <name id="_9b5f0044-656f-bbe6-a876-434ad41d8a1c">Elements of “Conceptual Model::PlanningArea” (FeatureType)</name>
 <tbody><tr id="_85c84bdd-0aee-c74c-2168-173e30b430be"><th id="_fd92042e-e727-d438-3740-789a320f9e9f" valign="middle" align="left">Name</th>
 <td id="_c3861622-3230-2841-5c78-8e3a3e553bb5" colspan="7" valign="middle" align="left"><p id="_a32125ef-058a-b8d2-72c8-85fabd3c5158">PlanningArea</p>
@@ -1197,25 +1116,22 @@
 </tr><tr id="_6cd35c0e-83a2-ddb9-d783-b4e336957865"><th id="_8a9eee72-947d-d80c-4c1b-64728eca8975" valign="middle" align="left">Stereotype</th>
 <td id="_e9a7729f-a391-71da-bedd-984d7e61019d" colspan="7" valign="middle" align="left"><p id="_4dd15071-2ecb-6845-8796-58e40ea1157c">FeatureType</p>
 </td>
-</tr><tr id="_a23a000e-0995-dd58-1a62-7b1abc6fefb4"><th id="_5c1ae4d8-82ca-472b-29cb-4f8d2a57f91d" valign="middle" align="left">Inherits from</th>
-<td id="_ee99d04d-05e1-a880-1835-98b7fc4f36df" colspan="7" valign="middle" align="left"><p id="_b7c8b08b-0280-6b74-6a23-88ccace4b8bd">MUDDISpace</p>
+</tr><tr id="_5dfcf12b-8b7b-a810-a26f-0e0a36c93886"><th id="_11232066-eb64-5290-3665-e4af997445be" valign="middle" align="left">Abstract</th>
+<td id="_b13e112f-7141-d822-c78c-7c581b153cd7" colspan="7" valign="middle" align="left"><p id="_519df186-e3b0-f15a-0328-5f951f506fbe">False</p>
 </td>
-</tr><tr id="_993f22ac-de2b-7194-6812-a505b9982525"><th id="_4e23d5a6-31cc-ae1b-3f60-b25d859ab7a0" valign="middle" align="left">Abstract</th>
-<td id="_eee2956c-5978-a3dc-8abb-c7b10c70828d" colspan="7" valign="middle" align="left"><p id="_f4154365-1906-f346-18df-447898b959e1">False</p>
+</tr><tr id="_feaee6af-4449-c92d-1162-1df92ed99a53"><th id="_32c51e19-6a10-e9f4-d9bd-d179800b43f3" valign="middle" align="left">Associations</th>
+<td id="_9e224e90-79ed-3eb0-c90e-7f20293332e9" colspan="7" valign="middle" align="left"><p id="_d106b556-510d-d9e2-f67c-a8b21a413cef">(none)</p>
 </td>
-</tr><tr id="_3f7e4432-388a-9369-23d7-f44404229e23"><th id="_f80d1130-45ac-ecce-f65a-e7854eec665e" valign="middle" align="left">Associations</th>
+</tr><tr id="_a704837e-d56d-b9b1-a2bd-ed2078323c84"><th id="_8d449891-d3cb-fdd5-521a-a0719ddb6dbb" valign="middle" align="left">Attributes</th>
 <td id="_ae14afcc-e0a5-cf70-a929-dbbe8f941003" colspan="7" valign="middle" align="left"><p id="_4d8d7ece-ad64-3ab2-7e4a-425a4335c768">(none)</p>
 </td>
-</tr><tr id="_771cb3d0-c261-ed94-c43d-b98ed669f74f"><th id="_1afb015f-2a32-3c7d-c54d-cb29002941a3" valign="middle" align="left">Attributes</th>
+</tr><tr id="_6d7ffaba-53c4-a616-cb9d-ab76338daa5c"><th id="_1e494e19-db6b-87dc-cb3a-421a7deaffec" valign="middle" align="left">Constraints</th>
 <td id="_f29bb432-d768-32a3-4a1e-e4dc4d734760" colspan="7" valign="middle" align="left"><p id="_2e1202da-cfed-5a42-0804-aef188de9cf6">(none)</p>
-</td>
-</tr><tr id="_c4b5d5de-d696-dc00-889d-89478165f722"><th id="_83ae6eed-a87b-1401-36cd-12cfcf0540d3" valign="middle" align="left">Constraints</th>
-<td id="_e574d7db-42ed-647b-1545-01a4aab6c303" colspan="7" valign="middle" align="left"><p id="_114ce584-4a47-42c5-c91f-5aed6212da68">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_a49d4ebb-bfe9-e5a5-6700-6d09d0eed799" anchor="section-Class-EAID_2F19B52F_218B_493e_90E2_1DAEF856339B" width="100%">
+<table id="_022f0e68-ce16-66b2-b06f-e5491385757f" anchor="section-Class-EAID_2F19B52F_218B_493e_90E2_1DAEF856339B" width="100%">
 <name id="_26f2929b-9701-50cd-17fd-893000abce9d">Elements of “Conceptual Model::Protection” (FeatureType)</name>
 <tbody><tr id="_06289678-6f4f-c7a3-a4d9-4ba3ed9d7b9b"><th id="_fbf67ac9-0c20-48c5-9d75-8ebbd59ca971" valign="middle" align="left">Name</th>
 <td id="_de92ad2c-3ca8-0566-ec1f-8465deddfb3d" colspan="7" valign="middle" align="left"><p id="_7f903d66-8de1-a957-e5ac-d2950ab06436">Protection</p>
@@ -1226,25 +1142,22 @@
 </tr><tr id="_d3a80545-12ff-b60d-4ccb-bed460b7b3f1"><th id="_88cba76d-e45b-0f4b-eb5b-580e623f2aea" valign="middle" align="left">Stereotype</th>
 <td id="_121a7260-811c-b508-2653-0393da1720b7" colspan="7" valign="middle" align="left"><p id="_20325260-b74a-25f8-5fd3-8e23a96614a2">FeatureType</p>
 </td>
-</tr><tr id="_a0437ec6-c8cf-cefe-075b-4355986eea8a"><th id="_9a649266-08db-e79b-401d-9edbc85453fe" valign="middle" align="left">Inherits from</th>
-<td id="_8d152a69-5e9f-5f24-0f95-5fbf1435acde" colspan="7" valign="middle" align="left"><p id="_a0ef2eac-ec9d-4b5d-214e-04188d771fd0">NetworkAccessory</p>
+</tr><tr id="_5cf891b0-768f-4efc-d813-3eb60054cb95"><th id="_176852cf-1375-d2cf-c164-3e7a8bddc7b7" valign="middle" align="left">Abstract</th>
+<td id="_04e1ec2d-89ad-7857-77ae-d957350ad4b7" colspan="7" valign="middle" align="left"><p id="_27ae6f24-8942-eb99-35db-369f2c241e9e">True</p>
 </td>
-</tr><tr id="_f0efcd81-c2bf-77f0-68d8-b35e429a8d83"><th id="_af2ecdf4-6677-3097-da16-4e3c876c136b" valign="middle" align="left">Abstract</th>
-<td id="_a33ed0a9-211b-b032-6e94-49fed9438745" colspan="7" valign="middle" align="left"><p id="_02eaf486-0521-94ed-d539-44b37a50c181">True</p>
+</tr><tr id="_934c9004-3f2b-de1a-f351-9b73f0d391a9"><th id="_086bbd40-47fa-e7c4-c775-3a1b5450662d" valign="middle" align="left">Associations</th>
+<td id="_37f4d474-4018-e5e2-33a2-03ce7e88358d" colspan="7" valign="middle" align="left"><p id="_a5d2d764-c1da-3eaa-c6c3-f9358d577633">(none)</p>
 </td>
-</tr><tr id="_3c4ce153-aaf9-3bd3-8b1a-01f2e192074a"><th id="_87255b4c-ef7f-55e5-0c79-42f5638bf804" valign="middle" align="left">Associations</th>
+</tr><tr id="_59b1ebf6-d6bd-4491-0068-a1a5ea9923cc"><th id="_d4e0558a-e069-9fc9-303b-15731c08a3c7" valign="middle" align="left">Attributes</th>
 <td id="_d5acc529-3ccb-265f-ba87-a97334a5f507" colspan="7" valign="middle" align="left"><p id="_a1abbb62-296b-ddb7-4503-43db15ec0fef">(none)</p>
 </td>
-</tr><tr id="_cd61fa8e-a014-bffc-6c77-9fe7dfb2814b"><th id="_83c431ff-3076-1a80-3e54-5fc05274325c" valign="middle" align="left">Attributes</th>
+</tr><tr id="_40a051d3-65f0-9faa-b9b9-bb0a87d6511a"><th id="_24f1cbb2-dbde-dc73-ac7e-5a40940dc686" valign="middle" align="left">Constraints</th>
 <td id="_27183554-12f6-c5c9-f201-dca51b7e8a54" colspan="7" valign="middle" align="left"><p id="_e353cd33-3634-64dc-2fc1-664f936cbaba">(none)</p>
-</td>
-</tr><tr id="_fe990382-26e4-8585-14e6-55f94726470f"><th id="_630489f7-be3a-ae58-754c-be4cc6e57e74" valign="middle" align="left">Constraints</th>
-<td id="_af056eba-ef4b-1358-8ff0-5c0fc96e3eaf" colspan="7" valign="middle" align="left"><p id="_71f67104-1cad-8595-db14-2ae6d3fd7a30">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_b794451c-1ec4-f418-51b8-6078048155ff" anchor="section-Class-EAID_0FB6B4E7_9DE9_4be2_AFF9_4018BAAB8F9C" width="100%">
+<table id="_9843a51e-8636-ceb0-8d1c-0aefde805cad" anchor="section-Class-EAID_0FB6B4E7_9DE9_4be2_AFF9_4018BAAB8F9C" width="100%">
 <name id="_1089deca-91d7-a686-2732-d91f8bd965fc">Elements of “Conceptual Model::Sensor” (FeatureType)</name>
 <tbody><tr id="_42cb9807-ffa0-f3c2-ed53-a5810088eb41"><th id="_5cc7ae6a-f3bd-93fb-d77b-d00e087ab125" valign="middle" align="left">Name</th>
 <td id="_3e3200a2-613f-dfaf-5549-72f29e601535" colspan="7" valign="middle" align="left"><p id="_e4fc9681-0c5e-13bd-ec4e-7c220ed86da3">Sensor</p>
@@ -1255,25 +1168,22 @@
 </tr><tr id="_b862cd01-4814-c8e2-cd4e-420773733aba"><th id="_d871cab1-8d49-825a-e2f5-3848bd5c254e" valign="middle" align="left">Stereotype</th>
 <td id="_78fe8258-f7f5-b238-65fd-a7acdfcd048d" colspan="7" valign="middle" align="left"><p id="_9be69a13-06d9-4119-b606-486acf4115bb">FeatureType</p>
 </td>
-</tr><tr id="_6acd9c2b-980f-b6a2-7446-a8972e0f0ef8"><th id="_fd5b16f3-a2a1-de74-6f78-cea7a4b4bed3" valign="middle" align="left">Inherits from</th>
-<td id="_096f73f2-a2b1-f783-939f-6f802e7521cc" colspan="7" valign="middle" align="left"><p id="_a96fd666-ae02-ebe1-5326-7abab6ffeb52">NetworkAccessory</p>
+</tr><tr id="_665f65e3-29fe-9f25-1d2b-48581c5b65f9"><th id="_0a2bd705-14f4-00f7-d4b8-cceb10328623" valign="middle" align="left">Abstract</th>
+<td id="_5ae07796-2c04-1b39-bdca-add051f82aa5" colspan="7" valign="middle" align="left"><p id="_b8180b79-6f91-39cb-13ef-b1fdbb2229a8">True</p>
 </td>
-</tr><tr id="_7eeb0341-89c2-2d61-720a-d16745f17b7e"><th id="_15f333c3-ec53-21ac-ba37-916f00491d0e" valign="middle" align="left">Abstract</th>
-<td id="_af20facc-360e-23af-c38b-f5ee3d756e6c" colspan="7" valign="middle" align="left"><p id="_00168bcc-43e1-595f-2573-2c5861f017f1">True</p>
+</tr><tr id="_87c51617-b1ca-1980-7f01-ade44b911832"><th id="_42a30b87-957c-52eb-e6a0-ec2b4f6faff4" valign="middle" align="left">Associations</th>
+<td id="_5517fb47-eb4b-a1f3-1116-4220cd1aacaf" colspan="7" valign="middle" align="left"><p id="_55f2e300-691d-d5e3-cf72-0ba392028f1f">(none)</p>
 </td>
-</tr><tr id="_6e07f923-74ed-42d1-8e9b-d6984a201473"><th id="_d37ec629-b644-add9-5bff-b811c63c641d" valign="middle" align="left">Associations</th>
+</tr><tr id="_268ebf61-f466-f79b-2b46-4ca941bdfbe6"><th id="_f5c0cce2-4883-71c2-0c01-0074b05444e2" valign="middle" align="left">Attributes</th>
 <td id="_954fd27e-c5f4-dccd-9175-ef18559aa746" colspan="7" valign="middle" align="left"><p id="_116ff7d7-d489-1d42-1f1f-b4b8eec84ecc">(none)</p>
 </td>
-</tr><tr id="_26565588-7b8a-d5dc-97e2-f89d3f8ec2fa"><th id="_f3e8d4e6-01af-b7e5-c289-3dcc2f61de23" valign="middle" align="left">Attributes</th>
+</tr><tr id="_a73937c3-2cb9-aa26-8cf2-c8410e8f4e85"><th id="_ef12044b-6787-7466-e71b-653f2139dd73" valign="middle" align="left">Constraints</th>
 <td id="_31ae85b7-7b15-f1da-f970-cd213428028b" colspan="7" valign="middle" align="left"><p id="_fa0d071a-8865-433e-5526-011187328bea">(none)</p>
-</td>
-</tr><tr id="_3d10f895-2995-7422-350c-67b601b0cfd9"><th id="_108f017c-a623-df51-b409-9e04706710c6" valign="middle" align="left">Constraints</th>
-<td id="_3e0e1d00-8e9f-cb8c-f87e-bddd8b0af3f6" colspan="7" valign="middle" align="left"><p id="_c8b02648-573c-c406-5f46-4aa06a53804c">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_f016f9d9-b508-d029-f69a-c0a5ca06c1cc" anchor="section-Class-EAID_73AAD374_141C_4b70_9140_CE970FD50836" width="100%">
+<table id="_6895f398-8388-0ebc-24c3-581613f354ab" anchor="section-Class-EAID_73AAD374_141C_4b70_9140_CE970FD50836" width="100%">
 <name id="_96cd865c-6946-2c57-a04f-793626932c53">Elements of “Conceptual Model::ServiceArea” (FeatureType)</name>
 <tbody><tr id="_82f6b6e6-ab3d-9647-e3c7-ba2a4d79b751"><th id="_7f360f8e-4ec8-017e-9483-1ad4a6925297" valign="middle" align="left">Name</th>
 <td id="_591a0021-3902-99ee-a06b-873785a9e3a0" colspan="7" valign="middle" align="left"><p id="_bb52f87f-bff3-0f6a-de4e-972464472ee9">ServiceArea</p>
@@ -1284,25 +1194,22 @@
 </tr><tr id="_eeaf6e26-9679-c55f-7e3b-a031378b6a96"><th id="_97165655-8e4c-fb38-322f-d0a0c8b367a4" valign="middle" align="left">Stereotype</th>
 <td id="_f8849ed4-192b-8184-7110-9386fd32a553" colspan="7" valign="middle" align="left"><p id="_828f910c-cfa4-f035-63cf-408bbe0948d5">FeatureType</p>
 </td>
-</tr><tr id="_a9bdeac5-8f33-120f-414d-b1281fdec1c0"><th id="_b612c97f-1044-801c-2e7e-099f9a5bfa1d" valign="middle" align="left">Inherits from</th>
-<td id="_4a4b06d2-4e2e-d464-67d3-71a0034c2bc2" colspan="7" valign="middle" align="left"><p id="_e81dfde5-1eaf-90cb-589c-90c54a6d2ab5">MUDDISpace</p>
+</tr><tr id="_8dc52fb3-d641-d60e-f544-bea748beb779"><th id="_f10b0b3f-3e26-20b7-7c7b-a67b131ad024" valign="middle" align="left">Abstract</th>
+<td id="_46f43228-9f72-985d-5ac6-79a83dc93ffc" colspan="7" valign="middle" align="left"><p id="_d225bf9d-4962-5b14-9efe-c8ebabb01cce">False</p>
 </td>
-</tr><tr id="_0b983b7a-e4cf-1890-45aa-9b6a33842863"><th id="_350e059f-6d70-ae17-5689-52b9ac230252" valign="middle" align="left">Abstract</th>
-<td id="_cb7aac9a-81ed-9d3a-798e-1745cc94303e" colspan="7" valign="middle" align="left"><p id="_f35b0d4b-9f93-5372-63c0-c14e89547221">False</p>
+</tr><tr id="_9b2c000c-aca0-2508-ad51-e6bc9f3c210d"><th id="_0bc98716-d1d3-ad5c-ecb5-584aad679831" valign="middle" align="left">Associations</th>
+<td id="_873b4bd1-f68c-ff8f-a670-5dd57d389c74" colspan="7" valign="middle" align="left"><p id="_bb3e8994-32e4-612a-90f0-cd7c72fd7be8">(none)</p>
 </td>
-</tr><tr id="_ea3d089f-cd91-a911-08b2-1fb7d6c774ac"><th id="_e1fd027c-db49-6de7-05d3-aec386210159" valign="middle" align="left">Associations</th>
+</tr><tr id="_da40448c-3cad-de9f-e548-2e00f733a465"><th id="_c248065e-8abb-db2c-e7b8-128b6670a8af" valign="middle" align="left">Attributes</th>
 <td id="_faacca1b-202c-82c4-3a13-259a5697acaf" colspan="7" valign="middle" align="left"><p id="_039b5c04-0615-27ea-76e5-b66fb9ae1b8c">(none)</p>
 </td>
-</tr><tr id="_48797d27-8e62-6a02-8f23-7126bd324eda"><th id="_6b52fcb8-e4c7-e948-aeec-77342e3379ce" valign="middle" align="left">Attributes</th>
+</tr><tr id="_7219e037-b565-6159-a4b1-c9225ff8930a"><th id="_a4623f30-3475-980c-bc04-278dc5447d60" valign="middle" align="left">Constraints</th>
 <td id="_f8932797-c4fe-2928-abdf-12851b2f8b88" colspan="7" valign="middle" align="left"><p id="_10627737-67cd-2edd-705c-1eff2a779f79">(none)</p>
-</td>
-</tr><tr id="_73635a61-036f-3c25-0d92-4c1edec54b92"><th id="_32d761f4-c45a-c484-348d-ea35d6fd2e5b" valign="middle" align="left">Constraints</th>
-<td id="_036cc3aa-593c-a66d-3071-41f4fac3ad62" colspan="7" valign="middle" align="left"><p id="_73b62c00-8fbe-957f-a6ab-6d7a622870ae">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_73119575-1859-0998-8a42-491692cc236f" anchor="section-Class-EAID_E46013D2_7F4F_450c_A862_AFDA3191A96F" width="100%">
+<table id="_8c5effba-7119-a2c8-47ce-f9e848f2a378" anchor="section-Class-EAID_E46013D2_7F4F_450c_A862_AFDA3191A96F" width="100%">
 <name id="_e0bdff59-2363-99ed-7090-95dcdb31fb19">Elements of “Conceptual Model::Site” (FeatureType)</name>
 <tbody><tr id="_ef11b189-6919-dd1c-2c83-8b896fdf625c"><th id="_283e87f0-7422-738b-f766-d835f59bd521" valign="middle" align="left">Name</th>
 <td id="_40527b0b-043a-115c-7a84-2e1e3af3c900" colspan="7" valign="middle" align="left"><p id="_8732a1c6-aab8-98e2-7e49-a01bddac2aaf">Site</p>
@@ -1313,25 +1220,22 @@
 </tr><tr id="_602172c0-1161-16d0-7923-7b8e70d188b3"><th id="_e3b3dc88-e3c2-689b-7019-5a1c4cefd21f" valign="middle" align="left">Stereotype</th>
 <td id="_4ac09d9f-966f-fd9c-adaf-f62fbcf58188" colspan="7" valign="middle" align="left"><p id="_7109507e-6d19-bcf9-2045-12523df6fa24">FeatureType</p>
 </td>
-</tr><tr id="_8934d8c0-45e4-5ae6-5142-6b1f48003922"><th id="_a2c0ff8c-3245-9974-8d54-32696d25775a" valign="middle" align="left">Inherits from</th>
-<td id="_c80ddab2-73ea-2877-0c2d-36022317cd1b" colspan="7" valign="middle" align="left"><p id="_bf7b6b95-70ad-5732-7b1f-4608b5d4800d">MUDDISpace</p>
+</tr><tr id="_a575c506-c538-8af7-e967-904cd7870996"><th id="_b8ff3cdd-5aef-35f0-f43d-e75d5c3b8da7" valign="middle" align="left">Abstract</th>
+<td id="_950da00a-bc5d-4378-b455-44328fb3ddfc" colspan="7" valign="middle" align="left"><p id="_a1eae8a0-b554-3e01-ee65-64645e9bf6c2">False</p>
 </td>
-</tr><tr id="_5e449557-cd19-105c-9e22-c4ea7dcf3eaf"><th id="_d43c61b8-9486-3560-6f58-44010460f405" valign="middle" align="left">Abstract</th>
-<td id="_c0c9a543-de73-f8f2-b505-532a9f19f163" colspan="7" valign="middle" align="left"><p id="_e2d448c4-313b-bb4c-cde5-38498bd6b599">False</p>
+</tr><tr id="_82ecab98-0440-0773-4c0c-d2335e4bf13d"><th id="_4d4cb6d5-8a36-90fb-6b5f-09cffb713632" valign="middle" align="left">Associations</th>
+<td id="_7cf8fe89-2a2f-a0ee-9bf5-ce8411b35f39" colspan="7" valign="middle" align="left"><p id="_6d554bd0-498f-7b91-b8db-28ecf2d45a4b">(none)</p>
 </td>
-</tr><tr id="_6c7ce734-38a1-6bad-43b8-59bd3087ecf2"><th id="_6415c0b3-7c54-b6ef-d49e-ffa1a8bbfc50" valign="middle" align="left">Associations</th>
+</tr><tr id="_328b1374-bd20-5df9-6d60-fdf929a5ede2"><th id="_c61d6d58-1749-9399-304a-861a68777bb3" valign="middle" align="left">Attributes</th>
 <td id="_e4e50b13-4a37-1af3-bece-7ccbc0aa749c" colspan="7" valign="middle" align="left"><p id="_8e30e2a7-7fe8-059a-274e-09b28f04a840">(none)</p>
 </td>
-</tr><tr id="_55f3b1fd-2857-5e36-d671-6bb08b760435"><th id="_cc79484d-b948-9148-34e1-60c8a20f135c" valign="middle" align="left">Attributes</th>
+</tr><tr id="_8e7bff98-c0a4-36fb-4e43-e404c15b7a73"><th id="_682d4f90-45bb-af4a-332e-90130da53c7a" valign="middle" align="left">Constraints</th>
 <td id="_2926ceb3-daee-e7ab-d5bb-753377f6fa7c" colspan="7" valign="middle" align="left"><p id="_8fc34e0c-55cc-dccd-faed-df98f88f5d8c">(none)</p>
-</td>
-</tr><tr id="_df827795-6a75-b1a5-ce4f-24b06d74b35d"><th id="_9bb2cca6-d2fd-0001-53c7-b04317886eb5" valign="middle" align="left">Constraints</th>
-<td id="_09f0d0cd-0841-f585-804c-b9ff782e3128" colspan="7" valign="middle" align="left"><p id="_6073d755-bd06-12e8-5bc0-7aa2dd0da50e">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_cbcac58f-a4b9-ed38-2991-bd75e065f5fa" anchor="section-Class-EAID_FEE8CCCE_3388_45f1_916C_6A5666A35DC7" width="100%">
+<table id="_00bc6038-5333-3bd6-e2ad-be1f0a37689e" anchor="section-Class-EAID_FEE8CCCE_3388_45f1_916C_6A5666A35DC7" width="100%">
 <name id="_5885e9da-c76b-dec6-354f-6f451a11df9b">Elements of “Conceptual Model::Structure” (FeatureType)</name>
 <tbody><tr id="_35fe5710-bd6f-dfc3-229d-4037c0a4dc47"><th id="_8eba2947-65b9-57eb-6267-a569b3937dd5" valign="middle" align="left">Name</th>
 <td id="_d1138a12-7e18-2ac3-9c0d-8e1b039af70d" colspan="7" valign="middle" align="left"><p id="_1628160f-7fd5-cda6-cb9d-43fcf00c4807">Structure</p>
@@ -1342,32 +1246,29 @@
 </tr><tr id="_6b1b08e0-ad29-a3c4-522b-3ca80a680300"><th id="_a064e524-ff89-ea9a-d12d-40ad6d3748a9" valign="middle" align="left">Stereotype</th>
 <td id="_80f4f0fb-ada9-f810-a845-05261733af31" colspan="7" valign="middle" align="left"><p id="_a429e49a-adeb-2e9e-83c7-993b9322c050">FeatureType</p>
 </td>
-</tr><tr id="_8c56727f-081b-9c15-9f8c-9d7cc6d19a4b"><th id="_ca3cbd69-a279-839c-19dd-4a5bcec0eb29" valign="middle" align="left">Inherits from</th>
-<td id="_6f1cb9c3-5592-bea7-17b8-2e48a69b9018" colspan="7" valign="middle" align="left"><p id="_87c998f1-3c46-475e-eed7-9c49be434c3b">MUDDIAsset</p>
+</tr><tr id="_83afeab7-a73f-8f64-9a9c-dd95232e14c6"><th id="_4c09a6d5-071c-5328-f275-e9e6429f7b4b" valign="middle" align="left">Abstract</th>
+<td id="_0d122177-8e90-ef37-25f5-541ff3fb2677" colspan="7" valign="middle" align="left"><p id="_9c9e0d0f-2b25-544f-2691-c732b3d20078">False</p>
 </td>
-</tr><tr id="_969bf278-5288-e32d-9aac-6458cf6c7ec1"><th id="_042f5dbb-c9f5-f430-d846-6b3beb9b0a9b" valign="middle" align="left">Abstract</th>
-<td id="_76112abf-fa7f-6709-dddd-ba0b852f287a" colspan="7" valign="middle" align="left"><p id="_84e0dc04-689c-2531-e3eb-410b5f431933">False</p>
+</tr><tr id="_66debb8b-742b-7234-c22b-925a606993d2"><th id="_33823b79-1069-8c3e-c1a1-ec569373e153" valign="middle" align="left">Associations</th>
+<td id="_9ff6160d-853b-61e2-307f-2a5a2a712eca" colspan="7" valign="middle" align="left"><p id="_8de62f4c-52bc-d2ab-b6cd-f9dd147c2df2">(none)</p>
 </td>
-</tr><tr id="_a503d979-9c67-31cc-b087-cbea49cb9265"><th id="_0aa3eb9f-8123-5ac1-c792-6c3db9767f26" valign="middle" align="left">Associations</th>
-<td id="_50032e8b-7e0d-edec-fde6-f21a6340e4dc" colspan="7" valign="middle" align="left"><p id="_ade139f9-3c00-9860-e82a-cc8d26ae2617">(none)</p>
+</tr><tr id="_5d33dbfe-7bb4-0517-f0e9-c80b8d5509d9"><th id="_dbd474e7-1838-a1d8-dd2a-8654b0989a8b" valign="middle" rowspan="2" align="left">Attributes</th>
+<th id="_338a5afd-19be-baaa-27e6-3d4b8308d214" colspan="2" valign="middle" align="left"><em>Name</em></th>
+<th id="_caf8098c-278a-032a-00c9-eb0732eef8f4" colspan="2" valign="middle" align="left"><em>Type</em></th>
+<th id="_8fa9a82c-c620-bdd5-cd5b-450705d37208" colspan="3" valign="middle" align="left"><em>Definition</em></th>
+</tr><tr id="_604f334b-012a-f96b-e1bf-1e12becea1be"><td id="_0c9cf115-36ce-013e-934a-5de1e80ecd1f" colspan="2" valign="middle" align="left"><p id="_331d2c48-a07e-ea4c-d62d-d752dea7a4d3">role [1]</p>
 </td>
-</tr><tr id="_5808461a-2d08-deb2-1dd9-5c0e9eaa9a6c"><th id="_f46436f3-f232-0eab-ae15-265ca293fc27" valign="middle" rowspan="2" align="left">Attributes</th>
-<th id="_7807296f-14fd-1ecc-af34-215911e8bf92" colspan="2" valign="middle" align="left"><em>Name</em></th>
-<th id="_5c704664-efa4-db56-f3ce-6dc57eb38a80" colspan="2" valign="middle" align="left"><em>Type</em></th>
-<th id="_047c49c1-ccef-ed8f-3437-7c6cfa213185" colspan="3" valign="middle" align="left"><em>Definition</em></th>
-</tr><tr id="_22816e74-5a53-c1bf-185c-f5992d5def81"><td id="_0afe2c01-f6eb-6ce5-020e-d0333dcc802d" colspan="2" valign="middle" align="left"><p id="_37911de0-95b6-876f-3773-cf63ae042929">role [1]</p>
+<td id="_ee4c062b-8c98-1ff4-4131-ee6a45bb60fc" colspan="2" valign="middle" align="left"><p id="_1df922b5-99f2-8024-2b83-e01b206fb1bb">AbstractValueType</p>
 </td>
-<td id="_f167cfd9-244b-5d61-8426-f79fd192d094" colspan="2" valign="middle" align="left"><p id="_6f56de3c-23ee-ac94-ca1f-ca00df7e1130">AbstractValueType</p>
+<td id="_4064dc46-1e1c-252b-a8f8-4efd3cd4110f" colspan="3" valign="middle" align="left"><p id="_e324b652-d87e-1af3-f98a-68652fa97ed7">Characteristic attribute of Structure that indicates its role in the built environment such as basement.</p>
 </td>
-<td id="_b4a585eb-de0d-068b-c6dd-0fc5f7dd65be" colspan="3" valign="middle" align="left"><p id="_a51e0c11-40a3-5478-2f4b-be5d84ae6a9b">Characteristic attribute of Structure that indicates its role in the built environment such as basement.</p>
-</td>
-</tr><tr id="_aaae14de-d8e1-cf8f-390e-7b7ae2c3af92"><th id="_b83f4828-fcd7-398d-8e28-3dc5dd1b7125" valign="middle" align="left">Constraints</th>
-<td id="_07ce547a-4fba-b909-592f-fb7c68a925f0" colspan="7" valign="middle" align="left"><p id="_0182756b-036a-dac7-d61b-716ef93069ac">(none)</p>
+</tr><tr id="_69f5ec5c-9eea-87e0-1a5d-8d75f309a3bd"><th id="_850d1694-2dd6-be29-f4ef-315ba15e76c9" valign="middle" align="left">Constraints</th>
+<td id="_95eda234-0890-3bad-1c00-10bd5728b4c7" colspan="7" valign="middle" align="left"><p id="_0cf9491b-b9b8-db16-0da4-6d22e259db72">(none)</p>
 </td>
 </tr></tbody>
 </table>
 
-<table id="_1f5a09c5-3499-3441-890f-03885eb611ac" anchor="section-Class-EAID_A9A36FD5_0780_4554_B276_6D71F999323F" width="100%">
+<table id="_99dc5bfd-2dc4-85db-8b1e-38ad2ccd08bf" anchor="section-Class-EAID_A9A36FD5_0780_4554_B276_6D71F999323F" width="100%">
 <name id="_b31252b6-705f-1876-b883-25c6b66932a6">Elements of “Conceptual Model::Support” (FeatureType)</name>
 <tbody><tr id="_21a48798-8473-23b7-2fcd-35250c372786"><th id="_4507d221-a2d2-00b2-b57e-016f5ed972e3" valign="middle" align="left">Name</th>
 <td id="_113ed5c1-85dd-da90-8e10-5902d6cd0548" colspan="7" valign="middle" align="left"><p id="_b2496577-d761-d5a4-7832-d78adf442720">Support</p>
@@ -1378,20 +1279,17 @@
 </tr><tr id="_c8891b25-2073-ca11-43d0-fd36ec084f83"><th id="_25d1c2e8-6fed-1969-82fd-e0224b4246b0" valign="middle" align="left">Stereotype</th>
 <td id="_75e34076-9fd7-3c85-a075-809d85f63da3" colspan="7" valign="middle" align="left"><p id="_13571da6-bc14-f571-8c68-d718db1850c2">FeatureType</p>
 </td>
-</tr><tr id="_a2573d2b-9197-1363-c1ed-0b972cf75150"><th id="_ecc9fada-35b6-afee-df96-3aa58b10598b" valign="middle" align="left">Inherits from</th>
-<td id="_cbd89145-26b6-3e46-3b43-9879bab23a6f" colspan="7" valign="middle" align="left"><p id="_cc01d29c-f211-4ee2-90ab-1303f2da9f78">NetworkAccessory</p>
+</tr><tr id="_ab6ce8ec-01e2-d4df-4d8e-51ad679c8e42"><th id="_29d0d50e-a644-1d7f-aef4-ca259f5a3925" valign="middle" align="left">Abstract</th>
+<td id="_25734d60-4d21-5769-57bf-632789366a70" colspan="7" valign="middle" align="left"><p id="_49d99ffa-c3e0-e3f3-5154-82d06c265fa4">True</p>
 </td>
-</tr><tr id="_b5c408a4-d924-e9c8-5314-8eb275299b5a"><th id="_dbddb400-95ea-e743-8432-99a4de7d6a1d" valign="middle" align="left">Abstract</th>
-<td id="_7a8cbd7d-78d1-3d4f-273b-c46bc512c981" colspan="7" valign="middle" align="left"><p id="_6cd8f352-f44c-3da3-d596-acd6fba1a9d1">True</p>
+</tr><tr id="_0902886a-2127-c006-ad7b-7485c997af2b"><th id="_88635b0a-b140-7f4d-2edc-e905ebec4c4b" valign="middle" align="left">Associations</th>
+<td id="_e8d9552a-88ff-c185-b682-1c2135e09500" colspan="7" valign="middle" align="left"><p id="_b9c5fd5d-506f-94db-5a52-4af10a4e192b">(none)</p>
 </td>
-</tr><tr id="_a6aba886-408d-77a6-0834-115d465d3c8b"><th id="_d67b6e7c-53b6-d158-2955-95de4359a5ec" valign="middle" align="left">Associations</th>
+</tr><tr id="_dafb6c0e-ad44-c579-d6dc-5c92a6961f05"><th id="_234e02c0-2e48-6f09-d142-c9fc02817686" valign="middle" align="left">Attributes</th>
 <td id="_bc681830-ab18-24ca-45ce-aae9cb1c1c68" colspan="7" valign="middle" align="left"><p id="_6f5d3ca7-14aa-4413-ce82-fa070b8b30ed">(none)</p>
 </td>
-</tr><tr id="_13df9bb2-0618-7a28-6df5-8a15b098cd47"><th id="_b0d27a7e-9147-526a-5be4-0747ce1af565" valign="middle" align="left">Attributes</th>
+</tr><tr id="_86a1dedd-05d8-6031-33c6-bc95140d23e1"><th id="_93051e97-c6fb-1c70-6449-4d463c339c1b" valign="middle" align="left">Constraints</th>
 <td id="_ac46e1b8-6447-339e-7628-8c269db124f8" colspan="7" valign="middle" align="left"><p id="_ac6d3026-927e-839f-72f3-0db405f86e9e">(none)</p>
-</td>
-</tr><tr id="_382b68eb-cfad-dd16-dd9a-1c868f528615"><th id="_0eb34196-37ca-f50f-ece6-60df0da0ed3a" valign="middle" align="left">Constraints</th>
-<td id="_97c5b40b-d6ff-a79a-b242-fae26d62d2a9" colspan="7" valign="middle" align="left"><p id="_ebb91ee5-363b-fed5-d9f6-d57e6df55c93">(none)</p>
 </td>
 </tr></tbody>
 </table>
@@ -1497,14 +1395,14 @@
 </clause>
 </annex><bibliography><references id="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21" normative="true" obligation="informative">
 <title id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><p id="_1e0e85f2-a241-464a-90af-046b5883d60f">There are no normative references in this document.</p>
-</references><references id="_92b4b345-41af-c784-ad05-f8523155e26e" normative="false" obligation="informative">
-<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem id="_8417c190-fb29-8f2b-0fed-399c188778d1" type="standard" schema-version="v1.2.9" anchor="OGC_17-090r1">
-  <fetched>2026-04-16</fetched>
+</references><references id="_334f5e08-02bc-ff93-c614-df16734b9a1c" normative="false" obligation="informative">
+<title id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><bibitem id="_e1ec47a9-edd7-10c7-f4bc-228f168dc9e3" type="standard" schema-version="v1.5.6" anchor="OGC_17-090r1">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Model for Underground Data Definition and Integration (MUDDI) Engineering Report</title>
+<title language="en" script="Latn" type="title-main">Model for Underground Data Definition and Integration (MUDDI) Engineering Report</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Model for Underground Data Definition and Integration (MUDDI) Engineering Report</title>
+<title language="en" script="Latn" type="main">Model for Underground Data Definition and Integration (MUDDI) Engineering Report</title>
 
   <uri type="src">http://www.opengis.net/doc/PER/MUDDI-ER</uri>
   <uri type="html">https://docs.ogc.org/per/17-090r1.html</uri>
@@ -1528,23 +1426,38 @@
 
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>Open Geospatial Consortium</name>
+
+      <subdivision type="technical-committee">
+        
+<name>technical</name>
+
+      </subdivision>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
   <edition>1</edition>
   <language>en</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">The recently published Underground Infrastructure Concept Development Study (UICDS) Engineering Report [1] examines the present state of underground infrastructure information (UGII), costs and benefits of that state, as well as future opportunities for an improved state. That report describes a number of candidate models for UGII and recommends a number of follow-on activities, including development of a prototype UGII integration model to support subsequent UGII integration and exchange initiatives. The present report describes the design and development of conceptual UGII integration model MUDDI (Model for Underground Data Definition and Interchange). The goal of MUDDI is not to replace existing models but to serve as the basis for integration of datasets from different models, at the levels of detail required to address application use cases described in [1]. MUDDI as described here is a conceptual model which will serve as the basis for one or more conformant and interchangeable physical implementations such as GML (Geographic Markup Language) or SFS (Simple Features SQL). As a prototype model, the current version of MUDDI is also not intended to be final, but to serve as an input to the proposed OGC Underground Infrastructure Pilot and similar activities which will in turn serve to refine and improve the model through implementation and deployment in realistic application scenarios.</abstract>
+  <abstract language="en" script="Latn">The recently published Underground Infrastructure Concept Development Study (UICDS) Engineering Report [1] examines the present state of underground infrastructure information (UGII), costs and benefits of that state, as well as future opportunities for an improved state. That report describes a number of candidate models for UGII and recommends a number of follow-on activities, including development of a prototype UGII integration model to support subsequent UGII integration and exchange initiatives. The present report describes the design and development of conceptual UGII integration model MUDDI (Model for Underground Data Definition and Interchange). The goal of MUDDI is not to replace existing models but to serve as the basis for integration of datasets from different models, at the levels of detail required to address application use cases described in [1]. MUDDI as described here is a conceptual model which will serve as the basis for one or more conformant and interchangeable physical implementations such as GML (Geographic Markup Language) or SFS (Simple Features SQL). As a prototype model, the current version of MUDDI is also not intended to be final, but to serve as an input to the proposed OGC Underground Infrastructure Pilot and similar activities which will in turn serve to refine and improve the model through implementation and deployment in realistic application scenarios.</abstract>
+</bibitem><bibitem id="_85c809d1-bdde-0f4c-01dd-2a71cdd43ba7" type="standard" schema-version="v1.5.6" anchor="OGC_08-131">
+  <fetched>2026-06-16</fetched>
   
-</bibitem><bibitem id="_bc2ab386-2f79-a322-e04d-3546753ff332" type="standard" schema-version="v1.2.9" anchor="OGC_08-131">
-  <fetched>2026-04-16</fetched>
-  
-<title type="title-intro" format="text/plain" language="en" script="Latn">The Specification Model</title>
+<title language="en" script="Latn" type="title-intro">The Specification Model</title>
 
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Standard for Modular specifications</title>
+<title language="en" script="Latn" type="title-main">Standard for Modular specifications</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">The Specification Model — Standard for Modular specifications</title>
+<title language="en" script="Latn" type="main">The Specification Model — Standard for Modular specifications</title>
 
-  <uri type="pdf">https://docs.ogc.org/pol/08-131r3/08-131r3.pdf</uri>
+  <uri type="html">https://docs.ogc.org/pol/08-131r3/08-131r3/pdf</uri>
   <docidentifier type="OGC" primary="true">08-131r3</docidentifier>
   <date type="published">
     <on>2009-10-19</on>
@@ -1565,25 +1478,40 @@
 
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>Open Geospatial Consortium</name>
+
+      <subdivision type="technical-committee">
+        
+<name>technical</name>
+
+      </subdivision>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
   <edition>3</edition>
   <language>en</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">This standard contains requirements for writing standards to be used for any document whose
-eventual purpose is the specification of requirements for software, services or data structures.</abstract>
+  <abstract language="en" script="Latn">This standard contains requirements for writing standards to be used for any document whose
+eventual purpose is the specification of requirements for software, services or data structures. </abstract>
+</bibitem><bibitem id="_e08bc66e-e314-b606-129d-9205c1c52909" type="standard" schema-version="v1.5.6" anchor="OGC_17-069r3">
+  <fetched>2026-06-16</fetched>
   
-</bibitem><bibitem id="_77399c56-a922-ff96-eff7-2380e56712af" type="standard" schema-version="v1.2.9" anchor="OGC_17-069r3">
-  <fetched>2026-04-16</fetched>
-  
-<title type="title-intro" format="text/plain" language="en" script="Latn">OGC API</title>
+<title language="en" script="Latn" type="title-intro">OGC API</title>
 
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Features</title>
+<title language="en" script="Latn" type="title-main">Features</title>
 
   
-<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Core</title>
+<title language="en" script="Latn" type="title-part">Part 1: Core</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">OGC API — Features — Part 1: Core</title>
+<title language="en" script="Latn" type="main">OGC API — Features — Part 1: Core</title>
 
   <uri type="src">http://www.opengis.net/doc/IS/ogcapi-features-1/1.0.0</uri>
   <uri type="html">https://docs.ogc.org/is/17-069r3/17-069r3.html</uri>
@@ -1623,20 +1551,35 @@ eventual purpose is the specification of requirements for software, services or 
 
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>Open Geospatial Consortium</name>
+
+      <subdivision type="technical-committee">
+        
+<name>technical</name>
+
+      </subdivision>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
   <edition>3</edition>
   <language>en</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">OGC API standards define modular API building blocks to spatially enable Web APIs in a consistent way. The OpenAPI specification is used to define the API building blocks.
+  <abstract language="en" script="Latn">OGC API standards define modular API building blocks to spatially enable Web APIs in a consistent way. The OpenAPI specification is used to define the API building blocks.
 
 The OGC API family of standards is organized by resource type. This standard specifies the fundamental API building blocks for interacting with features. The spatial data community uses the term ‘feature’ for things in the real world that are of interest.</abstract>
+</bibitem><bibitem id="_618fb012-1134-3148-8d10-573736461908" type="standard" schema-version="v1.5.6" anchor="OGC_21-035r1">
+  <fetched>2026-06-16</fetched>
   
-</bibitem><bibitem id="_9152a10c-4ab0-9512-f387-28c8e50473fa" type="standard" schema-version="v1.2.9" anchor="OGC_21-035r1">
-  <fetched>2026-04-16</fetched>
-  
-<title type="title-main" format="text/plain" language="en" script="Latn">OGC Testbed-17: Model-Driven Standards Engineering Report</title>
+<title language="en" script="Latn" type="title-main">OGC Testbed-17: Model-Driven Standards Engineering Report</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">OGC Testbed-17: Model-Driven Standards Engineering Report</title>
+<title language="en" script="Latn" type="main">OGC Testbed-17: Model-Driven Standards Engineering Report</title>
 
   <uri type="src">http://www.opengis.net/doc/PER/t17-D022</uri>
   <uri type="html">https://docs.ogc.org/per/21-035r1.html</uri>
@@ -1668,24 +1611,41 @@ The OGC API family of standards is organized by resource type. This standard spe
 
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>Open Geospatial Consortium</name>
+
+      <subdivision type="technical-committee">
+        
+<name>technical</name>
+
+      </subdivision>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
   <edition>1</edition>
   <language>en</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">This OGC Testbed 17 Engineering Report is deliverable D022 of the OGC Testbed 17 initiative performed under the OGC Innovation Program, incorporating the D022, D143 and D144 tasks that have produced Model Driven Architecture (MDA) tools.
+  <abstract language="en" script="Latn">This OGC Testbed 17 Engineering Report is deliverable D022 of the OGC Testbed 17 initiative performed under the OGC Innovation Program, incorporating the D022, D143 and D144 tasks that have produced Model Driven Architecture (MDA) tools.
 
 This ER:
 
 details state-of-the-art analyses of existing MDA tools with their capabilities and limits; and
 
-provides clear recommendations on how model-driven design can be fully exploited in the context of rich data model and API design efforts.</abstract>
+provides clear recommendations on how model-driven design can be fully exploited in the context of rich data model and API design efforts.
+
+</abstract>
+</bibitem><bibitem id="_7827bf42-f741-9835-8a60-0af882e0acd3" type="standard" schema-version="v1.5.6" anchor="OGC_17-048">
+  <fetched>2026-06-16</fetched>
   
-</bibitem><bibitem id="_62238c28-cb88-3416-1cc6-cf5f0e9adbf6" type="standard" schema-version="v1.2.9" anchor="OGC_17-048">
-  <fetched>2026-04-16</fetched>
-  
-<title type="title-main" format="text/plain" language="en" script="Latn">OGC Underground Infrastructure Concept Study Engineering Report</title>
+<title language="en" script="Latn" type="title-main">OGC Underground Infrastructure Concept Study Engineering Report</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">OGC Underground Infrastructure Concept Study Engineering Report</title>
+<title language="en" script="Latn" type="main">OGC Underground Infrastructure Concept Study Engineering Report</title>
 
   <uri type="src">http://www.opengis.net/doc/PER/uicds</uri>
   <uri type="html">https://docs.ogc.org/per/17-048.html</uri>
@@ -1717,31 +1677,61 @@ provides clear recommendations on how model-driven design can be fully exploited
 
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>Open Geospatial Consortium</name>
+
+      <subdivision type="technical-committee">
+        
+<name>technical</name>
+
+      </subdivision>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
   <language>en</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">This report documents the progress made to date by OGC and its members to build a complete picture of the present situation and develop a conceptual framework for action to improve underground infrastructure data interoperability. The report also identifies the most important steps to be taken next in order to develop the necessary data standards and foster their adoption.</abstract>
+  <abstract language="en" script="Latn">This report documents the progress made to date by OGC and its members to build a complete picture of the present situation and develop a conceptual framework for action to improve underground infrastructure data interoperability. The report also identifies the most important steps to be taken next in order to develop the necessary data standards and foster their adoption.</abstract>
+</bibitem><bibitem id="_9fb1da55-1b6c-16bb-c38b-779c2c7bdae5" type="standard" schema-version="v1.5.6" anchor="ISO_19101-1">
+  <fetched>2026-06-16</fetched>
   
-</bibitem><bibitem id="_d7264c7d-00d4-c9c8-8b78-0883ab1feab0" type="standard" schema-version="v1.2.9" anchor="ISO_19101-1">
-  <fetched>2026-04-16</fetched>
-  
-<title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+<title language="en" script="Latn" type="title-intro">Geographic information</title>
 
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Reference model</title>
+<title language="en" script="Latn" type="title-main">Reference model</title>
 
   
-<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Fundamentals</title>
+<title language="en" script="Latn" type="title-part">Part 1: Fundamentals</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Geographic information — Reference model — Part 1: Fundamentals</title>
+<title language="en" script="Latn" type="main">Geographic information — Reference model — Part 1: Fundamentals</title>
+
+  
+<title language="fr" script="Latn" type="title-intro">Information géographique</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Modèle de référence</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Partie 1: Principes de base</title>
+
+  
+<title language="fr" script="Latn" type="main">Information géographique — Modèle de référence — Partie 1: Principes de base</title>
 
   <uri type="src">https://www.iso.org/standard/59164.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:59164:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/91/59164.detail.rss</uri>
-  <docidentifier type="ISO" primary="true">ISO 19101-1</docidentifier>
-  <docidentifier type="iso-reference">ISO 19101-1(E)</docidentifier>
-  <docidentifier type="URN">urn:iso:std:iso:19101:-1:stage-90.20</docidentifier>
+  <docidentifier type="ISO" primary="true">ISO 19101-1:2014</docidentifier>
+  <docidentifier type="iso-reference">ISO 19101-1:2014(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:19101:-1:stage-90.92</docidentifier>
   <docnumber>19101</docnumber>
+  <date type="published">
+    <on>2014-11-12</on>
+  </date>
   <contributor>
     <role type="publisher"/>
     <organization>
@@ -1752,13 +1742,33 @@ provides clear recommendations on how model-driven design can be fully exploited
       <uri>www.iso.org</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TC">
+        
+<name>Geographic information/Geomatics</name>
+
+        <identifier>ISO/TC 211</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>1</edition>
   <language>en</language>
   <language>fr</language>
+  <language>ru</language>
   <script>Latn</script>
+  <script>Cyrl</script>
+  <abstract language="en" script="Latn">ISO 19101-1:2014 defines the reference model for standardization in the field of geographic information. This reference model describes the notion of interoperability and sets forth the fundamentals by which this standardization takes place. Although structured in the context of information technology and information technology standards, ISO 19101-1:2014 is independent of any application development method or technology implementation approach.</abstract>
   <status>
     <stage>90</stage>
-    <substage>20</substage>
+    <substage>92</substage>
   </status>
   <copyright>
     <from>2014</from>
@@ -1771,176 +1781,128 @@ provides clear recommendations on how model-driven design can be fully exploited
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 19101:2002</formattedref>
+    <bibitem>
+      <formattedref>ISO 19101:2002</formattedref>
       <docidentifier type="ISO" primary="true">ISO 19101:2002</docidentifier>
+      <date type="published">
+        <on>2002-07-04</on>
+      </date>
     </bibitem>
 
   </relation>
-  <relation type="instanceOf">
-    <bibitem type="standard">
-      <fetched>2026-04-16</fetched>
-      
-<title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO/WD 19101-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/WD 19101-1</docidentifier>
+    </bibitem>
 
-      
-<title type="title-main" format="text/plain" language="en" script="Latn">Reference model</title>
-
-      
-<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Fundamentals</title>
-
-      
-<title type="main" format="text/plain" language="en" script="Latn">Geographic information — Reference model — Part 1: Fundamentals</title>
-
-      <uri type="src">https://www.iso.org/standard/59164.html</uri>
-      <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:59164:en</uri>
-      <uri type="rss">https://www.iso.org/contents/data/standard/05/91/59164.detail.rss</uri>
-      <docidentifier type="ISO" primary="true">ISO 19101-1:2014</docidentifier>
-      <docidentifier type="iso-reference">ISO 19101-1:2014(E)</docidentifier>
-      <docidentifier type="URN">urn:iso:std:iso:19101:-1:stage-90.20</docidentifier>
-      <docnumber>19101</docnumber>
-      <date type="published">
-        <on>2014-11</on>
-      </date>
-      <contributor>
-        <role type="publisher"/>
-        <organization>
-          
-<name>International Organization for Standardization</name>
-
-          <abbreviation>ISO</abbreviation>
-          <uri>www.iso.org</uri>
-        </organization>
-      </contributor>
-      <edition>1</edition>
-      <language>en</language>
-      <language>fr</language>
-      <script>Latn</script>
-      <abstract format="text/plain" language="en" script="Latn">ISO 19101-1:2014 defines the reference model for standardization in the field of geographic information. This reference model describes the notion of interoperability and sets forth the fundamentals by which this standardization takes place.
-Although structured in the context of information technology and information technology standards, ISO 19101-1:2014 is independent of any application development method or technology implementation approach.</abstract>
-      <status>
-        <stage>90</stage>
-        <substage>20</substage>
-      </status>
-      <copyright>
-        <from>2014</from>
-        <owner>
-          <organization>
-            
-<name>ISO</name>
-
-          </organization>
-        </owner>
-      </copyright>
-      <relation type="obsoletes">
-        <bibitem type="standard">
-          <formattedref format="text/plain">ISO 19101:2002</formattedref>
-          <docidentifier type="ISO" primary="true">ISO 19101:2002</docidentifier>
-        </bibitem>
-
-      </relation>
-      <place>
-        <city>Geneva</city>
-      </place>
+  </relation>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO/AWI 19101-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/AWI 19101-1</docidentifier>
     </bibitem>
 
   </relation>
   <place>
     <city>Geneva</city>
   </place>
-</bibitem><bibitem id="_520f1ee0-ef50-9efa-821f-e20757d216a2" schema-version="v1.2.9" anchor="OMG_UML">
-  <fetched>2026-04-16</fetched>
+</bibitem><bibitem id="_6dd66288-0b2d-c9a2-4d75-5364ce02bdca" schema-version="v1.5.6" anchor="OMG_UML">
+  <fetched>2026-06-16</fetched>
   
-<title type="main" format="text/plain" language="en" script="Latn">Unified Modeling Language</title>
+<title language="en" script="Latn" type="main">Unified Modeling Language</title>
 
   <uri type="src">https://www.omg.org/spec/UML/2.5/About-UML</uri>
   <uri type="pdf">https://www.omg.org/spec/UML/2.5/PDF</uri>
   <docidentifier type="OMG" primary="true">OMG UML 2.5</docidentifier>
   <date type="published">
-    <on>2015-05</on>
+    <on>2015-05-01</on>
   </date>
-  <version>
-    <revision-date>2015-05-01</revision-date>
-    <draft>2.5</draft>
-  </version><language>en</language><script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">A specification defining a graphical language for visualizing, specifying, constructing, and documenting the artifacts of distributed object systems.</abstract>
+  <version>2.5 (2015-05-01)</version><language>en</language><script>Latn</script>
+  <abstract language="en" script="Latn">A specification defining a graphical language for visualizing, specifying, constructing, and documenting the artifacts of distributed object systems.</abstract>
   <status>
     <stage>formal</stage>
   </status>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 2.4.1</formattedref>
+      <formattedref>OMG UML 2.4.1</formattedref>
       <docidentifier type="OMG">OMG UML 2.4.1</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 2.3</formattedref>
+      <formattedref>OMG UML 2.3</formattedref>
       <docidentifier type="OMG">OMG UML 2.3</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 2.2</formattedref>
+      <formattedref>OMG UML 2.2</formattedref>
       <docidentifier type="OMG">OMG UML 2.2</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 2.1.2</formattedref>
+      <formattedref>OMG UML 2.1.2</formattedref>
       <docidentifier type="OMG">OMG UML 2.1.2</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 2.0</formattedref>
+      <formattedref>OMG UML 2.0</formattedref>
       <docidentifier type="OMG">OMG UML 2.0</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 1.5</formattedref>
+      <formattedref>OMG UML 1.5</formattedref>
       <docidentifier type="OMG">OMG UML 1.5</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 1.4</formattedref>
+      <formattedref>OMG UML 1.4</formattedref>
       <docidentifier type="OMG">OMG UML 1.4</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 1.3</formattedref>
+      <formattedref>OMG UML 1.3</formattedref>
       <docidentifier type="OMG">OMG UML 1.3</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 1.2</formattedref>
+      <formattedref>OMG UML 1.2</formattedref>
       <docidentifier type="OMG">OMG UML 1.2</docidentifier>
     </bibitem>
 
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref format="text/plain">OMG UML 1.1</formattedref>
+      <formattedref>OMG UML 1.1</formattedref>
       <docidentifier type="OMG">OMG UML 1.1</docidentifier>
     </bibitem>
 
   </relation>
   <license>RF-Limited</license>
-  <keyword>Modeling</keyword>
-  <keyword>Software Engineering</keyword>
-  <keyword>Platform</keyword>
+  <keyword>
+    <vocab>Modeling</vocab>
+  </keyword>
+  <keyword>
+    <vocab>Software Engineering</vocab>
+  </keyword>
+  <keyword>
+    <vocab>Platform</vocab>
+  </keyword>
 </bibitem><bibitem anchor="OMG_XMI" id="_2cfdfaf4-a67a-cc92-ef2b-f8d0203a1b62">
   <formattedref format="application/x-isodoc+xml">OMG XMI 2.5, <em>XML Metadata Interchange</em>. Object Management Group (2015). <link target="https://www.omg.org/spec/XMI/2.5.1/About-XMI/"/></formattedref>
   <docidentifier type="OMG">OMG XMI 2.5</docidentifier>

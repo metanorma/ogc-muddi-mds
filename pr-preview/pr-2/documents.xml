@@ -1,5 +1,5 @@
-<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>MUDDI model-driven standard</title><contributor><role type='author'/><organization><name>OGC</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
-  <title type="main" language="en">OGC model-driven standard modeling best practices</title>
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>MUDDI model-driven standard</title><contributor><role type='author'/><organization><name>OGC</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">OGC model-driven standard modeling best practices</title>
   <uri type="xml">./documents/mds-guide/document.xml</uri>
   <uri type="pdf">./documents/mds-guide/document.pdf</uri>
   <uri type="doc">./documents/mds-guide/document.doc</uri>
@@ -23,9 +23,9 @@
     </role>
     <organization>
       <name>Open Geospatial Consortium</name>
-      <subdivision>
-technical
-</subdivision>
+      <subdivision type="Committee">
+        <name>technical</name>
+      </subdivision>
       <abbreviation>OGC</abbreviation>
     </organization>
   </contributor>
@@ -38,7 +38,8 @@ technical
   </contributor>
   <language>en</language>
   <script>Latn</script>
-  <abstract>&lt;p&gt;This OGC Best Practice provides guidelines on how to create a specification of a conceptual model through use of a Unified Modeling Language (UML) editor and an AsciiDoc compiler. The Best Practice document references Sparx Systems Enterprise Architect and the Metanorma AsciiDoc toolchain in examples that implement the OGC model-driven standards process, described in  &lt;eref type="inline" bibitemid="OGC_21-035r1" citeas="OGC 21-035r1"/&gt;.&lt;/p&gt;</abstract>
+  <abstract><p>This OGC Best Practice provides guidelines on how to create a specification of a conceptual model through use of a Unified Modeling Language (UML) editor and an AsciiDoc compiler. The Best Practice document references Sparx Systems Enterprise Architect and the Metanorma AsciiDoc toolchain in examples that implement the OGC model-driven standards process, described in  <eref type="inline" bibitemid="OGC_21-035r1" citeas="OGC&#xA0;21-035r1"/>.</p>
+</abstract>
   <status>
     <stage>draft</stage>
   </status>
@@ -51,17 +52,18 @@ technical
       </organization>
     </owner>
   </copyright>
-  <keyword>ogcdoc</keyword>
-  <keyword>OGC document</keyword>
-  <keyword>MDA</keyword>
-  <keyword>model-driven</keyword>
+  <keyword/>
+  <keyword/>
+  <keyword/>
+  <keyword/>
   <ext>
     <doctype>best-practice</doctype>
     <subdoctype>general</subdoctype>
+    <flavor>ogc</flavor>
   </ext>
 </bibdata></relation>
-<relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
-  <title type="main" language="en">OGC MUDDI Conceptual Model</title>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">OGC MUDDI Conceptual Model</title>
   <uri type="xml">./documents/muddi-cm/document.xml</uri>
   <uri type="pdf">./documents/muddi-cm/document.pdf</uri>
   <uri type="doc">./documents/muddi-cm/document.doc</uri>
@@ -85,9 +87,9 @@ technical
     </role>
     <organization>
       <name>Open Geospatial Consortium</name>
-      <subdivision>
-technical
-</subdivision>
+      <subdivision type="Committee">
+        <name>technical</name>
+      </subdivision>
       <abbreviation>OGC</abbreviation>
     </organization>
   </contributor>
@@ -100,29 +102,30 @@ technical
   </contributor>
   <language>en</language>
   <script>Latn</script>
-  <abstract>&lt;p&gt;MUDDI (Model for Underground Data Definition and Interchange) is a representation of classes that serve as the basis that serve as the basis of integration of datasets that utilize different information models in the representation of underground objects.&lt;/p&gt;
+  <abstract><p>MUDDI (Model for Underground Data Definition and Interchange) is a representation of classes that serve as the basis that serve as the basis of integration of datasets that utilize different information models in the representation of underground objects.</p>
 
-&lt;p&gt;MUDDI is meant to be comprehensive and provide sufficient level of detail to address application use cases, including but not limited to the following:&lt;/p&gt;
+<p>MUDDI is meant to be comprehensive and provide sufficient level of detail to address application use cases, including but not limited to the following:</p>
 
-&lt;ul&gt;&lt;li&gt;&lt;p&gt;routine street excavations;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;emergency response;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;utility maintenance programs;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;large scale construction projects;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;disaster planning;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;disaster response; and&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Smart Cities programs.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+<p>routine street excavations;</p>
 
-&lt;p&gt;MUDDI serves as an excellent basis for conformant and interchangeable logical and physical implementations, such as GML (Geographic Markup Language) or SFS (Simple Features SQL).&lt;/p&gt;
+<p>emergency response;</p>
 
-&lt;p&gt;This OGC Standard provides the full set of MUDDI conceptual models and their requirements.&lt;/p&gt;</abstract>
+<p>utility maintenance programs;</p>
+
+<p>large scale construction projects;</p>
+
+<p>disaster planning;</p>
+
+<p>disaster response; and</p>
+
+<p>Smart Cities programs.</p>
+
+
+
+<p>MUDDI serves as an excellent basis for conformant and interchangeable logical and physical implementations, such as GML (Geographic Markup Language) or SFS (Simple Features SQL).</p>
+
+<p>This OGC Standard provides the full set of MUDDI conceptual models and their requirements.</p>
+</abstract>
   <status>
     <stage>draft</stage>
   </status>
@@ -135,12 +138,13 @@ technical
       </organization>
     </owner>
   </copyright>
-  <keyword>ogcdoc</keyword>
-  <keyword>MUDDI</keyword>
-  <keyword>underground data</keyword>
+  <keyword/>
+  <keyword/>
+  <keyword/>
   <ext>
     <doctype>standard</doctype>
     <subdoctype>conceptual-model</subdoctype>
+    <flavor>ogc</flavor>
   </ext>
 </bibdata></relation>
 </relaton-collection>
