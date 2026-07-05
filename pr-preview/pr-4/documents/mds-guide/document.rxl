@@ -1,0 +1,12 @@
+<bibdata type="standard">
+<title language="en" type="main">OGC model-driven standard modeling best practices</title>
+<docidentifier type="ogc-internal" primary="true">23-999</docidentifier><docidentifier type="ogc-external">http://www.opengis.net/doc/XXX/YYYYY</docidentifier><docnumber>23-999</docnumber><date type="published"><on>2023-02-01</on></date><date type="issued"><on>2023-02-01</on></date><date type="received"><on>2023-02-01</on></date><contributor><role type="author"><description>committee</description></role><organization>
+<name>Open Geospatial Consortium</name>
+<subdivision type="Committee">
+<name>technical</name>
+</subdivision><abbreviation>OGC</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Open Geospatial Consortium</name>
+<abbreviation>OGC</abbreviation></organization></contributor><language>en</language><script>Latn</script><abstract><p>This OGC Best Practice provides guidelines on how to create a specification of a conceptual model through use of a Unified Modeling Language (UML) editor and an AsciiDoc compiler. The Best Practice document references Sparx Systems Enterprise Architect and the Metanorma AsciiDoc toolchain in examples that implement the OGC model-driven standards process, described in  <eref type="inline" bibitemid="OGC_21-035r1" citeas="OGC 21-035r1"/>.</p>
+</abstract><status><stage>draft</stage></status><copyright><from>2026</from><owner><organization>
+<name>Open Geospatial Consortium</name>
+<abbreviation>OGC</abbreviation></organization></owner></copyright><keyword>ogcdoc</keyword><keyword>OGC document</keyword><keyword>MDA</keyword><keyword>model-driven</keyword><ext><doctype>best-practice</doctype><subdoctype>general</subdoctype><flavor>ogc</flavor></ext></bibdata>
