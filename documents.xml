@@ -1,0 +1,150 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>MUDDI model-driven standard</title><contributor><role type='author'/><organization><name>OGC</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">OGC model-driven standard modeling best practices</title>
+  <uri type="xml">./documents/mds-guide/document.xml</uri>
+  <uri type="pdf">./documents/mds-guide/document.pdf</uri>
+  <uri type="doc">./documents/mds-guide/document.doc</uri>
+  <uri type="html">./documents/mds-guide/document.html</uri>
+  <uri type="rxl">./documents/mds-guide/document.rxl</uri>
+  <docidentifier type="ogc-internal" primary="true">23-999</docidentifier>
+  <docidentifier type="ogc-external">http://www.opengis.net/doc/XXX/YYYYY</docidentifier>
+  <docnumber>23-999</docnumber>
+  <date type="published">
+    <on>2023-02-01</on>
+  </date>
+  <date type="issued">
+    <on>2023-02-01</on>
+  </date>
+  <date type="received">
+    <on>2023-02-01</on>
+  </date>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>Open Geospatial Consortium</name>
+      <subdivision type="Committee">
+        <name>technical</name>
+      </subdivision>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Open Geospatial Consortium</name>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract><p>This OGC Best Practice provides guidelines on how to create a specification of a conceptual model through use of a Unified Modeling Language (UML) editor and an AsciiDoc compiler. The Best Practice document references Sparx Systems Enterprise Architect and the Metanorma AsciiDoc toolchain in examples that implement the OGC model-driven standards process, described in  <eref type="inline" bibitemid="OGC_21-035r1" citeas="OGC&#xA0;21-035r1"/>.</p>
+</abstract>
+  <status>
+    <stage>draft</stage>
+  </status>
+  <copyright>
+    <from>2026</from>
+    <owner>
+      <organization>
+        <name>Open Geospatial Consortium</name>
+        <abbreviation>OGC</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <keyword/>
+  <keyword/>
+  <keyword/>
+  <keyword/>
+  <ext>
+    <doctype>best-practice</doctype>
+    <subdoctype>general</subdoctype>
+    <flavor>ogc</flavor>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">OGC MUDDI Conceptual Model</title>
+  <uri type="xml">./documents/muddi-cm/document.xml</uri>
+  <uri type="pdf">./documents/muddi-cm/document.pdf</uri>
+  <uri type="doc">./documents/muddi-cm/document.doc</uri>
+  <uri type="html">./documents/muddi-cm/document.html</uri>
+  <uri type="rxl">./documents/muddi-cm/document.rxl</uri>
+  <docidentifier type="ogc-internal" primary="true">22-999</docidentifier>
+  <docidentifier type="ogc-external">http://www.opengis.net/doc/XXX/YYYYY</docidentifier>
+  <docnumber>22-999</docnumber>
+  <date type="published">
+    <on>2023-01-01</on>
+  </date>
+  <date type="issued">
+    <on>2023-01-01</on>
+  </date>
+  <date type="received">
+    <on>2023-01-01</on>
+  </date>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>Open Geospatial Consortium</name>
+      <subdivision type="Committee">
+        <name>technical</name>
+      </subdivision>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Open Geospatial Consortium</name>
+      <abbreviation>OGC</abbreviation>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract><p>MUDDI (Model for Underground Data Definition and Interchange) is a representation of classes that serve as the basis that serve as the basis of integration of datasets that utilize different information models in the representation of underground objects.</p>
+
+<p>MUDDI is meant to be comprehensive and provide sufficient level of detail to address application use cases, including but not limited to the following:</p>
+
+<p>routine street excavations;</p>
+
+<p>emergency response;</p>
+
+<p>utility maintenance programs;</p>
+
+<p>large scale construction projects;</p>
+
+<p>disaster planning;</p>
+
+<p>disaster response; and</p>
+
+<p>Smart Cities programs.</p>
+
+
+
+<p>MUDDI serves as an excellent basis for conformant and interchangeable logical and physical implementations, such as GML (Geographic Markup Language) or SFS (Simple Features SQL).</p>
+
+<p>This OGC Standard provides the full set of MUDDI conceptual models and their requirements.</p>
+</abstract>
+  <status>
+    <stage>draft</stage>
+  </status>
+  <copyright>
+    <from>2026</from>
+    <owner>
+      <organization>
+        <name>Open Geospatial Consortium</name>
+        <abbreviation>OGC</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <keyword/>
+  <keyword/>
+  <keyword/>
+  <ext>
+    <doctype>standard</doctype>
+    <subdoctype>conceptual-model</subdoctype>
+    <flavor>ogc</flavor>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
